@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="WMb-qi-lR0">
+            <objects>
+                <viewController id="ieS-x3-8Al" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azJ-fC-xKx"/>
+                        <viewControllerLayoutGuide type="bottom" id="mjn-oA-hLG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xhp-p7-R3m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="f3r-sU-TSh"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ewq-Ut-Mnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.5" y="539.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="PiA-Cm-LE1">
+            <objects>
+                <navigationController id="vYT-GP-6Nh" customClass="ZCCNaviViewController" customModule="FUOT" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="hnk-5S-JU3"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OFr-ah-dlJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OSq-DS-3eE" kind="relationship" relationship="rootViewController" id="UtC-ns-D4E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sW-5E-74F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.5" y="-217.5"/>
+        </scene>
+        <!--Locations-->
+        <scene sceneID="29v-4g-R9y">
+            <objects>
+                <viewController storyboardIdentifier="ZCCCititesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OSq-DS-3eE" customClass="ZCCCititesViewController" customModule="FUOT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gIY-5A-2Y0"/>
+                        <viewControllerLayoutGuide type="bottom" id="ywT-P5-xFT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TS0-d3-IWE">
+                        <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5tk-Ee-zkd">
+                                <rect key="frame" x="0.0" y="55" width="375" height="519"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="OSq-DS-3eE" id="OfN-27-HBG"/>
+                                    <outlet property="delegate" destination="OSq-DS-3eE" id="Gex-46-YNE"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-Wv-mUQ" customClass="ZCCButton" customModule="FUOT" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="90" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="OjE-a6-tIG"/>
+                                    <constraint firstAttribute="height" constant="35" id="k1t-XW-hC0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="60" minY="2" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Filter" image="down_arrow.png">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="4V1-za-8xb"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="8TU-qX-PV8"/>
+                            <constraint firstItem="ywT-P5-xFT" firstAttribute="top" secondItem="5tk-Ee-zkd" secondAttribute="bottom" id="Fcx-LA-Bh9"/>
+                            <constraint firstItem="OiZ-Wv-mUQ" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" constant="10" id="Hy1-LC-1aK"/>
+                            <constraint firstAttribute="trailing" secondItem="5tk-Ee-zkd" secondAttribute="trailing" id="LlR-UF-kmG"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="OiZ-Wv-mUQ" secondAttribute="bottom" constant="10" id="MFe-sc-IDc"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="U9l-7n-ca0"/>
+                            <constraint firstItem="OiZ-Wv-mUQ" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" constant="10" id="VUE-AM-jyp"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" id="at4-Tx-zwg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4V1-za-8xb"/>
+                                <exclude reference="8TU-qX-PV8"/>
+                                <exclude reference="U9l-7n-ca0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Locations" id="mnD-vs-HJj"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnFilter" destination="OiZ-Wv-mUQ" id="TMx-aP-g0n"/>
+                        <outlet property="tableView" destination="5tk-Ee-zkd" id="pFa-QD-PIJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2rM-qA-9EC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499.5" y="-217.5"/>
+        </scene>
+        <!--Folding Tab Bar Controller-->
+        <scene sceneID="IyU-vN-QWK">
+            <objects>
+                <tabBarController storyboardIdentifier="ZCCTabbarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ah1-5n-AjH" customClass="YALFoldingTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UVU-w8-aZz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vYT-GP-6Nh" kind="relationship" relationship="viewControllers" id="EBe-Fv-PDp"/>
+                        <segue destination="ieS-x3-8Al" kind="relationship" relationship="viewControllers" id="nTz-85-ZuT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93O-hf-cEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-581.5" y="154.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="down_arrow.png" width="12" height="17"/>
+    </resources>
+</document>
