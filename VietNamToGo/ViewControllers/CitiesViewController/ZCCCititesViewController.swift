@@ -41,25 +41,14 @@ class ZCCCititesViewController: ZCCViewController {
         
         /* Data Prepare */
         loadDataFromDBToView()
+        loadTypeToFilter()
         
         City.syncCityWithParse(){
             self.loadDataFromDBToView()
         }
         
         CityType.syncCityTypeWithParse { () -> Void in
-            /* DropDown layout */
-
-            
-            
-            dropDown.dataSource = filterItems
-            
-            dropDown.selectionAction = { [unowned self] (index, item) in
-                self.btnFilter.setTitle(item, forState: .Normal)
-            }
-            
-            dropDown.anchorView = btnFilter
-            dropDown.bottomOffset = CGPoint(x: 0, y:btnFilter.bounds.height)
-
+            self.loadTypeToFilter()
         }
         
 
@@ -68,6 +57,32 @@ class ZCCCititesViewController: ZCCViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func loadTypeToFilter(){
+        /* DropDown layout */
+        let cityTypes = CityType.fetchAllCityType()
+        let arrayTypeName = NSMutableArray()
+        
+        if (cityTypes.count > 0){
+            for var i = 0; i < cityTypes.count; i++ {
+                let cityType = cityTypes[i] as! CityType
+                arrayTypeName.addObject(cityType.nameCityType!)
+            }
+        }
+        dropDown.dataSource = NSArray(array: arrayTypeName as [AnyObject], copyItems: true) as! [String]
+        dropDown.selectionAction = { [unowned self] (index, item) in
+            
+            self.btnFilter.setTitle(item, forState: .Normal)
+            if let cityType = CityType.getCityTypeWithnameCityType(item) {
+                self.arrayCities = NSMutableArray(array: City.fetchCityWithType(cityType))
+                self.tableView.reloadData()
+            }
+            
+        }
+        
+        self.dropDown.anchorView = self.btnFilter
+        self.dropDown.bottomOffset = CGPoint(x: 0, y:btnFilter.bounds.height)
     }
     
     func loadDataFromDBToView(){

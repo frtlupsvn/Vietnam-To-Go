@@ -50,6 +50,12 @@ class City: NSManagedObject {
                         if let imageFile = object["cityImage"]{
                             city.cityImage = imageFile.url
                         }
+                        
+                        if let typeParseObject:PFObject = object["type"] as? PFObject{
+                            if let cityType = CityType.getCityTypeWithId(typeParseObject.objectId!) {
+                                city.type = cityType
+                            }
+                        }
 
                     }
                     City.saveToDefaultContext()
@@ -91,6 +97,13 @@ class City: NSManagedObject {
     
     static func fetchAllCity() -> NSArray{
         return City.findAll()
+    }
+    
+    static func fetchCityWithType(cityType:CityType) -> NSArray {
+        let predicate = NSPredicate(format: "type = %@",cityType)
+        let cities = City.findAllWithPredicate(predicate)
+        
+        return cities
     }
     
     // Delete

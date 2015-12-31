@@ -20,6 +20,6 @@ extension City {
     @NSManaged var name: String?
     @NSManaged var objectId: String?
     @NSManaged var updatedAt: NSDate?
-    @NSManaged var type: NSSet?
+    @NSManaged var type: CityType?
 
 }

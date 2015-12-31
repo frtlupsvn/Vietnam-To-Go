@@ -8,8 +8,9 @@
 
 import Foundation
 import CoreData
-
 import Parse
+
+@objc(CityType)
 class CityType: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
@@ -17,19 +18,6 @@ class CityType: NSManagedObject {
     static func fetchAllCityType() -> NSArray{
         return CityType.findAll()
     }
-    
-    static func getCityTypeName() -> NSArray{
-        let filterItems = NSMutableArray()
-        var arrayCityTypes = CityType.fetchAllCityType()
-        
-        for cityType in arrayCityTypes as! CityType{
-            filterItems.addObject(cityType.nameCityType)
-        }
-        
-        return filterItems
-    }
-    
-    
     // Sync Data
     static func syncCityTypeWithParse(completion:()->Void){
         //Get Data from Parse
@@ -60,7 +48,7 @@ class CityType: NSManagedObject {
 
                         
                     }
-                    City.saveToDefaultContext()
+                    CityType.saveToDefaultContext()
                     completion()
                 }
             } else {
@@ -81,9 +69,32 @@ class CityType: NSManagedObject {
         }
     }
     
+    static func getCityTypeWithId(objectId:String)->CityType?{
+        
+        let predicate = NSPredicate(format: "objectId = %@",objectId)
+        let cityTypes = CityType.findAllWithPredicate(predicate)
+        
+        if let cityType:CityType = cityTypes.firstObject as? CityType {
+            return cityType
+        }
+        return nil
+    }
+    
+    static func getCityTypeWithnameCityType(nameCityType:String)->CityType?{
+        
+        let predicate = NSPredicate(format: "nameCityType = %@",nameCityType)
+        let cityTypes = CityType.findAllWithPredicate(predicate)
+        
+        if let cityType:CityType = cityTypes.firstObject as? CityType {
+            print(cityType.nameCityType)
+            return cityType
+        }
+        return nil
+    }
+    
     static func getCityLatestFromDB() -> CityType?{
         //Get latest updatedAt in Local DB
-        let arrayAllCityType = CityType.fetchAllCityType()
+        let arrayAllCityType = CityType.findAll()
         let descriptor: NSSortDescriptor = NSSortDescriptor(key: "updatedAt", ascending: false)
         let sortedResults: NSArray = arrayAllCityType.sortedArrayUsingDescriptors([descriptor])
         
