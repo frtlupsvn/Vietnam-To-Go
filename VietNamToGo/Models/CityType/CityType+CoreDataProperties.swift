@@ -1,5 +1,5 @@
 //
-//  City+CoreDataProperties.swift
+//  CityType+CoreDataProperties.swift
 //  Fuot
 //
 //  Created by Zoom Nguyen on 12/31/15.
@@ -12,14 +12,11 @@
 import Foundation
 import CoreData
 
-extension City {
+extension CityType {
 
-    @NSManaged var cityImage: String?
-    @NSManaged var cityShortDescription: String?
+    @NSManaged var nameCityType: String?
     @NSManaged var createdAt: NSDate?
-    @NSManaged var name: String?
-    @NSManaged var objectId: String?
     @NSManaged var updatedAt: NSDate?
-    @NSManaged var type: NSSet?
+    @NSManaged var objectId: String?
 
 }

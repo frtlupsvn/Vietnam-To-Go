@@ -8,10 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F232E1C343C9600731A56 /* fuot@2x.png */; };
-		5A2F23371C34458C00731A56 /* ZCCDropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */; };
-		5A2F23381C34458C00731A56 /* ZCCDropDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */; };
-		5A2F233B1C34460B00731A56 /* ZCCDropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */; };
-		5A2F233E1C34496C00731A56 /* ZCCDropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */; };
+		5A2F23471C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
+		5A2F23481C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
+		5A2F23491C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
+		5A2F234A1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */; };
+		5A2F234B1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */; };
+		5A2F234C1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */; };
+		5A2F234D1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23461C35259A00731A56 /* DPDUIView+Extension.swift */; };
+		5A2F234E1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23461C35259A00731A56 /* DPDUIView+Extension.swift */; };
+		5A2F234F1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23461C35259A00731A56 /* DPDUIView+Extension.swift */; };
+		5A2F23511C3525A000731A56 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F23501C3525A000731A56 /* DropDownCell.xib */; };
+		5A2F23521C3525A000731A56 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F23501C3525A000731A56 /* DropDownCell.xib */; };
+		5A2F23531C3525A000731A56 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F23501C3525A000731A56 /* DropDownCell.xib */; };
+		5A2F23561C3525A700731A56 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23541C3525A700731A56 /* DropDown.swift */; };
+		5A2F23571C3525A700731A56 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23541C3525A700731A56 /* DropDown.swift */; };
+		5A2F23581C3525A700731A56 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23541C3525A700731A56 /* DropDown.swift */; };
+		5A2F23591C3525A700731A56 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23551C3525A700731A56 /* DropDownCell.swift */; };
+		5A2F235A1C3525A700731A56 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23551C3525A700731A56 /* DropDownCell.swift */; };
+		5A2F235B1C3525A700731A56 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23551C3525A700731A56 /* DropDownCell.swift */; };
+		5A2F23621C3538F800731A56 /* CityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F235E1C3538F800731A56 /* CityType.swift */; };
+		5A2F23631C3538F800731A56 /* CityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F235E1C3538F800731A56 /* CityType.swift */; };
+		5A2F23641C3538F800731A56 /* CityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F235E1C3538F800731A56 /* CityType.swift */; };
+		5A2F236E1C35397700731A56 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F236D1C35397700731A56 /* City+CoreDataProperties.swift */; };
+		5A2F236F1C35397700731A56 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F236D1C35397700731A56 /* City+CoreDataProperties.swift */; };
+		5A2F23701C35397700731A56 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F236D1C35397700731A56 /* City+CoreDataProperties.swift */; };
+		5A2F23721C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23711C353BA900731A56 /* CityType+CoreDataProperties.swift */; };
+		5A2F23731C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23711C353BA900731A56 /* CityType+CoreDataProperties.swift */; };
+		5A2F23741C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23711C353BA900731A56 /* CityType+CoreDataProperties.swift */; };
 		5A83310C1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310D1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310E1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
@@ -166,9 +189,6 @@
 		5AC107FD1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC107EC1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift */; };
 		5AC107FE1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC107EC1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift */; };
 		5AC107FF1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC107EC1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift */; };
-		5AC108031C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108011C2D573C001A5A29 /* City+CoreDataProperties.swift */; };
-		5AC108041C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108011C2D573C001A5A29 /* City+CoreDataProperties.swift */; };
-		5AC108051C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108011C2D573C001A5A29 /* City+CoreDataProperties.swift */; };
 		5AC108061C2D573C001A5A29 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108021C2D573C001A5A29 /* City.swift */; };
 		5AC108071C2D573C001A5A29 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108021C2D573C001A5A29 /* City.swift */; };
 		5AC108081C2D573C001A5A29 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC108021C2D573C001A5A29 /* City.swift */; };
@@ -290,10 +310,15 @@
 /* Begin PBXFileReference section */
 		43EC236F7D2FA3937000572B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5A2F232E1C343C9600731A56 /* fuot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuot@2x.png"; sourceTree = "<group>"; };
-		5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCDropDownViewController.swift; path = CustomView/DropDown/ZCCDropDownViewController.swift; sourceTree = "<group>"; };
-		5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCDropDownViewController.xib; path = CustomView/DropDown/ZCCDropDownViewController.xib; sourceTree = "<group>"; };
-		5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCDropDownTableViewCell.swift; path = CustomView/DropDown/ZCCDropDownTableViewCell.swift; sourceTree = "<group>"; };
-		5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCDropDownTableViewCell.xib; path = CustomView/DropDown/ZCCDropDownTableViewCell.xib; sourceTree = "<group>"; };
+		5A2F23441C35259A00731A56 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		5A2F23461C35259A00731A56 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		5A2F23501C3525A000731A56 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		5A2F23541C3525A700731A56 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		5A2F23551C3525A700731A56 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		5A2F235E1C3538F800731A56 /* CityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityType.swift; path = Models/CityType/CityType.swift; sourceTree = "<group>"; };
+		5A2F236D1C35397700731A56 /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "City+CoreDataProperties.swift"; path = "Models/City/City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A2F23711C353BA900731A56 /* CityType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CityType+CoreDataProperties.swift"; path = "Models/CityType/CityType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5A83310B1C30497D00C5F2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5A8331101C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		5A8331111C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
@@ -371,7 +396,6 @@
 		5AC107EB1C2D56D3001A5A29 /* SuperCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperCoreDataStack.swift; sourceTree = "<group>"; };
 		5AC107EC1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperFetchedResultsControllerDelegate.swift; sourceTree = "<group>"; };
 		5AC107ED1C2D56D3001A5A29 /* SuperRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperRecord.h; sourceTree = "<group>"; };
-		5AC108011C2D573C001A5A29 /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "City+CoreDataProperties.swift"; path = "Models/City/City+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5AC108021C2D573C001A5A29 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = City.swift; path = Models/City/City.swift; sourceTree = "<group>"; };
 		5AC1080B1C2D62BA001A5A29 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		5AC1080C1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
@@ -492,15 +516,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A2F23301C343E8800731A56 /* DropDown */ = {
+		5A2F233F1C351EC800731A56 /* Dropdown */ = {
 			isa = PBXGroup;
 			children = (
-				5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */,
-				5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */,
-				5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */,
-				5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */,
+				5A2F23541C3525A700731A56 /* DropDown.swift */,
+				5A2F23551C3525A700731A56 /* DropDownCell.swift */,
+				5A2F23501C3525A000731A56 /* DropDownCell.xib */,
+				5A2F23441C35259A00731A56 /* DPDConstants.swift */,
+				5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */,
+				5A2F23461C35259A00731A56 /* DPDUIView+Extension.swift */,
 			);
-			name = DropDown;
+			name = Dropdown;
+			sourceTree = "<group>";
+		};
+		5A2F235C1C3538D500731A56 /* CityType */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F235E1C3538F800731A56 /* CityType.swift */,
+				5A2F23711C353BA900731A56 /* CityType+CoreDataProperties.swift */,
+			);
+			name = CityType;
 			sourceTree = "<group>";
 		};
 		5A83310F1C304A1F00C5F2C8 /* SVProgressHUD */ = {
@@ -602,7 +637,7 @@
 		5AA008521C26DE4100E20B1F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				5A2F23301C343E8800731A56 /* DropDown */,
+				5A2F233F1C351EC800731A56 /* Dropdown */,
 				5A83310F1C304A1F00C5F2C8 /* SVProgressHUD */,
 				5AC1080A1C2D62BA001A5A29 /* SDWebImage */,
 				5AC107E61C2D56D3001A5A29 /* SuperRecord */,
@@ -864,6 +899,7 @@
 		5AC107411C2D54A4001A5A29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5A2F235C1C3538D500731A56 /* CityType */,
 				5AC108001C2D5726001A5A29 /* City */,
 			);
 			name = Models;
@@ -886,8 +922,8 @@
 		5AC108001C2D5726001A5A29 /* City */ = {
 			isa = PBXGroup;
 			children = (
-				5AC108011C2D573C001A5A29 /* City+CoreDataProperties.swift */,
 				5AC108021C2D573C001A5A29 /* City.swift */,
+				5A2F236D1C35397700731A56 /* City+CoreDataProperties.swift */,
 			);
 			name = City;
 			sourceTree = "<group>";
@@ -1183,6 +1219,7 @@
 				5AA008A71C270B4500E20B1F /* RobotoCondensed-LightItalic.ttf in Resources */,
 				5ADAFE341C2BD21C00AC88BB /* vietnam3@2x.png in Resources */,
 				5AA008491C26C85500E20B1F /* Onboarding.storyboard in Resources */,
+				5A2F23511C3525A000731A56 /* DropDownCell.xib in Resources */,
 				5AA008B11C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5ADAFE3E1C2BE39B00AC88BB /* back-button@2x.png in Resources */,
 				5AC1073E1C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
@@ -1203,10 +1240,8 @@
 				5AA008831C270B4500E20B1F /* Roboto-Italic.ttf in Resources */,
 				5AC106E81C2CF475001A5A29 /* Home.storyboard in Resources */,
 				5AA0089B1C270B4500E20B1F /* RobotoCondensed-Bold.ttf in Resources */,
-				5A2F23381C34458C00731A56 /* ZCCDropDownViewController.xib in Resources */,
 				5AA008801C270B4500E20B1F /* Roboto-BoldItalic.ttf in Resources */,
 				5AA0088C1C270B4500E20B1F /* Roboto-Medium.ttf in Resources */,
-				5A2F233E1C34496C00731A56 /* ZCCDropDownTableViewCell.xib in Resources */,
 				5AA008921C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
 				5ADAFE331C2BD21C00AC88BB /* vietnam2@2x.png in Resources */,
 				5AA008771C270B4500E20B1F /* Roboto-Black.ttf in Resources */,
@@ -1238,6 +1273,7 @@
 				5AA008781C270B4500E20B1F /* Roboto-Black.ttf in Resources */,
 				5AC1073F1C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
 				5AA008871C270B4500E20B1F /* Roboto-Light.ttf in Resources */,
+				5A2F23521C3525A000731A56 /* DropDownCell.xib in Resources */,
 				5AA008991C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AC107EF1C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECB1C3045A40096AD2C /* Nabila.ttf in Resources */,
@@ -1274,6 +1310,7 @@
 				5AA008791C270B4500E20B1F /* Roboto-Black.ttf in Resources */,
 				5AC107401C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
 				5AA008881C270B4500E20B1F /* Roboto-Light.ttf in Resources */,
+				5A2F23531C3525A000731A56 /* DropDownCell.xib in Resources */,
 				5AA0089A1C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AC107F01C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECC1C3045A40096AD2C /* Nabila.ttf in Resources */,
@@ -1352,24 +1389,27 @@
 				5AC107F11C2D56D3001A5A29 /* NSFetchedResultsControllerExtension.swift in Sources */,
 				5AC107281C2D0B7D001A5A29 /* UIColorHelper.swift in Sources */,
 				5AC1084D1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
+				5A2F234D1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
+				5A2F23591C3525A700731A56 /* DropDownCell.swift in Sources */,
 				5ADAFEB51C2C5A0500AC88BB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				5AC107FA1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
 				5ADAFEB31C2C5A0500AC88BB /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5ADAFEB21C2C5A0500AC88BB /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				5AC1082F1C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
-				5A2F23371C34458C00731A56 /* ZCCDropDownViewController.swift in Sources */,
+				5A2F236E1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5AC1084A1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
 				5AC107361C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC1083B1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
 				5AC108351C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
-				5AC108031C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */,
+				5A2F23471C35259A00731A56 /* DPDConstants.swift in Sources */,
+				5A2F23561C3525A700731A56 /* DropDown.swift in Sources */,
 				5A8331181C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
-				5A2F233B1C34460B00731A56 /* ZCCDropDownTableViewCell.swift in Sources */,
 				5ABBFEC21C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
 				5AC108531C2D62BA001A5A29 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5AC1070B1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
 				5AC106E31C2C82C5001A5A29 /* ZCCHelper.swift in Sources */,
 				5AC108381C2D62BA001A5A29 /* SDWebImageDecoder.m in Sources */,
+				5A2F234A1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
 				5AC108411C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
 				5AA008BB1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5AC1071A1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
@@ -1378,6 +1418,7 @@
 				5AC1083E1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
 				5ADAFE411C2BE97900AC88BB /* ZCCTextField.swift in Sources */,
 				5ADAFE3B1C2BD8FD00AC88BB /* ZCCLoginViewController.swift in Sources */,
+				5A2F23721C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC107111C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107F41C2D56D3001A5A29 /* NSManagedObjectExtension.swift in Sources */,
 				5AA008B71C270DCB00E20B1F /* ZCCViewController.swift in Sources */,
@@ -1395,6 +1436,7 @@
 				5AC107FD1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5AC1070E1C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				5AC108561C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
+				5A2F23621C3538F800731A56 /* CityType.swift in Sources */,
 				5AC108501C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1406,12 +1448,13 @@
 				5AC107181C2CF4FB001A5A29 /* YALFoldingTabBarController.m in Sources */,
 				5AC108481C2D62BA001A5A29 /* UIButton+WebCache.m in Sources */,
 				5AC108421C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
+				5A2F234E1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5AC107FE1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
+				5A2F23631C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073C1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
 				5A8331191C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070C1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
 				5AC1083C1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
-				5AC108041C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */,
 				5AC108361C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
 				5AC1070F1C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				5A83311F1C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
@@ -1422,10 +1465,12 @@
 				5AA0082D1C26C7C600E20B1F /* VietNamToGoTests.swift in Sources */,
 				5AC108571C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108511C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
+				5A2F23731C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC108331C2D62BA001A5A29 /* SDImageCache.m in Sources */,
 				5ADAFE5C1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
 				5AC1084E1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC1083F1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
+				5A2F235A1C3525A700731A56 /* DropDownCell.swift in Sources */,
 				5AC107151C2CF4FB001A5A29 /* YALAnimatingTabBarConstants.m in Sources */,
 				5AC108541C2D62BA001A5A29 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5AA008B81C270DCB00E20B1F /* ZCCViewController.swift in Sources */,
@@ -1436,11 +1481,15 @@
 				5AC107121C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107371C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC106E41C2C82C5001A5A29 /* ZCCHelper.swift in Sources */,
+				5A2F23481C35259A00731A56 /* DPDConstants.swift in Sources */,
 				5AC108391C2D62BA001A5A29 /* SDWebImageDecoder.m in Sources */,
 				5ADAFEDC1C2C64DA00AC88BB /* ZCCImageCircle.swift in Sources */,
 				5AC107291C2D0B7D001A5A29 /* UIColorHelper.swift in Sources */,
+				5A2F23571C3525A700731A56 /* DropDown.swift in Sources */,
 				5ADAFE561C2C126400AC88BB /* ZCCLoginViewController.swift in Sources */,
 				5AC1071B1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
+				5A2F236F1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
+				5A2F234B1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
 				5ABBFEC31C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
 				5AC108451C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
 				5AC1082D1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
@@ -1457,12 +1506,13 @@
 				5AC107191C2CF4FB001A5A29 /* YALFoldingTabBarController.m in Sources */,
 				5AC108491C2D62BA001A5A29 /* UIButton+WebCache.m in Sources */,
 				5AC108431C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
+				5A2F234F1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5AC107FF1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
+				5A2F23641C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073D1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
 				5A83311A1C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070D1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
 				5AC1083D1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
-				5AC108051C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */,
 				5AC108371C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
 				5AC107101C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				5A8331201C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
@@ -1473,10 +1523,12 @@
 				5AA008381C26C7C600E20B1F /* VietNamToGoUITests.swift in Sources */,
 				5AC108581C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108521C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
+				5A2F23741C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC108341C2D62BA001A5A29 /* SDImageCache.m in Sources */,
 				5ADAFE5D1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
 				5AC1084F1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC108401C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
+				5A2F235B1C3525A700731A56 /* DropDownCell.swift in Sources */,
 				5AC107161C2CF4FB001A5A29 /* YALAnimatingTabBarConstants.m in Sources */,
 				5AC108551C2D62BA001A5A29 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5AA008B91C270DCB00E20B1F /* ZCCViewController.swift in Sources */,
@@ -1487,11 +1539,15 @@
 				5AC107131C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107381C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC106E51C2C82C5001A5A29 /* ZCCHelper.swift in Sources */,
+				5A2F23491C35259A00731A56 /* DPDConstants.swift in Sources */,
 				5AC1083A1C2D62BA001A5A29 /* SDWebImageDecoder.m in Sources */,
 				5ADAFEDD1C2C64DA00AC88BB /* ZCCImageCircle.swift in Sources */,
 				5AC1072A1C2D0B7D001A5A29 /* UIColorHelper.swift in Sources */,
+				5A2F23581C3525A700731A56 /* DropDown.swift in Sources */,
 				5ADAFE571C2C126400AC88BB /* ZCCLoginViewController.swift in Sources */,
 				5AC1071C1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
+				5A2F23701C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
+				5A2F234C1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
 				5ABBFEC41C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
 				5AC108461C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
 				5AC1082E1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,

@@ -15,20 +15,22 @@ class ZCCCititesViewController: ZCCViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var btnFilter: ZCCButton!
     
+    let dropDown = DropDown()
     var arrayCities:NSMutableArray!
+    var arrayCitiesSearch:NSMutableArray!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        //Btn layout
+        /* Button layout */
         self.btnFilter.drawBorder(colorYellow)
         
         
-
+    
+        /* Tableview layout */
         self.tableView.registerNib(UINib(nibName: "ZCCCityTableViewCell", bundle: nil), forCellReuseIdentifier: "ZCCCityTableViewCell")
-        
         tableView.addPullToRefresh(PullToMakeFlight(), action: { () -> () in
             //Async Data
             City.syncCityWithParse(){
@@ -36,15 +38,31 @@ class ZCCCititesViewController: ZCCViewController {
                 self.tableView.endRefreshing()
             }
         })
-
+        
+        /* Data Prepare */
         loadDataFromDBToView()
         
-        //Async Data
         City.syncCityWithParse(){
             self.loadDataFromDBToView()
         }
         
+        CityType.syncCityTypeWithParse { () -> Void in
+            /* DropDown layout */
+
+            
+            
+            dropDown.dataSource = filterItems
+            
+            dropDown.selectionAction = { [unowned self] (index, item) in
+                self.btnFilter.setTitle(item, forState: .Normal)
+            }
+            
+            dropDown.anchorView = btnFilter
+            dropDown.bottomOffset = CGPoint(x: 0, y:btnFilter.bounds.height)
+
+        }
         
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,20 +75,15 @@ class ZCCCititesViewController: ZCCViewController {
         self.tableView.reloadData()
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        
-
+    @IBAction func btnFilterTapped(sender: AnyObject) {
+        if dropDown.hidden {
+            dropDown.show()
+        } else {
+            dropDown.hide()
+        }
 
     }
     
-    @IBAction func btnFilterTapped(sender: AnyObject) {
-        let items = ["Most Popular", "Latest", "Trending", "Nearest", "Top Picks"]
-        let dropdown = ZCCDropDownViewController()
-        dropdown.view.frame = CGRectMake(10, 10, 200, 300)
-        
-        self.view.addSubview(dropdown.view)
-    }
 
     /*
     // MARK: - Navigation
@@ -85,14 +98,43 @@ class ZCCCititesViewController: ZCCViewController {
     // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
     // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
     
+    func searchDisplayController(controller: UISearchController!, shouldReloadTableForSearchString searchString: String!) -> Bool {
+        self.filterContentForSearchText(searchString)
+        return true
+    }
+    
+    func filterContentForSearchText(searchText: String) {
+        // Do something here
+        self.arrayCitiesSearch = NSMutableArray(array: City.fetchAllCity())
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        if tableView == self.searchDisplayController!.searchResultsTableView {
+            return self.arrayCitiesSearch?.count ?? 0
+        } else {
+            return self.arrayCities?.count ?? 0
+        }
+    }
+    
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         
-        let cell : ZCCCityTableViewCell = tableView.dequeueReusableCellWithIdentifier("ZCCCityTableViewCell", forIndexPath: indexPath) as! ZCCCityTableViewCell
+        let cell : ZCCCityTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("ZCCCityTableViewCell", forIndexPath: indexPath) as! ZCCCityTableViewCell
+        var city:City?
         
+        if tableView == self.searchDisplayController!.searchResultsTableView {
+            city = self.arrayCitiesSearch[indexPath.section] as? City
+        }else {
+            city = self.arrayCities[indexPath.section] as? City
+            
+        }
+        cell.loadData(city!)
         cell.selectionStyle = UITableViewCellSelectionStyle.None
-        
-        let city = self.arrayCities[indexPath.section] as! City
-        cell.loadData(city)
         
         return cell
         
@@ -114,10 +156,6 @@ class ZCCCititesViewController: ZCCViewController {
         }
         return 5; // space b/w cells
     }
-
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return self.arrayCities.count // count of items
-    }
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = UIView()
@@ -130,10 +168,5 @@ class ZCCCititesViewController: ZCCViewController {
         footer.backgroundColor = UIColor.clearColor()
         return footer
     }
-    
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    
+
 }

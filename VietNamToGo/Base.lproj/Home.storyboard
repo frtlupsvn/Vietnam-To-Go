@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Roboto-Regular.ttf">
@@ -61,47 +62,81 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5tk-Ee-zkd">
-                                <rect key="frame" x="0.0" y="55" width="375" height="519"/>
+                                <rect key="frame" x="0.0" y="54" width="375" height="520"/>
                                 <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="OSq-DS-3eE" id="OfN-27-HBG"/>
                                     <outlet property="delegate" destination="OSq-DS-3eE" id="Gex-46-YNE"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-Wv-mUQ" customClass="ZCCButton" customModule="FUOTTests" customModuleProvider="target">
-                                <rect key="frame" x="10" y="10" width="90" height="35"/>
+                            <searchBar hidden="YES" contentMode="redraw" searchBarStyle="minimal" placeholder="Search City" translatesAutoresizingMaskIntoConstraints="NO" id="z94-ff-l0Z">
+                                <rect key="frame" x="0.0" y="5" width="375" height="44"/>
+                                <color key="barTintColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="OSq-DS-3eE" id="wLG-XF-6eJ"/>
+                                </connections>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42Z-eM-8Nd" customClass="ZCCButton" customModule="FUOTTests" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="355" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="OjE-a6-tIG"/>
-                                    <constraint firstAttribute="height" constant="35" id="k1t-XW-hC0"/>
+                                    <constraint firstAttribute="width" constant="120" id="Zfx-Eh-vMo"/>
+                                    <constraint firstAttribute="width" constant="90" id="gDn-t2-gU4"/>
+                                    <constraint firstAttribute="height" constant="35" id="yQx-fm-woc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
-                                <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <inset key="imageEdgeInsets" minX="60" minY="2" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Filter" image="down_arrow.png">
+                                <inset key="imageEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Filter">
                                     <color key="titleColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gDn-t2-gU4"/>
+                                        <exclude reference="yQx-fm-woc"/>
+                                        <exclude reference="Zfx-Eh-vMo"/>
+                                    </mask>
+                                </variation>
                                 <connections>
-                                    <action selector="btnFilterTapped:" destination="OSq-DS-3eE" eventType="touchUpInside" id="b1z-OI-7h0"/>
+                                    <action selector="btnFilterTapped:" destination="OSq-DS-3eE" eventType="touchUpInside" id="yQp-pv-bNZ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="XjW-aq-srO">
+                                <rect key="frame" x="319" y="17" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="5qZ-3j-0LK"/>
+                                    <constraint firstAttribute="width" constant="20" id="paV-O0-FmM"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="42Z-eM-8Nd" secondAttribute="trailing" constant="10" id="3RI-Q1-239"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="4V1-za-8xb"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="8TU-qX-PV8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XjW-aq-srO" secondAttribute="trailing" constant="20" id="9jg-KQ-nJL"/>
                             <constraint firstItem="ywT-P5-xFT" firstAttribute="top" secondItem="5tk-Ee-zkd" secondAttribute="bottom" id="Fcx-LA-Bh9"/>
-                            <constraint firstItem="OiZ-Wv-mUQ" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" constant="10" id="Hy1-LC-1aK"/>
                             <constraint firstAttribute="trailing" secondItem="5tk-Ee-zkd" secondAttribute="trailing" id="LlR-UF-kmG"/>
-                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="OiZ-Wv-mUQ" secondAttribute="bottom" constant="10" id="MFe-sc-IDc"/>
+                            <constraint firstItem="42Z-eM-8Nd" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" constant="10" id="MWS-y6-ns6"/>
+                            <constraint firstAttribute="trailing" secondItem="z94-ff-l0Z" secondAttribute="trailing" id="Nxw-pg-jJk"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="U9l-7n-ca0"/>
-                            <constraint firstItem="OiZ-Wv-mUQ" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" constant="10" id="VUE-AM-jyp"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="42Z-eM-8Nd" secondAttribute="bottom" constant="10" id="Xhs-GP-6bu"/>
+                            <constraint firstItem="XjW-aq-srO" firstAttribute="centerY" secondItem="TS0-d3-IWE" secondAttribute="centerY" id="aU9-Gr-Ma5"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" id="at4-Tx-zwg"/>
+                            <constraint firstItem="42Z-eM-8Nd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" constant="10" id="dZq-bE-fej"/>
+                            <constraint firstItem="XjW-aq-srO" firstAttribute="centerY" secondItem="42Z-eM-8Nd" secondAttribute="centerY" id="fpd-mn-lxc"/>
+                            <constraint firstItem="42Z-eM-8Nd" firstAttribute="centerY" secondItem="TS0-d3-IWE" secondAttribute="centerY" id="icl-0W-5JJ"/>
+                            <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="z94-ff-l0Z" secondAttribute="bottom" constant="5" id="kwZ-Yi-T3q"/>
+                            <constraint firstAttribute="trailing" secondItem="z94-ff-l0Z" secondAttribute="trailing" id="nRS-Ov-26U"/>
+                            <constraint firstItem="z94-ff-l0Z" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" id="tJf-Tw-czg"/>
+                            <constraint firstItem="z94-ff-l0Z" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" constant="5" id="zuc-xx-G5Y"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="icl-0W-5JJ"/>
                                 <exclude reference="4V1-za-8xb"/>
                                 <exclude reference="8TU-qX-PV8"/>
                                 <exclude reference="U9l-7n-ca0"/>
+                                <exclude reference="aU9-Gr-Ma5"/>
                             </mask>
                         </variation>
                     </view>
@@ -110,11 +145,21 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="btnFilter" destination="OiZ-Wv-mUQ" id="TMx-aP-g0n"/>
+                        <outlet property="btnFilter" destination="42Z-eM-8Nd" id="hc7-75-yCJ"/>
+                        <outlet property="searchDisplayController" destination="e5y-99-TRr" id="dDp-Ka-rNf"/>
                         <outlet property="tableView" destination="5tk-Ee-zkd" id="pFa-QD-PIJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2rM-qA-9EC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="e5y-99-TRr">
+                    <connections>
+                        <outlet property="delegate" destination="OSq-DS-3eE" id="jar-6L-5kK"/>
+                        <outlet property="searchBar" destination="z94-ff-l0Z" id="Fcj-VJ-cZx"/>
+                        <outlet property="searchContentsController" destination="OSq-DS-3eE" id="i3A-Ve-NeM"/>
+                        <outlet property="searchResultsDataSource" destination="OSq-DS-3eE" id="7Z4-iX-4jb"/>
+                        <outlet property="searchResultsDelegate" destination="OSq-DS-3eE" id="VUe-UJ-7Fc"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="499.5" y="-217.5"/>
         </scene>
