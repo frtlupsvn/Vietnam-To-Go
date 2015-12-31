@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import Parse
 import PullToMakeFlight
+import BTNavigationDropdownMenu
 
 class ZCCCititesViewController: ZCCViewController {
     
@@ -65,7 +65,11 @@ class ZCCCititesViewController: ZCCViewController {
     }
     
     @IBAction func btnFilterTapped(sender: AnyObject) {
-
+        let items = ["Most Popular", "Latest", "Trending", "Nearest", "Top Picks"]
+        let dropdown = ZCCDropDownViewController()
+        dropdown.view.frame = CGRectMake(10, 10, 200, 300)
+        
+        self.view.addSubview(dropdown.view)
     }
 
     /*

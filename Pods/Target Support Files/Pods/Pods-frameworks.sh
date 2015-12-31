@@ -52,11 +52,13 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods/BTNavigationDropdownMenu.framework'
   install_framework 'Pods/PullToMakeFlight.framework'
   install_framework 'Pods/PullToRefresh.framework'
   install_framework 'Pods/UNAlertView.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods/BTNavigationDropdownMenu.framework'
   install_framework 'Pods/PullToMakeFlight.framework'
   install_framework 'Pods/PullToRefresh.framework'
   install_framework 'Pods/UNAlertView.framework'

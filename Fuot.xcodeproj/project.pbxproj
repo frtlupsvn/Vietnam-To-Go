@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A8331071C30485100C5F2C8 /* fuot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8331061C30485100C5F2C8 /* fuot.png */; };
-		5A8331081C30485100C5F2C8 /* fuot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8331061C30485100C5F2C8 /* fuot.png */; };
-		5A8331091C30485100C5F2C8 /* fuot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8331061C30485100C5F2C8 /* fuot.png */; };
+		5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F232E1C343C9600731A56 /* fuot@2x.png */; };
+		5A2F23371C34458C00731A56 /* ZCCDropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */; };
+		5A2F23381C34458C00731A56 /* ZCCDropDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */; };
+		5A2F233B1C34460B00731A56 /* ZCCDropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */; };
+		5A2F233E1C34496C00731A56 /* ZCCDropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */; };
 		5A83310C1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310D1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310E1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
@@ -26,7 +28,7 @@
 		5A8331221C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */; };
 		5A8331231C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */; };
 		5AA008151C26C7C600E20B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA008141C26C7C600E20B1F /* AppDelegate.swift */; };
-		5AA0081D1C26C7C600E20B1F /* FUOT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* FUOT.xcdatamodeld */; };
+		5AA0081D1C26C7C600E20B1F /* Fuot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */; };
 		5AA0081F1C26C7C600E20B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA0081E1C26C7C600E20B1F /* Assets.xcassets */; };
 		5AA0082D1C26C7C600E20B1F /* VietNamToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0082C1C26C7C600E20B1F /* VietNamToGoTests.swift */; };
 		5AA008381C26C7C600E20B1F /* VietNamToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA008371C26C7C600E20B1F /* VietNamToGoUITests.swift */; };
@@ -287,7 +289,11 @@
 
 /* Begin PBXFileReference section */
 		43EC236F7D2FA3937000572B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5A8331061C30485100C5F2C8 /* fuot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuot.png; sourceTree = "<group>"; };
+		5A2F232E1C343C9600731A56 /* fuot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuot@2x.png"; sourceTree = "<group>"; };
+		5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCDropDownViewController.swift; path = CustomView/DropDown/ZCCDropDownViewController.swift; sourceTree = "<group>"; };
+		5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCDropDownViewController.xib; path = CustomView/DropDown/ZCCDropDownViewController.xib; sourceTree = "<group>"; };
+		5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCDropDownTableViewCell.swift; path = CustomView/DropDown/ZCCDropDownTableViewCell.swift; sourceTree = "<group>"; };
+		5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCDropDownTableViewCell.xib; path = CustomView/DropDown/ZCCDropDownTableViewCell.xib; sourceTree = "<group>"; };
 		5A83310B1C30497D00C5F2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5A8331101C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		5A8331111C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
@@ -297,9 +303,9 @@
 		5A8331151C304A1F00C5F2C8 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		5A8331161C304A1F00C5F2C8 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		5AA008111C26C7C600E20B1F /* FUOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA008111C26C7C600E20B1F /* Fuot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA008141C26C7C600E20B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AA0081C1C26C7C600E20B1F /* FUOT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FUOT.xcdatamodel; sourceTree = "<group>"; };
+		5AA0081C1C26C7C600E20B1F /* Fuot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fuot.xcdatamodel; sourceTree = "<group>"; };
 		5AA0081E1C26C7C600E20B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA008231C26C7C600E20B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA008281C26C7C600E20B1F /* FUOTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUOTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -432,6 +438,7 @@
 		5ADAFED51C2C5B7200AC88BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5ADAFED71C2C5B7C00AC88BB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5ADAFEDA1C2C64DA00AC88BB /* ZCCImageCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCImageCircle.swift; path = CustomView/Image/ZCCImageCircle.swift; sourceTree = "<group>"; };
+		5AF4A8271C34137500DC3529 /* PullToMakeFlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PullToMakeFlight.framework; path = "Pods/../build/Debug-iphoneos/PullToMakeFlight.framework"; sourceTree = "<group>"; };
 		9F174F28A70D9BC9C517A44B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BA762378B7CD1957657E7FA9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -485,6 +492,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2F23301C343E8800731A56 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F23351C34458C00731A56 /* ZCCDropDownViewController.swift */,
+				5A2F23391C34460B00731A56 /* ZCCDropDownTableViewCell.swift */,
+				5A2F233D1C34496C00731A56 /* ZCCDropDownTableViewCell.xib */,
+				5A2F23361C34458C00731A56 /* ZCCDropDownViewController.xib */,
+			);
+			name = DropDown;
+			sourceTree = "<group>";
+		};
 		5A83310F1C304A1F00C5F2C8 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,7 +533,7 @@
 		5AA008121C26C7C600E20B1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AA008111C26C7C600E20B1F /* FUOT.app */,
+				5AA008111C26C7C600E20B1F /* Fuot.app */,
 				5AA008281C26C7C600E20B1F /* FUOTTests.xctest */,
 				5AA008331C26C7C600E20B1F /* FUOTTests.xctest */,
 			);
@@ -534,10 +552,11 @@
 				5AA008521C26DE4100E20B1F /* Libs */,
 				5AA008461C26C80400E20B1F /* ViewControllers */,
 				5AA008451C26C7FD00E20B1F /* Storyboards */,
+				5AA008B61C270DCB00E20B1F /* ZCCViewController.swift */,
 				5AA008141C26C7C600E20B1F /* AppDelegate.swift */,
 				5AA0081E1C26C7C600E20B1F /* Assets.xcassets */,
 				5AA008231C26C7C600E20B1F /* Info.plist */,
-				5AA0081B1C26C7C600E20B1F /* FUOT.xcdatamodeld */,
+				5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */,
 				5ADAFE421C2BEE0F00AC88BB /* VietNamToGo-Bridging-Header.h */,
 			);
 			path = VietNamToGo;
@@ -576,7 +595,6 @@
 			children = (
 				5AC107341C2D1618001A5A29 /* CitiesViewController */,
 				5ADAFE581C2C135A00AC88BB /* Authentication */,
-				5AA008B61C270DCB00E20B1F /* ZCCViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -584,6 +602,7 @@
 		5AA008521C26DE4100E20B1F /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				5A2F23301C343E8800731A56 /* DropDown */,
 				5A83310F1C304A1F00C5F2C8 /* SVProgressHUD */,
 				5AC1080A1C2D62BA001A5A29 /* SDWebImage */,
 				5AC107E61C2D56D3001A5A29 /* SuperRecord */,
@@ -596,7 +615,7 @@
 		5AA008641C270B2B00E20B1F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5A8331061C30485100C5F2C8 /* fuot.png */,
+				5A2F232E1C343C9600731A56 /* fuot@2x.png */,
 				5ADAFE3C1C2BE39300AC88BB /* buttons */,
 				5AA008AD1C270B4800E20B1F /* Fonts */,
 			);
@@ -1023,6 +1042,7 @@
 		87D72F8BBC3CBF2F63D7EB39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AF4A8271C34137500DC3529 /* PullToMakeFlight.framework */,
 				5ABBFEBA1C2DC5050096AD2C /* MapKit.framework */,
 				BA762378B7CD1957657E7FA9 /* Pods.framework */,
 			);
@@ -1041,9 +1061,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AA008101C26C7C600E20B1F /* FUOT */ = {
+		5AA008101C26C7C600E20B1F /* Fuot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AA0083C1C26C7C600E20B1F /* Build configuration list for PBXNativeTarget "FUOT" */;
+			buildConfigurationList = 5AA0083C1C26C7C600E20B1F /* Build configuration list for PBXNativeTarget "Fuot" */;
 			buildPhases = (
 				FDB5687AB63AEEF7928D41AA /* Check Pods Manifest.lock */,
 				5AA0080D1C26C7C600E20B1F /* Sources */,
@@ -1056,9 +1076,9 @@
 			);
 			dependencies = (
 			);
-			name = FUOT;
+			name = Fuot;
 			productName = VietNamToGo;
-			productReference = 5AA008111C26C7C600E20B1F /* FUOT.app */;
+			productReference = 5AA008111C26C7C600E20B1F /* Fuot.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5AA008271C26C7C600E20B1F /* FUOTTests */ = {
@@ -1113,7 +1133,7 @@
 						DevelopmentTeam = TY52BPKFCE;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
 								enabled = 0;
@@ -1130,7 +1150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AA0080C1C26C7C600E20B1F /* Build configuration list for PBXProject "FUOT" */;
+			buildConfigurationList = 5AA0080C1C26C7C600E20B1F /* Build configuration list for PBXProject "Fuot" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1143,7 +1163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AA008101C26C7C600E20B1F /* FUOT */,
+				5AA008101C26C7C600E20B1F /* Fuot */,
 				5AA008271C26C7C600E20B1F /* FUOTTests */,
 				5AA008321C26C7C600E20B1F /* FUOTUITests */,
 			);
@@ -1159,6 +1179,7 @@
 				5AA008981C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AA008951C270B4500E20B1F /* Roboto-Thin.ttf in Resources */,
 				5A83310C1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */,
+				5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */,
 				5AA008A71C270B4500E20B1F /* RobotoCondensed-LightItalic.ttf in Resources */,
 				5ADAFE341C2BD21C00AC88BB /* vietnam3@2x.png in Resources */,
 				5AA008491C26C85500E20B1F /* Onboarding.storyboard in Resources */,
@@ -1174,7 +1195,6 @@
 				5AA008A41C270B4500E20B1F /* RobotoCondensed-Light.ttf in Resources */,
 				5AA0088F1C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
 				5AC107EE1C2D56D3001A5A29 /* Info.plist in Resources */,
-				5A8331071C30485100C5F2C8 /* fuot.png in Resources */,
 				5AA0087A1C270B4500E20B1F /* Roboto-BlackItalic.ttf in Resources */,
 				5AC106DD1C2C690F001A5A29 /* go@2x.png in Resources */,
 				5AA0081F1C26C7C600E20B1F /* Assets.xcassets in Resources */,
@@ -1183,8 +1203,10 @@
 				5AA008831C270B4500E20B1F /* Roboto-Italic.ttf in Resources */,
 				5AC106E81C2CF475001A5A29 /* Home.storyboard in Resources */,
 				5AA0089B1C270B4500E20B1F /* RobotoCondensed-Bold.ttf in Resources */,
+				5A2F23381C34458C00731A56 /* ZCCDropDownViewController.xib in Resources */,
 				5AA008801C270B4500E20B1F /* Roboto-BoldItalic.ttf in Resources */,
 				5AA0088C1C270B4500E20B1F /* Roboto-Medium.ttf in Resources */,
+				5A2F233E1C34496C00731A56 /* ZCCDropDownTableViewCell.xib in Resources */,
 				5AA008921C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
 				5ADAFE331C2BD21C00AC88BB /* vietnam2@2x.png in Resources */,
 				5AA008771C270B4500E20B1F /* Roboto-Black.ttf in Resources */,
@@ -1217,7 +1239,6 @@
 				5AC1073F1C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
 				5AA008871C270B4500E20B1F /* Roboto-Light.ttf in Resources */,
 				5AA008991C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
-				5A8331081C30485100C5F2C8 /* fuot.png in Resources */,
 				5AC107EF1C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECB1C3045A40096AD2C /* Nabila.ttf in Resources */,
 				5AA008901C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
@@ -1254,7 +1275,6 @@
 				5AC107401C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
 				5AA008881C270B4500E20B1F /* Roboto-Light.ttf in Resources */,
 				5AA0089A1C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
-				5A8331091C30485100C5F2C8 /* fuot.png in Resources */,
 				5AC107F01C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECC1C3045A40096AD2C /* Nabila.ttf in Resources */,
 				5AA008911C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
@@ -1337,12 +1357,14 @@
 				5ADAFEB31C2C5A0500AC88BB /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5ADAFEB21C2C5A0500AC88BB /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				5AC1082F1C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
+				5A2F23371C34458C00731A56 /* ZCCDropDownViewController.swift in Sources */,
 				5AC1084A1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
 				5AC107361C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC1083B1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
 				5AC108351C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
 				5AC108031C2D573C001A5A29 /* City+CoreDataProperties.swift in Sources */,
 				5A8331181C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
+				5A2F233B1C34460B00731A56 /* ZCCDropDownTableViewCell.swift in Sources */,
 				5ABBFEC21C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
 				5AC108531C2D62BA001A5A29 /* UIImageView+HighlightedWebCache.m in Sources */,
 				5AC1070B1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
@@ -1352,7 +1374,7 @@
 				5AA008BB1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5AC1071A1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
 				5AC1071D1C2CF4FB001A5A29 /* YALFoldingTabBar.m in Sources */,
-				5AA0081D1C26C7C600E20B1F /* FUOT.xcdatamodeld in Sources */,
+				5AA0081D1C26C7C600E20B1F /* Fuot.xcdatamodeld in Sources */,
 				5AC1083E1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
 				5ADAFE411C2BE97900AC88BB /* ZCCTextField.swift in Sources */,
 				5ADAFE3B1C2BD8FD00AC88BB /* ZCCLoginViewController.swift in Sources */,
@@ -1484,12 +1506,12 @@
 /* Begin PBXTargetDependency section */
 		5AA0082A1C26C7C600E20B1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AA008101C26C7C600E20B1F /* FUOT */;
+			target = 5AA008101C26C7C600E20B1F /* Fuot */;
 			targetProxy = 5AA008291C26C7C600E20B1F /* PBXContainerItemProxy */;
 		};
 		5AA008351C26C7C600E20B1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AA008101C26C7C600E20B1F /* FUOT */;
+			target = 5AA008101C26C7C600E20B1F /* Fuot */;
 			targetProxy = 5AA008341C26C7C600E20B1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1613,14 +1635,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VietNamToGo",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = VietNamToGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.FUOT;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.Fuot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VietNamToGo/VietNamToGo-Bridging-Header.h";
@@ -1636,14 +1660,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VietNamToGo",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = VietNamToGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.FUOT;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.Fuot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VietNamToGo/VietNamToGo-Bridging-Header.h";
@@ -1727,7 +1753,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AA0080C1C26C7C600E20B1F /* Build configuration list for PBXProject "FUOT" */ = {
+		5AA0080C1C26C7C600E20B1F /* Build configuration list for PBXProject "Fuot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AA0083A1C26C7C600E20B1F /* Debug */,
@@ -1736,7 +1762,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AA0083C1C26C7C600E20B1F /* Build configuration list for PBXNativeTarget "FUOT" */ = {
+		5AA0083C1C26C7C600E20B1F /* Build configuration list for PBXNativeTarget "Fuot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AA0083D1C26C7C600E20B1F /* Debug */,
@@ -1766,13 +1792,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5AA0081B1C26C7C600E20B1F /* FUOT.xcdatamodeld */ = {
+		5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5AA0081C1C26C7C600E20B1F /* FUOT.xcdatamodel */,
+				5AA0081C1C26C7C600E20B1F /* Fuot.xcdatamodel */,
 			);
-			currentVersion = 5AA0081C1C26C7C600E20B1F /* FUOT.xcdatamodel */;
-			path = FUOT.xcdatamodeld;
+			currentVersion = 5AA0081C1C26C7C600E20B1F /* Fuot.xcdatamodel */;
+			path = Fuot.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

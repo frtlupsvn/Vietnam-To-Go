@@ -49,7 +49,7 @@ class ZCCCityTableViewCell: UITableViewCell {
             
             let url = NSURL(string: imageUrl)
             
-            self.imgCity.sd_setImageWithURL(url,placeholderImage: UIImage(named: "fuot.png") ,completed: block)
+            self.imgCity.sd_setImageWithURL(url,placeholderImage: UIImage(named: "fuot@2x.png") ,completed: block)
             
         }
 

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5AA008101C26C7C600E20B1F"
-               BuildableName = "FUOT.app"
-               BlueprintName = "FUOT"
-               ReferencedContainer = "container:VietNamToGo.xcodeproj">
+               BuildableName = "Fuot.app"
+               BlueprintName = "Fuot"
+               ReferencedContainer = "container:Fuot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AA008271C26C7C600E20B1F"
-               BuildableName = "VietNamToGoTests.xctest"
-               BlueprintName = "VietNamToGoTests"
-               ReferencedContainer = "container:VietNamToGo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AA008321C26C7C600E20B1F"
-               BuildableName = "VietNamToGoUITests.xctest"
-               BlueprintName = "VietNamToGoUITests"
-               ReferencedContainer = "container:VietNamToGo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA008101C26C7C600E20B1F"
-            BuildableName = "FUOT.app"
-            BlueprintName = "FUOT"
-            ReferencedContainer = "container:VietNamToGo.xcodeproj">
+            BuildableName = "Fuot.app"
+            BlueprintName = "Fuot"
+            ReferencedContainer = "container:Fuot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA008101C26C7C600E20B1F"
-            BuildableName = "FUOT.app"
-            BlueprintName = "FUOT"
-            ReferencedContainer = "container:VietNamToGo.xcodeproj">
+            BuildableName = "Fuot.app"
+            BlueprintName = "Fuot"
+            ReferencedContainer = "container:Fuot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AA008101C26C7C600E20B1F"
-            BuildableName = "FUOT.app"
-            BlueprintName = "FUOT"
-            ReferencedContainer = "container:VietNamToGo.xcodeproj">
+            BuildableName = "Fuot.app"
+            BlueprintName = "Fuot"
+            ReferencedContainer = "container:Fuot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -32,7 +32,7 @@
         <!--Item-->
         <scene sceneID="PiA-Cm-LE1">
             <objects>
-                <navigationController id="vYT-GP-6Nh" customClass="ZCCNaviViewController" customModule="FUOT" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="vYT-GP-6Nh" customClass="ZCCNaviViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="hnk-5S-JU3"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -51,7 +51,7 @@
         <!--Locations-->
         <scene sceneID="29v-4g-R9y">
             <objects>
-                <viewController storyboardIdentifier="ZCCCititesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OSq-DS-3eE" customClass="ZCCCititesViewController" customModule="FUOT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZCCCititesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OSq-DS-3eE" customClass="ZCCCititesViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gIY-5A-2Y0"/>
                         <viewControllerLayoutGuide type="bottom" id="ywT-P5-xFT"/>
@@ -68,7 +68,7 @@
                                     <outlet property="delegate" destination="OSq-DS-3eE" id="Gex-46-YNE"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-Wv-mUQ" customClass="ZCCButton" customModule="FUOT" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-Wv-mUQ" customClass="ZCCButton" customModule="FUOTTests" customModuleProvider="target">
                                 <rect key="frame" x="10" y="10" width="90" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="OjE-a6-tIG"/>
@@ -80,6 +80,9 @@
                                 <state key="normal" title="Filter" image="down_arrow.png">
                                     <color key="titleColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnFilterTapped:" destination="OSq-DS-3eE" eventType="touchUpInside" id="b1z-OI-7h0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>

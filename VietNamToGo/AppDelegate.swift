@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        SuperCoreDataStack.defaultStack.importSqliteFile("FUOT", shouldOverride: false)
+        SuperCoreDataStack.defaultStack.importSqliteFile("Fuot", shouldOverride: false)
         
         // Register Parse.com
         Parse.enableLocalDatastore()
@@ -102,7 +102,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-        let modelURL = NSBundle.mainBundle().URLForResource("FUOT", withExtension: "momd")!
+        let modelURL = NSBundle.mainBundle().URLForResource("Fuot", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
 

@@ -4,25 +4,40 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BTNavigationDropdownMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>PullToMakeFlight.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>PullToRefresher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>UNAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -37,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>52F67ED630D2910DA9D20F98752041CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55EBEA56AA4D3FF91CCFF58C1124A56E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A63578FB2D94CB109FC157D19BB99995</key>
+		<key>70C4CD2375FE3F0107B2A2FD49D33253</key>
 		<dict>
 			<key>primary</key>
 			<true/>
