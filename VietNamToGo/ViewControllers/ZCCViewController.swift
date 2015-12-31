@@ -14,7 +14,7 @@ let colorYellow = UIColor(netHex:0xf39c12)
 let colorBlue = UIColor(netHex:0x2c3e50)
 
 class ZCCViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -169,5 +169,13 @@ class ZCCViewController: UIViewController {
     func hideHUDProgress(){
         SVProgressHUD.dismiss()
     }
-
+    
+    func hideHUDProgressAfter(time:NSTimeInterval){
+        SVProgressHUD.dismissWithDelay(time)
+    }
+    
+    func showProgres(progress:Float,status:NSString){
+        SVProgressHUD.showProgress(progress, status: status as String)
+    }
+    
 }

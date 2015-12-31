@@ -57,7 +57,22 @@ class ZCCOnboarding: ZCCViewController {
         // Do any additional setup after loading the view.
         self.setupContent()
         self.checkLogin()
+        self.loadData()
         
+        
+    }
+    
+    func loadData(){
+        self.showProgres(0,status: "Cập nhật dữ liệu")
+        /* get Cities and Types */
+        CityType.syncCityTypeWithParse { () -> Void in
+            self.showProgres(0.5,status: "Xin vui lòng đợi trong giây lát")
+            City.syncCityWithParse(){
+                self.showProgres(1,status: "Hoàn thành !")
+                self.hideHUDProgressAfter(0.5)
+            }
+        }
+
     }
     
     override func viewWillAppear(animated: Bool) {

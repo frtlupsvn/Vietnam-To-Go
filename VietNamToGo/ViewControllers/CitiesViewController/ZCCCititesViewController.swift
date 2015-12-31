@@ -31,26 +31,19 @@ class ZCCCititesViewController: ZCCViewController {
     
         /* Tableview layout */
         self.tableView.registerNib(UINib(nibName: "ZCCCityTableViewCell", bundle: nil), forCellReuseIdentifier: "ZCCCityTableViewCell")
-        tableView.addPullToRefresh(PullToMakeFlight(), action: { () -> () in
-            //Async Data
-            City.syncCityWithParse(){
-                self.loadDataFromDBToView()
-                self.tableView.endRefreshing()
+        tableView.addPullToRefresh(PullToMakeFlight(), action: { () -> () in            
+            /* get Cities and Types */
+            CityType.syncCityTypeWithParse { () -> Void in
+                City.syncCityWithParse(){
+                    self.loadDataFromDBToView()
+                    self.tableView.endRefreshing()
+                }
             }
         })
         
         /* Data Prepare */
         loadDataFromDBToView()
         loadTypeToFilter()
-        
-        City.syncCityWithParse(){
-            self.loadDataFromDBToView()
-        }
-        
-        CityType.syncCityTypeWithParse { () -> Void in
-            self.loadTypeToFilter()
-        }
-        
 
     }
 
@@ -63,7 +56,7 @@ class ZCCCititesViewController: ZCCViewController {
         /* DropDown layout */
         let cityTypes = CityType.fetchAllCityType()
         let arrayTypeName = NSMutableArray()
-        
+        arrayTypeName.addObject("Tất Cả")
         if (cityTypes.count > 0){
             for var i = 0; i < cityTypes.count; i++ {
                 let cityType = cityTypes[i] as! CityType
@@ -74,10 +67,13 @@ class ZCCCititesViewController: ZCCViewController {
         dropDown.selectionAction = { [unowned self] (index, item) in
             
             self.btnFilter.setTitle(item, forState: .Normal)
-            if let cityType = CityType.getCityTypeWithnameCityType(item) {
-                self.arrayCities = NSMutableArray(array: City.fetchCityWithType(cityType))
-                self.tableView.reloadData()
-            }
+            if item == "Tất Cả"{
+                self.loadDataFromDBToView()
+            }else
+                if let cityType = CityType.getCityTypeWithnameCityType(item) {
+                    self.arrayCities = NSMutableArray(array: City.fetchCityWithType(cityType))
+                    self.tableView.reloadData()
+                }
             
         }
         
@@ -86,6 +82,7 @@ class ZCCCititesViewController: ZCCViewController {
     }
     
     func loadDataFromDBToView(){
+        self.btnFilter.setTitle("Filter", forState: .Normal)
         self.arrayCities = NSMutableArray(array: City.fetchAllCity())
         self.tableView.reloadData()
     }

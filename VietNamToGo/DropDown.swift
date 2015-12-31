@@ -644,8 +644,8 @@ extension DropDown: UITableViewDataSource, UITableViewDelegate {
 	public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier(DPDConstant.ReusableIdentifier.DropDownCell, forIndexPath: indexPath) as! DropDownCell
 		
-		cell.optionLabel.textColor = textColor
-		cell.optionLabel.font = textFont
+//		cell.optionLabel.textColor = textColor
+//		cell.optionLabel.font = textFont
 		cell.selectedBackgroundColor = selectionBackgroundColor
 		
 		if let cellConfiguration = cellConfiguration {

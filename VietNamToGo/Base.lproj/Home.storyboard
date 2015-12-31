@@ -49,7 +49,7 @@
             </objects>
             <point key="canvasLocation" x="-46.5" y="-217.5"/>
         </scene>
-        <!--Locations-->
+        <!--Địa Danh-->
         <scene sceneID="29v-4g-R9y">
             <objects>
                 <viewController storyboardIdentifier="ZCCCititesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OSq-DS-3eE" customClass="ZCCCititesViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="XjW-aq-srO">
-                                <rect key="frame" x="319" y="17" width="20" height="20"/>
+                                <rect key="frame" x="329" y="17" width="20" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="5qZ-3j-0LK"/>
                                     <constraint firstAttribute="width" constant="20" id="paV-O0-FmM"/>
@@ -113,7 +113,7 @@
                             <constraint firstAttribute="trailing" secondItem="42Z-eM-8Nd" secondAttribute="trailing" constant="10" id="3RI-Q1-239"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="4V1-za-8xb"/>
                             <constraint firstItem="5tk-Ee-zkd" firstAttribute="top" secondItem="gIY-5A-2Y0" secondAttribute="bottom" id="8TU-qX-PV8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="XjW-aq-srO" secondAttribute="trailing" constant="20" id="9jg-KQ-nJL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XjW-aq-srO" secondAttribute="trailing" constant="10" id="9jg-KQ-nJL"/>
                             <constraint firstItem="ywT-P5-xFT" firstAttribute="top" secondItem="5tk-Ee-zkd" secondAttribute="bottom" id="Fcx-LA-Bh9"/>
                             <constraint firstAttribute="trailing" secondItem="5tk-Ee-zkd" secondAttribute="trailing" id="LlR-UF-kmG"/>
                             <constraint firstItem="42Z-eM-8Nd" firstAttribute="leading" secondItem="TS0-d3-IWE" secondAttribute="leading" constant="10" id="MWS-y6-ns6"/>
@@ -141,7 +141,7 @@
                         </variation>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Locations" id="mnD-vs-HJj"/>
+                    <navigationItem key="navigationItem" title="Địa Danh" id="mnD-vs-HJj"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
