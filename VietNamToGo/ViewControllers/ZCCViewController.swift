@@ -37,6 +37,11 @@ class ZCCViewController: UIViewController {
     }
     */
     
+    func pushToViewController(identifier: String) {
+        let viewController = self.storyboard?.instantiateViewControllerWithIdentifier(identifier) as! ZCCViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
     func getProfPic(fid: String) -> NSData? {
         if (fid != "") {
             let imgURLString = "http://graph.facebook.com/" + fid + "/picture?type=large" //type=normal
@@ -121,8 +126,8 @@ class ZCCViewController: UIViewController {
     
     func setupTabbar(tabBarController:YALFoldingTabBarController){
         // Prepare leftBarItems
-        let item1 = YALTabBarItem(itemImage:UIImage(named: "nearby_icon") ,leftItemImage:nil, rightItemImage:nil)
-        let item2 = YALTabBarItem(itemImage:UIImage(named: "search_icon") ,leftItemImage:nil, rightItemImage:nil)
+        let item1 = YALTabBarItem(itemImage:UIImage(named: "nearby_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        let item2 = YALTabBarItem(itemImage:UIImage(named: "edit_icon") ,leftItemImage:nil, rightItemImage:nil)
         tabBarController.leftBarItems = [item1,item2]
         
         
@@ -130,8 +135,8 @@ class ZCCViewController: UIViewController {
         tabBarController.centerButtonImage = UIImage(named:"plus_icon")
         
         // Prepare rightBarItems
-        let item3 = YALTabBarItem(itemImage:UIImage(named: "profile_icon") ,leftItemImage:nil, rightItemImage:nil)
-        let item4 = YALTabBarItem(itemImage:UIImage(named: "settings_icon") ,leftItemImage:nil, rightItemImage:nil)
+        let item3 = YALTabBarItem(itemImage:UIImage(named: "profile_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        let item4 = YALTabBarItem(itemImage:UIImage(named: "settings_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
         tabBarController.rightBarItems = [item3,item4]
 
         
@@ -140,7 +145,7 @@ class ZCCViewController: UIViewController {
         tabBarController.tabBarView.extraTabBarItemHeight = YALExtraTabBarItemsDefaultHeight
         tabBarController.tabBarView.offsetForExtraTabBarItems = YALForExtraTabBarItemsDefaultOffset
         tabBarController.tabBarView.backgroundColor = UIColor.clearColor()
-        tabBarController.tabBarView.tabBarColor = UIColor(netHex:0xf39c12)
+        tabBarController.tabBarView.tabBarColor = colorYellow
         tabBarController.tabBarView.dotColor = UIColor(netHex:0xFFFFFF)
         
         tabBarController.tabBarViewHeight = YALTabBarViewDefaultHeight

@@ -5,36 +5,20 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <mutableArray key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </mutableArray>
         <mutableArray key="Roboto-Regular.ttf">
             <string>Roboto-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Item 2-->
-        <scene sceneID="WMb-qi-lR0">
-            <objects>
-                <viewController id="ieS-x3-8Al" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="azJ-fC-xKx"/>
-                        <viewControllerLayoutGuide type="bottom" id="mjn-oA-hLG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xhp-p7-R3m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="f3r-sU-TSh"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ewq-Ut-Mnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-46.5" y="539.5"/>
-        </scene>
         <!--Item-->
         <scene sceneID="PiA-Cm-LE1">
             <objects>
                 <navigationController id="vYT-GP-6Nh" customClass="ZCCNaviViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="hnk-5S-JU3"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OFr-ah-dlJ">
@@ -49,6 +33,109 @@
             </objects>
             <point key="canvasLocation" x="-46.5" y="-217.5"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="Fa9-Ki-lm2">
+            <objects>
+                <navigationController id="s1v-LC-KSf" customClass="ZCCNaviViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="b87-9Y-YXU"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3sd-gx-S7K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="d8F-tA-VKa" kind="relationship" relationship="rootViewController" id="0X1-Mv-FZZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8os-RI-bsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.5" y="542.5"/>
+        </scene>
+        <!--Tạo Chuyến Đi-->
+        <scene sceneID="2Av-1W-6d4">
+            <objects>
+                <viewController storyboardIdentifier="ZCCMakeTripStepOneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d8F-tA-VKa" customClass="ZCCMakeTripStepOneViewController" customModule="FUOTTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GlF-t0-PR1"/>
+                        <viewControllerLayoutGuide type="bottom" id="TrN-of-H27"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eFD-lb-QOJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vietnam1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oaj-SM-ROW">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="7GZ-Bo-151">
+                                <rect key="frame" x="20" y="64" width="335" height="330"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="Ah1-JE-AMe"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="d8F-tA-VKa" id="g7V-6y-P4Q"/>
+                                    <outlet property="delegate" destination="d8F-tA-VKa" id="ERa-vZ-9i6"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poC-xu-MP1" customClass="ZCCButton" customModule="Fuot">
+                                <rect key="frame" x="127" y="424" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="9rx-Se-iOt"/>
+                                    <constraint firstAttribute="height" constant="40" id="KIt-0t-sZm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="12"/>
+                                <state key="normal" title="Tiếp">
+                                    <color key="titleColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnContinueTapped:" destination="d8F-tA-VKa" eventType="touchUpInside" id="VpL-Ep-WkM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Oaj-SM-ROW" secondAttribute="trailing" id="FZC-pz-O8b"/>
+                            <constraint firstItem="poC-xu-MP1" firstAttribute="top" secondItem="7GZ-Bo-151" secondAttribute="bottom" constant="30" id="GHi-lX-heE"/>
+                            <constraint firstItem="TrN-of-H27" firstAttribute="top" secondItem="poC-xu-MP1" secondAttribute="bottom" constant="100" id="JEX-gO-bIG"/>
+                            <constraint firstItem="TrN-of-H27" firstAttribute="top" secondItem="7GZ-Bo-151" secondAttribute="bottom" constant="80" id="L0P-KC-s80"/>
+                            <constraint firstAttribute="trailing" secondItem="7GZ-Bo-151" secondAttribute="trailing" constant="20" id="OU0-VC-6SE"/>
+                            <constraint firstItem="poC-xu-MP1" firstAttribute="centerX" secondItem="eFD-lb-QOJ" secondAttribute="centerX" id="ScG-Ag-HYp"/>
+                            <constraint firstItem="7GZ-Bo-151" firstAttribute="top" secondItem="GlF-t0-PR1" secondAttribute="bottom" constant="20" id="Wwm-cg-Umj"/>
+                            <constraint firstItem="TrN-of-H27" firstAttribute="top" secondItem="Oaj-SM-ROW" secondAttribute="bottom" id="YJT-pV-IG5"/>
+                            <constraint firstAttribute="trailing" secondItem="poC-xu-MP1" secondAttribute="trailing" constant="30" id="b3r-WK-Kcv"/>
+                            <constraint firstItem="poC-xu-MP1" firstAttribute="leading" secondItem="eFD-lb-QOJ" secondAttribute="leading" constant="30" id="kn4-Wq-kHO"/>
+                            <constraint firstItem="poC-xu-MP1" firstAttribute="top" secondItem="7GZ-Bo-151" secondAttribute="bottom" constant="30" id="nTt-gQ-ytN"/>
+                            <constraint firstItem="Oaj-SM-ROW" firstAttribute="top" secondItem="GlF-t0-PR1" secondAttribute="bottom" id="nvZ-03-3iP"/>
+                            <constraint firstItem="Oaj-SM-ROW" firstAttribute="leading" secondItem="eFD-lb-QOJ" secondAttribute="leading" id="pLY-3s-9qN"/>
+                            <constraint firstItem="7GZ-Bo-151" firstAttribute="leading" secondItem="eFD-lb-QOJ" secondAttribute="leading" constant="20" id="yPs-zN-1lc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="b3r-WK-Kcv"/>
+                                <exclude reference="kn4-Wq-kHO"/>
+                                <exclude reference="nTt-gQ-ytN"/>
+                                <exclude reference="JEX-gO-bIG"/>
+                                <exclude reference="L0P-KC-s80"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tạo Chuyến Đi" id="VbI-vr-YZ5"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnContinue" destination="poC-xu-MP1" id="R0O-Ny-PLU"/>
+                        <outlet property="imgBackground" destination="Oaj-SM-ROW" id="weT-Rz-KYT"/>
+                        <outlet property="tableView" destination="7GZ-Bo-151" id="Xfa-Ui-nsP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y47-LF-XUD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499.5" y="542.5"/>
+        </scene>
         <!--Địa Danh-->
         <scene sceneID="29v-4g-R9y">
             <objects>
@@ -62,7 +149,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5tk-Ee-zkd">
-                                <rect key="frame" x="0.0" y="54" width="375" height="520"/>
+                                <rect key="frame" x="0.0" y="54" width="375" height="569"/>
                                 <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="OSq-DS-3eE" id="OfN-27-HBG"/>
@@ -91,9 +178,9 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="Zfx-Eh-vMo"/>
                                         <exclude reference="gDn-t2-gU4"/>
                                         <exclude reference="yQx-fm-woc"/>
-                                        <exclude reference="Zfx-Eh-vMo"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -178,7 +265,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="vYT-GP-6Nh" kind="relationship" relationship="viewControllers" id="EBe-Fv-PDp"/>
-                        <segue destination="ieS-x3-8Al" kind="relationship" relationship="viewControllers" id="nTz-85-ZuT"/>
+                        <segue destination="s1v-LC-KSf" kind="relationship" relationship="viewControllers" id="s5q-GI-pkN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93O-hf-cEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -188,5 +275,6 @@
     </scenes>
     <resources>
         <image name="down_arrow.png" width="12" height="17"/>
+        <image name="vietnam1.png" width="574" height="1020"/>
     </resources>
 </document>

@@ -15,9 +15,11 @@ class ZCCNaviViewController: UINavigationController {
 
         // Do any additional setup after loading the view.
        UINavigationBar.appearance().barTintColor = colorYellow
+        
        self.navigationBar.titleTextAttributes = [
             NSForegroundColorAttributeName : UIColor.whiteColor()
         ]
+        self.navigationBar.tintColor = UIColor.whiteColor()
     }
 
     override func didReceiveMemoryWarning() {

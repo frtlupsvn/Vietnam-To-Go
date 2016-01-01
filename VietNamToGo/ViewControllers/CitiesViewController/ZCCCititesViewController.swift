@@ -10,7 +10,20 @@ import UIKit
 import PullToMakeFlight
 import BTNavigationDropdownMenu
 
+protocol ZCCCititesViewControllerDelegate:class {
+    func pickCity(city:City)
+}
+
 class ZCCCititesViewController: ZCCViewController {
+
+    var delegate:ZCCCititesViewControllerDelegate! = nil
+    
+    enum CitiesType {
+        case Picker
+        case List
+    }
+    
+    var  citiesType:CitiesType?
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var btnFilter: ZCCButton!
@@ -180,5 +193,12 @@ class ZCCCititesViewController: ZCCViewController {
         footer.backgroundColor = UIColor.clearColor()
         return footer
     }
-
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if (self.citiesType == .Picker){
+            [self.delegate!.pickCity((self.arrayCities[indexPath.section] as? City)!)]
+            self.navigationController?.popViewControllerAnimated(true)
+        }
+    }
+    
 }
