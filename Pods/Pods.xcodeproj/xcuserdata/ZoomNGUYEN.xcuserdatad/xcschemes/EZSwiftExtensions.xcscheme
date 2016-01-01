@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0503F3091F966D6A3BFCD4F9"
-               BuildableName = "PullToMakeFlight.framework"
-               BlueprintName = "PullToMakeFlight"
+               BlueprintIdentifier = "868C40A4436E16CC4E95083A"
+               BuildableName = "EZSwiftExtensions.framework"
+               BlueprintName = "EZSwiftExtensions"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

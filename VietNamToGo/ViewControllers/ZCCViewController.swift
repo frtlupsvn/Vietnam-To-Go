@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UNAlertView
 import Parse
 import ParseFacebookUtilsV4
 
@@ -160,6 +161,22 @@ class ZCCViewController: UIViewController {
     
     @IBAction func btnLoginFacebookTapped(sender: AnyObject) {
         self.loginViaFacebook()
+    }
+    
+    func showDialog(title:String,message:String){
+        let alertView = UNAlertView(title: title, message: message)
+        
+        alertView.addButton("Close",
+            backgroundColor: UIColor.orangeColor(),
+            fontColor: UIColor.whiteColor(),
+            action: {
+                
+                print("Some Action")
+        })
+        
+        
+        // Show
+        alertView.show()
     }
     
     

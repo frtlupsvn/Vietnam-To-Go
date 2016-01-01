@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EZSwiftExtensions
 import THCalendarDatePicker
 
 class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControllerDelegate,THDatePickerDelegate {
@@ -102,6 +103,11 @@ class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControll
         }else{
             dateDepart = selectedDate
         }
+        
+//        if (self.dateDepart < self.dateArrival){
+//            self.showDialog("Error",message:"Please a depart date after arrival date")
+//            return
+//        }
         
         self.tableView.reloadData()
     }

@@ -65,6 +65,12 @@
 		5A52F2681C37115A00F0C92C /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52F2671C37115A00F0C92C /* NumberExtension.swift */; };
 		5A52F2691C37115A00F0C92C /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52F2671C37115A00F0C92C /* NumberExtension.swift */; };
 		5A52F26A1C37115A00F0C92C /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52F2671C37115A00F0C92C /* NumberExtension.swift */; };
+		5A52F26C1C37220900F0C92C /* create@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26B1C37220900F0C92C /* create@2x.png */; };
+		5A52F26D1C37220900F0C92C /* create@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26B1C37220900F0C92C /* create@2x.png */; };
+		5A52F26E1C37220900F0C92C /* create@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26B1C37220900F0C92C /* create@2x.png */; };
+		5A52F2701C3727A400F0C92C /* process_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26F1C3727A400F0C92C /* process_icon@2x.png */; };
+		5A52F2711C3727A400F0C92C /* process_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26F1C3727A400F0C92C /* process_icon@2x.png */; };
+		5A52F2721C3727A400F0C92C /* process_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A52F26F1C3727A400F0C92C /* process_icon@2x.png */; };
 		5A83310C1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310D1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
 		5A83310E1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A83310A1C30497D00C5F2C8 /* Launch Screen.storyboard */; };
@@ -359,6 +365,8 @@
 		5A52F25F1C37060500F0C92C /* ZCCMoneySliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCMoneySliderTableViewCell.swift; path = CustomView/Cells/ZCCMoneySliderTableViewCell.swift; sourceTree = "<group>"; };
 		5A52F2601C37060500F0C92C /* ZCCMoneySliderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCMoneySliderTableViewCell.xib; path = CustomView/Cells/ZCCMoneySliderTableViewCell.xib; sourceTree = "<group>"; };
 		5A52F2671C37115A00F0C92C /* NumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberExtension.swift; path = ViewControllers/MakeTrip/NumberExtension.swift; sourceTree = "<group>"; };
+		5A52F26B1C37220900F0C92C /* create@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create@2x.png"; sourceTree = "<group>"; };
+		5A52F26F1C3727A400F0C92C /* process_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "process_icon@2x.png"; sourceTree = "<group>"; };
 		5A83310B1C30497D00C5F2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5A8331101C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		5A8331111C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
@@ -1070,6 +1078,8 @@
 		5ADAFE3C1C2BE39300AC88BB /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				5A52F26F1C3727A400F0C92C /* process_icon@2x.png */,
+				5A52F26B1C37220900F0C92C /* create@2x.png */,
 				5A52F2531C36ECB700F0C92C /* destination@2x.png */,
 				5A52F2541C36ECB700F0C92C /* time@2x.png */,
 				5A52F2551C36ECB700F0C92C /* budget@2x.png */,
@@ -1296,6 +1306,7 @@
 				5A2F23511C3525A000731A56 /* DropDownCell.xib in Resources */,
 				5AA008B11C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5A52F2561C36ECB700F0C92C /* destination@2x.png in Resources */,
+				5A52F26C1C37220900F0C92C /* create@2x.png in Resources */,
 				5ADAFE3E1C2BE39B00AC88BB /* back-button@2x.png in Resources */,
 				5AC1073E1C2D2893001A5A29 /* ZCCCityTableViewCell.xib in Resources */,
 				5AA0089E1C270B4500E20B1F /* RobotoCondensed-BoldItalic.ttf in Resources */,
@@ -1323,6 +1334,7 @@
 				5AA008921C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
 				5ADAFE331C2BD21C00AC88BB /* vietnam2@2x.png in Resources */,
 				5AA008771C270B4500E20B1F /* Roboto-Black.ttf in Resources */,
+				5A52F2701C3727A400F0C92C /* process_icon@2x.png in Resources */,
 				5ADAFE631C2C4F9D00AC88BB /* vietnam4@2x.png in Resources */,
 				5AA008861C270B4500E20B1F /* Roboto-Light.ttf in Resources */,
 				5ABBFECA1C3045A40096AD2C /* Nabila.ttf in Resources */,
@@ -1340,6 +1352,7 @@
 				5AA0084A1C26C85500E20B1F /* Onboarding.storyboard in Resources */,
 				5AC106E01C2C7F8B001A5A29 /* default_avatar@2x.png in Resources */,
 				5AA0087E1C270B4500E20B1F /* Roboto-Bold.ttf in Resources */,
+				5A52F26D1C37220900F0C92C /* create@2x.png in Resources */,
 				5AA008841C270B4500E20B1F /* Roboto-Italic.ttf in Resources */,
 				5AA008A21C270B4500E20B1F /* RobotoCondensed-Italic.ttf in Resources */,
 				5ADAFE641C2C4F9D00AC88BB /* vietnam4@2x.png in Resources */,
@@ -1359,6 +1372,7 @@
 				5AA008991C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AC107EF1C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECB1C3045A40096AD2C /* Nabila.ttf in Resources */,
+				5A52F2711C3727A400F0C92C /* process_icon@2x.png in Resources */,
 				5AA008901C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
 				5AA008B21C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5AC106E91C2CF475001A5A29 /* Home.storyboard in Resources */,
@@ -1382,6 +1396,7 @@
 				5AA0084B1C26C85500E20B1F /* Onboarding.storyboard in Resources */,
 				5AC106E11C2C7F8B001A5A29 /* default_avatar@2x.png in Resources */,
 				5AA0087F1C270B4500E20B1F /* Roboto-Bold.ttf in Resources */,
+				5A52F26E1C37220900F0C92C /* create@2x.png in Resources */,
 				5AA008851C270B4500E20B1F /* Roboto-Italic.ttf in Resources */,
 				5AA008A31C270B4500E20B1F /* RobotoCondensed-Italic.ttf in Resources */,
 				5ADAFE651C2C4F9D00AC88BB /* vietnam4@2x.png in Resources */,
@@ -1401,6 +1416,7 @@
 				5AA0089A1C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AC107F01C2D56D3001A5A29 /* Info.plist in Resources */,
 				5ABBFECC1C3045A40096AD2C /* Nabila.ttf in Resources */,
+				5A52F2721C3727A400F0C92C /* process_icon@2x.png in Resources */,
 				5AA008911C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
 				5AA008B31C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5AC106EA1C2CF475001A5A29 /* Home.storyboard in Resources */,

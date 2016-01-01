@@ -4,3 +4,4 @@ use_frameworks!
 pod 'PullToMakeFlight'
 pod 'UNAlertView'
 pod 'THCalendarDatePicker'
+pod 'EZSwiftExtensions'
