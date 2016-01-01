@@ -7,14 +7,53 @@
 //
 
 import UIKit
+import THCalendarDatePicker
 
-class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControllerDelegate {
+class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControllerDelegate,THDatePickerDelegate {
+    
+    enum calendarType {
+        case Arrival
+        case Depart
+    }
+    
+    var calendarPickerType:calendarType?
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var btnContinue: ZCCButton!
     @IBOutlet weak var imgBackground: UIImageView!
     
+    var curDate : NSDate? = NSDate()
+    lazy var formatter: NSDateFormatter = {
+        var tmpFormatter = NSDateFormatter()
+        tmpFormatter.dateFormat = "dd/MM/yyyy"
+        return tmpFormatter
+    }()
+    lazy var datePicker : THDatePickerViewController = {
+        let picker = THDatePickerViewController.datePicker()
+        picker.delegate = self
+        picker.date = self.curDate
+        picker.setAllowClearDate(false)
+        picker.setClearAsToday(false)
+        picker.setAutoCloseOnSelectDate(true)
+        picker.setAllowSelectionOfSelectedDate(true)
+        picker.setDisableYearSwitch(true)
+        //picker.setDisableFutureSelection(false)
+        picker.setDaysInHistorySelection(1)
+        picker.setDaysInFutureSelection(0)
+        picker.setDateTimeZoneWithName("UTC")
+        picker.autoCloseCancelDelay = 5.0
+        picker.rounded = true
+        picker.dateTitle = "Calendar"
+        picker.selectedBackgroundColor = colorYellow
+        picker.currentDateColor = colorYellow
+        picker.currentDateColorSelected = UIColor.whiteColor()
+        return picker
+    }()
+    
     /* Data  */
     var cityPicked:City?
+    var dateArrival:NSDate?
+    var dateDepart:NSDate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +84,41 @@ class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControll
     }
     */
     
+    // MARK: THDatePickerDelegate
     
+    func datePickerDonePressed(datePicker: THDatePickerViewController!) {
+        curDate = datePicker.date
+        dismissSemiModalView()
+    }
+    
+    func datePickerCancelPressed(datePicker: THDatePickerViewController!) {
+        dismissSemiModalView()
+    }
+    
+    func datePicker(datePicker: THDatePickerViewController!, selectedDate: NSDate!) {
+        print("Date selected: ", formatter.stringFromDate(selectedDate))
+        if (self.calendarPickerType == .Arrival){
+            dateArrival = selectedDate
+        }else{
+            dateDepart = selectedDate
+        }
+        
+        self.tableView.reloadData()
+    }
+    
+    func convertCfTypeToString(cfValue: Unmanaged<NSString>!) -> String?{
+        /* Coded by Vandad Nahavandipoor */
+        let value = Unmanaged<CFStringRef>.fromOpaque(
+            cfValue.toOpaque()).takeUnretainedValue() as CFStringRef
+        if CFGetTypeID(value) == CFStringGetTypeID(){
+            return value as String
+        } else {
+            return nil
+        }
+    }
+    
+
+    // MARK: TableViewDelegate
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
 
@@ -71,10 +144,17 @@ class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControll
                 break
             case 1:
                 cell.lblPickLocation.text = "Chọn ngày đi"
+                if let dateArrival = self.dateArrival{
+                    cell.lblValueLocationPicked.text = formatter.stringFromDate(dateArrival)
+                }
                 cell.setIcon(UIImage(named: "time@2x.png")!)
                 break
             case 2:
                 cell.lblPickLocation.text = "Chọn ngày về"
+                if let dateDepart = self.dateDepart{
+                    cell.lblValueLocationPicked.text = formatter.stringFromDate(dateDepart)
+                }
+
                 cell.setIcon(UIImage(named: "time@2x.png")!)
                 break
             default:
@@ -95,12 +175,25 @@ class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControll
             self.navigationController?.pushViewController(citiesVC, animated: true)
             break
         case 1:
-            /* Pick Date */
+            self.calendarPickerType = .Arrival
+            datePicker.date = self.curDate
+            presentSemiViewController(datePicker, withOptions: [
+                convertCfTypeToString(KNSemiModalOptionKeys.shadowOpacity) as String! : 0.1 as Float,
+                convertCfTypeToString(KNSemiModalOptionKeys.animationDuration) as String! : 0.5 as Float,
+                convertCfTypeToString(KNSemiModalOptionKeys.pushParentBack) as String! : false as Bool
+                ])
             
             break
         case 2:
             /* Pick Date */
-            
+            self.calendarPickerType = .Depart
+            datePicker.date = self.curDate
+            presentSemiViewController(datePicker, withOptions: [
+                convertCfTypeToString(KNSemiModalOptionKeys.shadowOpacity) as String! : 0.1 as Float,
+                convertCfTypeToString(KNSemiModalOptionKeys.animationDuration) as String! : 0.5 as Float,
+                convertCfTypeToString(KNSemiModalOptionKeys.pushParentBack) as String! : false as Bool
+                ])
+
             break
         case 3:
             /* Pick Budget */

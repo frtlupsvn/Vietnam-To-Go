@@ -4,40 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BTNavigationDropdownMenu.xcscheme</key>
+		<key>KNSemiModalViewController_hons82.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>PullToMakeFlight.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>PullToRefresher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+		</dict>
+		<key>THCalendarDatePicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>UNAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -52,17 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52F67ED630D2910DA9D20F98752041CB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>55EBEA56AA4D3FF91CCFF58C1124A56E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70C4CD2375FE3F0107B2A2FD49D33253</key>
+		<key>5C520BBC769FD61CE82E8E6595C68998</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>692F99A099FF1080E6259EE95EB10723</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>893D87CA67C03C866BEBA45B80E74730</key>
 		<dict>
 			<key>primary</key>
 			<true/>
