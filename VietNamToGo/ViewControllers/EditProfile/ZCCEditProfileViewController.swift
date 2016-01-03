@@ -13,9 +13,87 @@ import ParseFacebookUtilsV4
 
 final class ZCCEditProfileViewController: ZCCViewController {
     
+    var isOtherAvatar:Bool?
+    
+    @IBAction func btnSaveTapped(sender: AnyObject) {
+        showHUDProgress()
+        
+        let currentUser = PFUser.currentUser()
+        /* avatar */
+        if let _ = self.isOtherAvatar {
+            if let avatarImg = Profile.sharedInstance.image
+            {
+                // Compress image 10 times before uploading
+                let imageFile = PFFile(name: "profileImage.jpg", data: UIImageJPEGRepresentation(avatarImg, 0.1)!)
+                currentUser?.setObject(imageFile!, forKey:"facebookProfilePicture")
+            }
+        }
+        
+        /* self-introduction */
+        if let introduction = Profile.sharedInstance.introduction{
+            currentUser?.setObject(introduction, forKey:"introduction")
+        }
+        
+        /* Name */
+        if let name = Profile.sharedInstance.name{
+            currentUser?.setObject(name, forKey:"fullname")
+        }
+        
+        /* Gender */
+        if let gender = Profile.sharedInstance.gender{
+            currentUser?.setObject(gender, forKey:"gender")
+            
+        }
+        
+        /* birthday */
+        if let birthday = Profile.sharedInstance.birthDay{
+            currentUser?.setObject(birthday, forKey:"dateofbirth")
+            
+        }
+        
+        /* nickname */
+        if let nickname = Profile.sharedInstance.nickname{
+            currentUser?.setObject(nickname, forKey:"nickname")
+            
+        }
+        
+        /* country */
+        if let country = Profile.sharedInstance.nationality{
+            currentUser?.setObject(country, forKey:"nationality")
+            
+        }
+        
+        /* phone */
+        if let phone = Profile.sharedInstance.phoneNumber{
+            currentUser?.setObject(phone, forKey:"phonenumber")
+            
+        }
+        
+        /* job */
+        if let job = Profile.sharedInstance.job{
+            currentUser?.setObject(job, forKey:"job")
+            
+        }
+        
+        PFUser.currentUser()!.saveInBackgroundWithBlock { (sucess, error) -> Void in
+            if (error == nil){
+                self.showDialog("Success", message: "Your profile has been saved.")
+            }else {
+                self.showDialog("Error", message: "Please try again!")
+            }
+            
+            self.hideHUDProgressAfter(0)
+        }
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         loadingProfileCurentUser()
+        setup()
+        configure()
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,11 +112,22 @@ final class ZCCEditProfileViewController: ZCCViewController {
             
             /* avatar */
             if let imageFile = currentUser?.objectForKey("facebookProfilePicture"){
+                
                 let imageURL = NSURL(string: imageFile.url!!)
-                let imageData = NSData(contentsOfURL: imageURL!)
-                if (imageData != nil){
-                    Profile.sharedInstance.image = UIImage(data: imageData!)
-                }
+                let sd_web_mamanger = SDWebImageManager.sharedManager()
+                sd_web_mamanger.downloadWithURL(imageURL, options: SDWebImageOptions.RetryFailed, progress: { (receivedSize, expectedSize) -> Void in
+                    //Progress Here
+                    }, completed: { (image, error, SDImageCache:SDImageCacheType, finished:Bool) -> Void in
+                        // Do something with image downloaded
+                        if (error == nil){
+                            Profile.sharedInstance.image = image
+                            self.imageRow.cellUpdate {
+                                $0.iconView.image = image
+                            }
+
+                        }
+                })
+                
             }else {
                 Profile.sharedInstance.image = UIImage(named: "default_avatar@2x.png")
             }
@@ -49,8 +138,8 @@ final class ZCCEditProfileViewController: ZCCViewController {
             }
             
             /* Name */
-            if let usernameString = currentUser?.objectForKey("fullname"){
-                Profile.sharedInstance.name = usernameString as? String
+            if let name = currentUser?.objectForKey("fullname"){
+                Profile.sharedInstance.name = name as? String
                 
             }
             
@@ -93,9 +182,6 @@ final class ZCCEditProfileViewController: ZCCViewController {
             
         }
         hideHUDProgress()
-        
-        setup()
-        configure()
     }
     
     internal let tableView: UITableView = {
@@ -147,7 +233,7 @@ final class ZCCEditProfileViewController: ZCCViewController {
         }
         let phoneRow = TextFieldRowFormer<ProfileFieldCell>(instantiateType: .Nib(nibName: "ProfileFieldCell")) { [weak self] in
             $0.titleLabel.text = "Phone"
-            $0.textField.keyboardType = .NumberPad
+            $0.textField.keyboardType = .PhonePad
             $0.textField.inputAccessoryView = self?.formerInputAccessoryView
             }.configure {
                 $0.placeholder = "Add your phone number"
@@ -187,7 +273,7 @@ final class ZCCEditProfileViewController: ZCCViewController {
         let genderRow = InlinePickerRowFormer<ProfileLabelCell, String>(instantiateType: .Nib(nibName: "ProfileLabelCell")) {
             $0.titleLabel.text = "Gender"
             }.configure {
-                let genders = ["Male", "Female"]
+                let genders = ["Male", "Female", "LGBT"]
                 $0.pickerItems = genders.map {
                     InlinePickerItem(title: $0)
                 }
@@ -308,6 +394,7 @@ extension ZCCEditProfileViewController: UIImagePickerControllerDelegate, UINavig
         Profile.sharedInstance.image = image
         imageRow.cellUpdate {
             $0.iconView.image = image
+            self.isOtherAvatar = true
         }
     }
 }

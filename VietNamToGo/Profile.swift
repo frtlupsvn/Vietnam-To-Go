@@ -17,7 +17,7 @@ final class Profile {
     var gender: String?
     var birthDay: NSDate?
     var introduction: String?
-    var moreInformation = true
+    var moreInformation = false
     var nickname: String?
     var nationality: String?
     var phoneNumber: String?

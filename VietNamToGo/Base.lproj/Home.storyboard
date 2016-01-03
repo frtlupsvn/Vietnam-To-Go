@@ -88,6 +88,9 @@
                     <navigationItem key="navigationItem" id="KVb-nG-F43">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="R5c-dd-PzG">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="btnSaveTapped:" destination="OfL-87-89L" id="nfz-Wo-Ulb"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
