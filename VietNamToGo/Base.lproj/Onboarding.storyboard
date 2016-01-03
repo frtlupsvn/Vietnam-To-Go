@@ -149,7 +149,7 @@
                                         </view>
                                         <blurEffect style="light"/>
                                     </visualEffectView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DMi-6M-gZV" customClass="ZCCImageCircle" customModule="FUOTTests" customModuleProvider="target">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DMi-6M-gZV" customClass="ZCCImageCircle" customModule="FUOTTests" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="hw0-os-dYa"/>

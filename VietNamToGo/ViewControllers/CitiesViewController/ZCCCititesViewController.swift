@@ -44,6 +44,7 @@ class ZCCCititesViewController: ZCCViewController {
     
         /* Tableview layout */
         self.tableView.registerNib(UINib(nibName: "ZCCCityTableViewCell", bundle: nil), forCellReuseIdentifier: "ZCCCityTableViewCell")
+        
         tableView.addPullToRefresh(PullToMakeFlight(), action: { () -> () in            
             /* get Cities and Types */
             CityType.syncCityTypeWithParse { () -> Void in
@@ -110,15 +111,15 @@ class ZCCCititesViewController: ZCCViewController {
     }
     
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if (segue.identifier == "SEGUE_PLACES"){
+            var placesVC = segue.destinationViewController as? ZCCPlacesViewController
+            placesVC?.city = sender as! City
+        }
     }
-    */
     
     // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
     // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
@@ -164,6 +165,15 @@ class ZCCCititesViewController: ZCCViewController {
         return cell
         
     }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if (self.citiesType == .Picker){
+            [self.delegate!.pickCity((self.arrayCities[indexPath.section] as? City)!)]
+            self.navigationController?.popViewControllerAnimated(true)
+        }else{
+            let city = self.arrayCities[indexPath.section]
+            performSegueWithIdentifier("SEGUE_PLACES", sender: city)
+        }
+    }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat{
         return ZCCCityTableViewCell.heightOfCell()
@@ -193,12 +203,5 @@ class ZCCCititesViewController: ZCCViewController {
         footer.backgroundColor = UIColor.clearColor()
         return footer
     }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if (self.citiesType == .Picker){
-            [self.delegate!.pickCity((self.arrayCities[indexPath.section] as? City)!)]
-            self.navigationController?.popViewControllerAnimated(true)
-        }
-    }
-    
+
 }

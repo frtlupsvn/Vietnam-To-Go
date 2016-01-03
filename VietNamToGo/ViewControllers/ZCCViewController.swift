@@ -127,18 +127,19 @@ class ZCCViewController: UIViewController {
     
     func setupTabbar(tabBarController:YALFoldingTabBarController){
         // Prepare leftBarItems
-        let item1 = YALTabBarItem(itemImage:UIImage(named: "nearby_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
-        let item2 = YALTabBarItem(itemImage:UIImage(named: "edit_icon") ,leftItemImage:nil, rightItemImage:nil)
-        tabBarController.leftBarItems = [item1,item2]
+        let feedItem = YALTabBarItem(itemImage:UIImage(named: "feed") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        let makeTripItem = YALTabBarItem(itemImage:UIImage(named: "edit_icon") ,leftItemImage:nil, rightItemImage:nil)
+        tabBarController.leftBarItems = [feedItem,makeTripItem]
         
         
         // Prepare center
         tabBarController.centerButtonImage = UIImage(named:"plus_icon")
         
         // Prepare rightBarItems
-        let item3 = YALTabBarItem(itemImage:UIImage(named: "profile_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
-        let item4 = YALTabBarItem(itemImage:UIImage(named: "settings_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
-        tabBarController.rightBarItems = [item3,item4]
+        let activityItem = YALTabBarItem(itemImage:UIImage(named: "activity") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        let profileItem = YALTabBarItem(itemImage:UIImage(named: "profile_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        let settingsItem = YALTabBarItem(itemImage:UIImage(named: "settings_icon") ,leftItemImage:UIImage(named: "edit_icon"), rightItemImage:nil)
+        tabBarController.rightBarItems = [profileItem,settingsItem]
 
         
         

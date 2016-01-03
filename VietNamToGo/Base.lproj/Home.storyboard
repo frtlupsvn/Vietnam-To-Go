@@ -278,6 +278,7 @@
                         <outlet property="btnFilter" destination="42Z-eM-8Nd" id="hc7-75-yCJ"/>
                         <outlet property="searchDisplayController" destination="e5y-99-TRr" id="dDp-Ka-rNf"/>
                         <outlet property="tableView" destination="5tk-Ee-zkd" id="pFa-QD-PIJ"/>
+                        <segue destination="Swa-kk-oFX" kind="show" identifier="SEGUE_PLACES" id="dV9-6G-Zf2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2rM-qA-9EC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -291,7 +292,55 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="499.5" y="-217.5"/>
+            <point key="canvasLocation" x="485.5" y="-217.5"/>
+        </scene>
+        <!--Places View Controller-->
+        <scene sceneID="bMT-Up-CoY">
+            <objects>
+                <viewController id="Swa-kk-oFX" customClass="ZCCPlacesViewController" customModule="Fuot" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kqD-au-YfO"/>
+                        <viewControllerLayoutGuide type="bottom" id="mDm-hx-zM4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Prc-Jq-rKR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n0J-SG-Raa">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Swa-kk-oFX" id="cM1-nj-3Y1"/>
+                                    <outlet property="delegate" destination="Swa-kk-oFX" id="Ajc-iG-4Ug"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="n0J-SG-Raa" secondAttribute="trailing" id="XAt-v2-R0m"/>
+                            <constraint firstItem="n0J-SG-Raa" firstAttribute="top" secondItem="kqD-au-YfO" secondAttribute="bottom" id="Xk2-Kw-gYp"/>
+                            <constraint firstItem="n0J-SG-Raa" firstAttribute="top" secondItem="kqD-au-YfO" secondAttribute="bottom" id="YFh-lk-jEV"/>
+                            <constraint firstItem="n0J-SG-Raa" firstAttribute="leading" secondItem="Prc-Jq-rKR" secondAttribute="leading" id="jHX-Nh-T5F"/>
+                            <constraint firstItem="mDm-hx-zM4" firstAttribute="top" secondItem="n0J-SG-Raa" secondAttribute="bottom" id="mcm-PI-WQv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YFh-lk-jEV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="a0l-sy-pBV"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="n0J-SG-Raa" id="YfJ-4F-m4u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f7E-Ca-yOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967.5" y="-217.5"/>
         </scene>
         <!--Folding Tab Bar Controller-->
         <scene sceneID="IyU-vN-QWK">

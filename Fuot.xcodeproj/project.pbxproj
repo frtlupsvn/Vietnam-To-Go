@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A277B5C1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */; };
+		5A277B5D1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */; };
+		5A277B5E1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */; };
+		5A277B5F1C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
+		5A277B601C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
+		5A277B611C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
+		5A277B641C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B651C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B661C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B671C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
+		5A277B681C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
+		5A277B691C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
 		5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F232E1C343C9600731A56 /* fuot@2x.png */; };
 		5A2F23471C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
 		5A2F23481C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
@@ -119,6 +131,15 @@
 		5A92278F1C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
 		5A9227901C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
 		5A9227911C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
+		5A9227A51C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227A41C394DEC00455B10 /* ZCCPlacesViewController.swift */; };
+		5A9227A61C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227A41C394DEC00455B10 /* ZCCPlacesViewController.swift */; };
+		5A9227A71C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227A41C394DEC00455B10 /* ZCCPlacesViewController.swift */; };
+		5A9227B01C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227AE1C39780A00455B10 /* ZCCPlacesTableViewCell.swift */; };
+		5A9227B11C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227AE1C39780A00455B10 /* ZCCPlacesTableViewCell.swift */; };
+		5A9227B21C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227AE1C39780A00455B10 /* ZCCPlacesTableViewCell.swift */; };
+		5A9227B31C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227AF1C39780A00455B10 /* ZCCPlacesTableViewCell.xib */; };
+		5A9227B41C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227AF1C39780A00455B10 /* ZCCPlacesTableViewCell.xib */; };
+		5A9227B51C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227AF1C39780A00455B10 /* ZCCPlacesTableViewCell.xib */; };
 		5AA008151C26C7C600E20B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA008141C26C7C600E20B1F /* AppDelegate.swift */; };
 		5AA0081D1C26C7C600E20B1F /* Fuot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */; };
 		5AA0081F1C26C7C600E20B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA0081E1C26C7C600E20B1F /* Assets.xcassets */; };
@@ -378,6 +399,10 @@
 
 /* Begin PBXFileReference section */
 		43EC236F7D2FA3937000572B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ParseObject+CoreDataProperties.swift"; path = "Models/ParseObject/ParseObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A277B5B1C397DAA009FD10A /* ParseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseObject.swift; path = Models/ParseObject/ParseObject.swift; sourceTree = "<group>"; };
+		5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Places+CoreDataProperties.swift"; path = "Models/Places/Places+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A277B631C397DC6009FD10A /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Places.swift; path = Models/Places/Places.swift; sourceTree = "<group>"; };
 		5A2F232E1C343C9600731A56 /* fuot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuot@2x.png"; sourceTree = "<group>"; };
 		5A2F23441C35259A00731A56 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
 		5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
@@ -420,6 +445,9 @@
 		5A9227851C3800F100455B10 /* ProfileFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileFieldCell.xib; sourceTree = "<group>"; };
 		5A9227861C3800F100455B10 /* ProfileImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileImageCell.xib; sourceTree = "<group>"; };
 		5A9227871C3800F100455B10 /* ProfileLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileLabelCell.xib; sourceTree = "<group>"; };
+		5A9227A41C394DEC00455B10 /* ZCCPlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCPlacesViewController.swift; path = ViewControllers/PlacesViewController/ZCCPlacesViewController.swift; sourceTree = "<group>"; };
+		5A9227AE1C39780A00455B10 /* ZCCPlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCPlacesTableViewCell.swift; path = ViewControllers/PlacesViewController/Cells/ZCCPlacesTableViewCell.swift; sourceTree = "<group>"; };
+		5A9227AF1C39780A00455B10 /* ZCCPlacesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZCCPlacesTableViewCell.xib; path = ViewControllers/PlacesViewController/Cells/ZCCPlacesTableViewCell.xib; sourceTree = "<group>"; };
 		5AA008111C26C7C600E20B1F /* Fuot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA008141C26C7C600E20B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA0081C1C26C7C600E20B1F /* Fuot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fuot.xcdatamodel; sourceTree = "<group>"; };
@@ -608,6 +636,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A277B581C397BE1009FD10A /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */,
+				5A277B631C397DC6009FD10A /* Places.swift */,
+			);
+			name = Places;
+			sourceTree = "<group>";
+		};
+		5A277B591C397D8C009FD10A /* ParseObject */ = {
+			isa = PBXGroup;
+			children = (
+				5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */,
+				5A277B5B1C397DAA009FD10A /* ParseObject.swift */,
+			);
+			name = ParseObject;
+			sourceTree = "<group>";
+		};
 		5A2F233F1C351EC800731A56 /* Dropdown */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,13 +679,13 @@
 		5A3C8ECB1C3688A8009F43EB /* MakeATrip */ = {
 			isa = PBXGroup;
 			children = (
-				5A3C8ED01C368922009F43EB /* CustomCell */,
+				5A3C8ED01C368922009F43EB /* Cells */,
 				5A3C8ECC1C3688DB009F43EB /* ZCCMakeTripStepOneViewController.swift */,
 			);
 			name = MakeATrip;
 			sourceTree = "<group>";
 		};
-		5A3C8ED01C368922009F43EB /* CustomCell */ = {
+		5A3C8ED01C368922009F43EB /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				5A3C8ED11C368963009F43EB /* ZCCPickCityTableViewCell.swift */,
@@ -648,7 +694,7 @@
 				5A52F2601C37060500F0C92C /* ZCCMoneySliderTableViewCell.xib */,
 				5A52F2671C37115A00F0C92C /* NumberExtension.swift */,
 			);
-			name = CustomCell;
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		5A52F24E1C36E92900F0C92C /* ZCCView */ = {
@@ -677,9 +723,9 @@
 		5A9227621C37F48500455B10 /* EditProfile */ = {
 			isa = PBXGroup;
 			children = (
+				5A9227A81C394E4500455B10 /* model */,
 				5A9227741C37F73700455B10 /* Cells */,
 				5A9227671C37F6CD00455B10 /* Views */,
-				5A92276C1C37F70000455B10 /* Profile.swift */,
 				5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */,
 			);
 			name = EditProfile;
@@ -711,6 +757,32 @@
 			children = (
 			);
 			name = Languges;
+			sourceTree = "<group>";
+		};
+		5A9227A31C394DB800455B10 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				5A9227A91C394FF000455B10 /* Cells */,
+				5A9227A41C394DEC00455B10 /* ZCCPlacesViewController.swift */,
+			);
+			name = Places;
+			sourceTree = "<group>";
+		};
+		5A9227A81C394E4500455B10 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5A92276C1C37F70000455B10 /* Profile.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5A9227A91C394FF000455B10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A9227AE1C39780A00455B10 /* ZCCPlacesTableViewCell.swift */,
+				5A9227AF1C39780A00455B10 /* ZCCPlacesTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		5AA008081C26C7C600E20B1F = {
@@ -789,6 +861,7 @@
 		5AA008461C26C80400E20B1F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A9227A31C394DB800455B10 /* Places */,
 				5A9227621C37F48500455B10 /* EditProfile */,
 				5A3C8ECB1C3688A8009F43EB /* MakeATrip */,
 				5AC107341C2D1618001A5A29 /* CitiesViewController */,
@@ -1056,6 +1129,7 @@
 		5AC107341C2D1618001A5A29 /* CitiesViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5AC1072B1C2D154F001A5A29 /* Cells */,
 				5AC107351C2D1642001A5A29 /* ZCCCititesViewController.swift */,
 			);
 			name = CitiesViewController;
@@ -1064,6 +1138,8 @@
 		5AC107411C2D54A4001A5A29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5A277B591C397D8C009FD10A /* ParseObject */,
+				5A277B581C397BE1009FD10A /* Places */,
 				5A2F235C1C3538D500731A56 /* CityType */,
 				5AC108001C2D5726001A5A29 /* City */,
 			);
@@ -1138,7 +1214,6 @@
 			children = (
 				5A52F24E1C36E92900F0C92C /* ZCCView */,
 				5ABBFEC01C2FE50F0096AD2C /* Navi */,
-				5AC1072B1C2D154F001A5A29 /* Cells */,
 				5ADAFED91C2C64BE00AC88BB /* Images */,
 				5ADAFE3F1C2BE95800AC88BB /* TextField */,
 				5ADAFE361C2BD6CB00AC88BB /* Button */,
@@ -1353,7 +1428,6 @@
 					};
 					5AA008321C26C7C600E20B1F = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 5AA008101C26C7C600E20B1F;
 					};
 				};
 			};
@@ -1420,6 +1494,7 @@
 				5AA0089B1C270B4500E20B1F /* RobotoCondensed-Bold.ttf in Resources */,
 				5A52F2641C37060500F0C92C /* ZCCMoneySliderTableViewCell.xib in Resources */,
 				5AA008801C270B4500E20B1F /* Roboto-BoldItalic.ttf in Resources */,
+				5A9227B31C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */,
 				5AA0088C1C270B4500E20B1F /* Roboto-Medium.ttf in Resources */,
 				5AA008921C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
 				5ADAFE331C2BD21C00AC88BB /* vietnam2@2x.png in Resources */,
@@ -1468,6 +1543,7 @@
 				5AA008901C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
 				5AA008B21C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5AC106E91C2CF475001A5A29 /* Home.storyboard in Resources */,
+				5A9227B41C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */,
 				5A3C8ED71C368963009F43EB /* ZCCPickCityTableViewCell.xib in Resources */,
 				5A83311C1C304A1F00C5F2C8 /* SVProgressHUD.bundle in Resources */,
 				5A92278A1C3800F100455B10 /* ProfileFieldCell.xib in Resources */,
@@ -1515,6 +1591,7 @@
 				5AA008911C270B4500E20B1F /* Roboto-MediumItalic.ttf in Resources */,
 				5AA008B31C270C7A00E20B1F /* vietnam1@2x.png in Resources */,
 				5AC106EA1C2CF475001A5A29 /* Home.storyboard in Resources */,
+				5A9227B51C39780A00455B10 /* ZCCPlacesTableViewCell.xib in Resources */,
 				5A3C8ED81C368963009F43EB /* ZCCPickCityTableViewCell.xib in Resources */,
 				5A83311D1C304A1F00C5F2C8 /* SVProgressHUD.bundle in Resources */,
 				5A92278B1C3800F100455B10 /* ProfileFieldCell.xib in Resources */,
@@ -1583,8 +1660,10 @@
 			files = (
 				5A9227691C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC107F71C2D56D3001A5A29 /* NSPredicateExtension.swift in Sources */,
+				5A277B5C1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */,
 				5AC108441C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
 				5A92277B1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
+				5A9227B01C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */,
 				5AC108591C2D62BA001A5A29 /* UIView+WebCacheOperation.m in Sources */,
 				5AC1082C1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
 				5A9227711C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
@@ -1596,6 +1675,7 @@
 				5A2F234D1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5A2F23591C3525A700731A56 /* DropDownCell.swift in Sources */,
 				5ADAFEB51C2C5A0500AC88BB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5A9227A51C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */,
 				5A9227761C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5AC107FA1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
 				5ADAFEB31C2C5A0500AC88BB /* TPKeyboardAvoidingScrollView.m in Sources */,
@@ -1603,6 +1683,7 @@
 				5AC1082F1C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5A2F236E1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5AC1084A1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
+				5A277B641C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 				5A92276D1C37F70000455B10 /* Profile.swift in Sources */,
 				5AC107361C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC1083B1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
@@ -1628,6 +1709,8 @@
 				5AC1083E1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
 				5ADAFE411C2BE97900AC88BB /* ZCCTextField.swift in Sources */,
 				5ADAFE3B1C2BD8FD00AC88BB /* ZCCLoginViewController.swift in Sources */,
+				5A277B5F1C397DAA009FD10A /* ParseObject.swift in Sources */,
+				5A277B671C397DC6009FD10A /* Places.swift in Sources */,
 				5A2F23721C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC107111C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107F41C2D56D3001A5A29 /* NSManagedObjectExtension.swift in Sources */,
@@ -1667,6 +1750,7 @@
 				5AC107FE1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5A2F23631C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073C1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
+				5A9227B11C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */,
 				5A92277C1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
 				5A8331191C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070C1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
@@ -1681,6 +1765,7 @@
 				5AA008BC1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5A52F2621C37060500F0C92C /* ZCCMoneySliderTableViewCell.swift in Sources */,
 				5AA0082D1C26C7C600E20B1F /* VietNamToGoTests.swift in Sources */,
+				5A277B5D1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */,
 				5A92276A1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC108571C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108511C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
@@ -1688,6 +1773,7 @@
 				5AC108331C2D62BA001A5A29 /* SDImageCache.m in Sources */,
 				5A9227771C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5ADAFE5C1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
+				5A9227A61C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */,
 				5AC1084E1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC1083F1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
 				5A2F235A1C3525A700731A56 /* DropDownCell.swift in Sources */,
@@ -1701,11 +1787,13 @@
 				5AC108301C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5AC107121C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107371C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
+				5A277B681C397DC6009FD10A /* Places.swift in Sources */,
 				5AC106E41C2C82C5001A5A29 /* ZCCHelper.swift in Sources */,
 				5A2F23481C35259A00731A56 /* DPDConstants.swift in Sources */,
 				5AC108391C2D62BA001A5A29 /* SDWebImageDecoder.m in Sources */,
 				5ADAFEDC1C2C64DA00AC88BB /* ZCCImageCircle.swift in Sources */,
 				5AC107291C2D0B7D001A5A29 /* UIColorHelper.swift in Sources */,
+				5A277B601C397DAA009FD10A /* ParseObject.swift in Sources */,
 				5A2F23571C3525A700731A56 /* DropDown.swift in Sources */,
 				5ADAFE561C2C126400AC88BB /* ZCCLoginViewController.swift in Sources */,
 				5AC1071B1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
@@ -1723,6 +1811,7 @@
 				5A8331221C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */,
 				5A52F2691C37115A00F0C92C /* NumberExtension.swift in Sources */,
 				5A3C8ECE1C3688DB009F43EB /* ZCCMakeTripStepOneViewController.swift in Sources */,
+				5A277B651C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1738,6 +1827,7 @@
 				5AC107FF1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5A2F23641C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073D1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
+				5A9227B21C39780A00455B10 /* ZCCPlacesTableViewCell.swift in Sources */,
 				5A92277D1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
 				5A83311A1C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070D1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
@@ -1752,6 +1842,7 @@
 				5AA008BD1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5A52F2631C37060500F0C92C /* ZCCMoneySliderTableViewCell.swift in Sources */,
 				5AA008381C26C7C600E20B1F /* VietNamToGoUITests.swift in Sources */,
+				5A277B5E1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift in Sources */,
 				5A92276B1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC108581C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108521C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
@@ -1759,6 +1850,7 @@
 				5AC108341C2D62BA001A5A29 /* SDImageCache.m in Sources */,
 				5A9227781C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5ADAFE5D1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
+				5A9227A71C394DEC00455B10 /* ZCCPlacesViewController.swift in Sources */,
 				5AC1084F1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC108401C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
 				5A2F235B1C3525A700731A56 /* DropDownCell.swift in Sources */,
@@ -1772,11 +1864,13 @@
 				5AC108311C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5AC107131C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				5AC107381C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
+				5A277B691C397DC6009FD10A /* Places.swift in Sources */,
 				5AC106E51C2C82C5001A5A29 /* ZCCHelper.swift in Sources */,
 				5A2F23491C35259A00731A56 /* DPDConstants.swift in Sources */,
 				5AC1083A1C2D62BA001A5A29 /* SDWebImageDecoder.m in Sources */,
 				5ADAFEDD1C2C64DA00AC88BB /* ZCCImageCircle.swift in Sources */,
 				5AC1072A1C2D0B7D001A5A29 /* UIColorHelper.swift in Sources */,
+				5A277B611C397DAA009FD10A /* ParseObject.swift in Sources */,
 				5A2F23581C3525A700731A56 /* DropDown.swift in Sources */,
 				5ADAFE571C2C126400AC88BB /* ZCCLoginViewController.swift in Sources */,
 				5AC1071C1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
@@ -1794,6 +1888,7 @@
 				5A8331231C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */,
 				5A52F26A1C37115A00F0C92C /* NumberExtension.swift in Sources */,
 				5A3C8ECF1C3688DB009F43EB /* ZCCMakeTripStepOneViewController.swift in Sources */,
+				5A277B661C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2021,9 +2116,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.VietNamToGoUITests;
 				PRODUCT_NAME = FUOTTests;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VietNamToGo/TPKeyboardAvoiding/VietNamToGoUITests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TEST_TARGET_NAME = VietNamToGo;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -2040,8 +2135,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoomcancode.VietNamToGoUITests;
 				PRODUCT_NAME = FUOTTests;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VietNamToGo/TPKeyboardAvoiding/VietNamToGoUITests-Bridging-Header.h";
-				TEST_TARGET_NAME = VietNamToGo;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

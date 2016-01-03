@@ -249,7 +249,7 @@ class ZCCMakeTripStepOneViewController: ZCCViewController,ZCCCititesViewControll
         return footer
     }
     
-    /* Cities Delegate */
+    // MARK: Cities Delegate
     func pickCity(city:City){
         self.cityPicked = city
         
