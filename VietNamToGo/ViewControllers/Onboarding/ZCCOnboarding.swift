@@ -63,12 +63,12 @@ class ZCCOnboarding: ZCCViewController {
     }
     
     func loadData(){
-        self.showProgres(0,status: "Cập nhật dữ liệu")
+        self.showProgres(0,status: "Updating data")
         /* get Cities and Types */
         CityType.syncCityTypeWithParse { () -> Void in
-            self.showProgres(0.5,status: "Xin vui lòng đợi trong giây lát")
+            self.showProgres(0.5,status: "Please wait...")
             City.syncCityWithParse(){
-                self.showProgres(1,status: "Hoàn thành !")
+                self.showProgres(1,status: "Finish !")
                 self.hideHUDProgressAfter(0.5)
             }
         }

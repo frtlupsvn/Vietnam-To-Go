@@ -54,7 +54,7 @@
         <!--Item-->
         <scene sceneID="mp2-se-GO2">
             <objects>
-                <navigationController id="ZeH-LJ-ycn" sceneMemberID="viewController">
+                <navigationController id="ZeH-LJ-ycn" customClass="ZCCNaviViewController" customModule="Fuot" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Mrl-pe-rcS"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -85,7 +85,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KVb-nG-F43"/>
+                    <navigationItem key="navigationItem" id="KVb-nG-F43">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="R5c-dd-PzG">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFa-k3-eGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

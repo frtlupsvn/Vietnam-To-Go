@@ -8,18 +8,94 @@
 
 import UIKit
 import Former
+import Parse
+import ParseFacebookUtilsV4
 
 final class ZCCEditProfileViewController: ZCCViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
-        configure()
+        loadingProfileCurentUser()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    private func loadingProfileCurentUser(){
+        showHUDProgress()
+        
+        if ((PFUser.currentUser()) == nil){
+            /* back to login page */
+            
+        }else {
+            let currentUser = PFUser.currentUser()
+            
+            /* avatar */
+            if let imageFile = currentUser?.objectForKey("facebookProfilePicture"){
+                let imageURL = NSURL(string: imageFile.url!!)
+                let imageData = NSData(contentsOfURL: imageURL!)
+                if (imageData != nil){
+                    Profile.sharedInstance.image = UIImage(data: imageData!)
+                }
+            }else {
+                Profile.sharedInstance.image = UIImage(named: "default_avatar@2x.png")
+            }
+            
+            /* self-introduction */
+            if let introduction = currentUser?.objectForKey("introduction") {
+                Profile.sharedInstance.introduction = introduction as? String
+            }
+            
+            /* Name */
+            if let usernameString = currentUser?.objectForKey("fullname"){
+                Profile.sharedInstance.name = usernameString as? String
+                
+            }
+            
+            /* Gender */
+            if let gender = currentUser?.objectForKey("gender"){
+                Profile.sharedInstance.gender = gender as? String
+                
+            }
+            
+            /* birthday */
+            if let birthday = currentUser?.objectForKey("dateofbirth"){
+                Profile.sharedInstance.birthDay = birthday as? NSDate
+                
+            }
+            
+            /* nickname */
+            if let nickname = currentUser?.objectForKey("nickname"){
+                Profile.sharedInstance.nickname = nickname as? String
+                
+            }
+            
+            /* country */
+            if let country = currentUser?.objectForKey("nationality"){
+                Profile.sharedInstance.nationality = country as? String
+                
+            }
+            
+            /* phone */
+            if let phone = currentUser?.objectForKey("phonenumber"){
+                Profile.sharedInstance.phoneNumber = phone as? String
+                
+            }
+            
+            /* job */
+            if let job = currentUser?.objectForKey("job"){
+                Profile.sharedInstance.job = job as? String
+                
+            }
+            
+            
+        }
+        hideHUDProgress()
+        
+        setup()
+        configure()
     }
     
     internal let tableView: UITableView = {
@@ -43,7 +119,7 @@ final class ZCCEditProfileViewController: ZCCViewController {
             $0.iconView.image = Profile.sharedInstance.image
             }.configure {
                 $0.text = "Choose profile image from library"
-                $0.rowHeight = 120
+                $0.rowHeight = 200
             }.onSelected { [weak self] _ in
                 self?.former.deselect(true)
                 self?.presentImagePicker()
@@ -61,13 +137,13 @@ final class ZCCEditProfileViewController: ZCCViewController {
                 Profile.sharedInstance.nickname = $0
         }
         let locationRow = TextFieldRowFormer<ProfileFieldCell>(instantiateType: .Nib(nibName: "ProfileFieldCell")) { [weak self] in
-            $0.titleLabel.text = "Location"
+            $0.titleLabel.text = "Country"
             $0.textField.inputAccessoryView = self?.formerInputAccessoryView
             }.configure {
-                $0.placeholder = "Add your location"
-                $0.text = Profile.sharedInstance.location
+                $0.placeholder = "Add your country"
+                $0.text = Profile.sharedInstance.nationality
             }.onTextChanged {
-                Profile.sharedInstance.location = $0
+                Profile.sharedInstance.nationality = $0
         }
         let phoneRow = TextFieldRowFormer<ProfileFieldCell>(instantiateType: .Nib(nibName: "ProfileFieldCell")) { [weak self] in
             $0.titleLabel.text = "Phone"
@@ -90,12 +166,12 @@ final class ZCCEditProfileViewController: ZCCViewController {
         }
         return SectionFormer(rowFormer: nicknameRow, locationRow, phoneRow, jobRow)
     }()
-
+    
     
     private func configure() {
         title = "Edit Profile"
-        tableView.contentInset.top = 40
-        tableView.contentInset.bottom = 40
+        tableView.contentInset.top = 0
+        tableView.contentInset.bottom = 0
         
         // Create RowFomers
         
@@ -168,7 +244,7 @@ final class ZCCEditProfileViewController: ZCCViewController {
         // Create SectionFormers
         
         let imageSection = SectionFormer(rowFormer: imageRow)
-            .set(headerViewFormer: createHeader("Profile Image"))
+            .set(headerViewFormer: nil)
         let introductionSection = SectionFormer(rowFormer: introductionRow)
             .set(headerViewFormer: createHeader("Introduction"))
         let aboutSection = SectionFormer(rowFormer: nameRow, genderRow, birthdayRow)

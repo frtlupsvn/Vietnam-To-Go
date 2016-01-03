@@ -32,7 +32,7 @@ class CityType: NSManagedObject {
             
             if error == nil {
                 // The find succeeded.
-                print("Successfully retrieved \(objects!.count) scores.")
+                print("Successfully retrieved \(objects!.count) categories.")
                 // Do something with the found objects
                 if let objects = objects {
                     for object in objects {
