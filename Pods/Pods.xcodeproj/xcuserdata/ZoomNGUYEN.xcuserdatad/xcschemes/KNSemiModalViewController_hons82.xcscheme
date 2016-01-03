@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "415ABFA7BB2842E31C36F188"
+               BlueprintIdentifier = "64A17607A83523F7AB863FC4"
                BuildableName = "KNSemiModalViewController_hons82.framework"
                BlueprintName = "KNSemiModalViewController_hons82"
                ReferencedContainer = "container:Pods.xcodeproj">

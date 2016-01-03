@@ -53,6 +53,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods/EZSwiftExtensions.framework'
+  install_framework 'Pods/Former.framework'
   install_framework 'Pods/KNSemiModalViewController_hons82.framework'
   install_framework 'Pods/PullToMakeFlight.framework'
   install_framework 'Pods/PullToRefresh.framework'
@@ -61,6 +62,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods/EZSwiftExtensions.framework'
+  install_framework 'Pods/Former.framework'
   install_framework 'Pods/KNSemiModalViewController_hons82.framework'
   install_framework 'Pods/PullToMakeFlight.framework'
   install_framework 'Pods/PullToRefresh.framework'

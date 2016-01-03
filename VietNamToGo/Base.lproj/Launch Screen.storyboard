@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuot.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vn-v0-cl0">
-                                <rect key="frame" x="67" y="270" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuot.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vn-v0-cl0">
+                                <rect key="frame" x="87" y="234" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="d8V-aP-x5J"/>
-                                    <constraint firstAttribute="width" constant="240" id="uWb-Jo-3dt"/>
+                                    <constraint firstAttribute="height" constant="200" id="d8V-aP-x5J"/>
+                                    <constraint firstAttribute="width" constant="200" id="uWb-Jo-3dt"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fuot.png" width="1325" height="1325"/>
+        <image name="fuot.png" width="250" height="250"/>
     </resources>
 </document>

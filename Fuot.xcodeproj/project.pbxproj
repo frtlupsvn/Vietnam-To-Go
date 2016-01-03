@@ -86,6 +86,39 @@
 		5A8331211C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */; };
 		5A8331221C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */; };
 		5A8331231C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */; };
+		5A9227641C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */; };
+		5A9227651C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */; };
+		5A9227661C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */; };
+		5A9227691C37F6E400455B10 /* ProfileFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227681C37F6E400455B10 /* ProfileFieldCell.swift */; };
+		5A92276A1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227681C37F6E400455B10 /* ProfileFieldCell.swift */; };
+		5A92276B1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227681C37F6E400455B10 /* ProfileFieldCell.swift */; };
+		5A92276D1C37F70000455B10 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92276C1C37F70000455B10 /* Profile.swift */; };
+		5A92276E1C37F70000455B10 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92276C1C37F70000455B10 /* Profile.swift */; };
+		5A92276F1C37F70000455B10 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92276C1C37F70000455B10 /* Profile.swift */; };
+		5A9227711C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227701C37F71600455B10 /* FormerInputAccessoryView.swift */; };
+		5A9227721C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227701C37F71600455B10 /* FormerInputAccessoryView.swift */; };
+		5A9227731C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227701C37F71600455B10 /* FormerInputAccessoryView.swift */; };
+		5A9227761C37F74F00455B10 /* ProfileLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227751C37F74F00455B10 /* ProfileLabelCell.swift */; };
+		5A9227771C37F74F00455B10 /* ProfileLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227751C37F74F00455B10 /* ProfileLabelCell.swift */; };
+		5A9227781C37F74F00455B10 /* ProfileLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227751C37F74F00455B10 /* ProfileLabelCell.swift */; };
+		5A92277B1C37F77E00455B10 /* String+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227791C37F77E00455B10 /* String+FormerDemo.swift */; };
+		5A92277C1C37F77E00455B10 /* String+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227791C37F77E00455B10 /* String+FormerDemo.swift */; };
+		5A92277D1C37F77E00455B10 /* String+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227791C37F77E00455B10 /* String+FormerDemo.swift */; };
+		5A92277E1C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92277A1C37F77E00455B10 /* UIColor+FormerDemo.swift */; };
+		5A92277F1C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92277A1C37F77E00455B10 /* UIColor+FormerDemo.swift */; };
+		5A9227801C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A92277A1C37F77E00455B10 /* UIColor+FormerDemo.swift */; };
+		5A9227821C37F7DB00455B10 /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227811C37F7DB00455B10 /* ProfileImageCell.swift */; };
+		5A9227831C37F7DB00455B10 /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227811C37F7DB00455B10 /* ProfileImageCell.swift */; };
+		5A9227841C37F7DB00455B10 /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9227811C37F7DB00455B10 /* ProfileImageCell.swift */; };
+		5A9227891C3800F100455B10 /* ProfileFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227851C3800F100455B10 /* ProfileFieldCell.xib */; };
+		5A92278A1C3800F100455B10 /* ProfileFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227851C3800F100455B10 /* ProfileFieldCell.xib */; };
+		5A92278B1C3800F100455B10 /* ProfileFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227851C3800F100455B10 /* ProfileFieldCell.xib */; };
+		5A92278C1C3800F100455B10 /* ProfileImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227861C3800F100455B10 /* ProfileImageCell.xib */; };
+		5A92278D1C3800F100455B10 /* ProfileImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227861C3800F100455B10 /* ProfileImageCell.xib */; };
+		5A92278E1C3800F100455B10 /* ProfileImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227861C3800F100455B10 /* ProfileImageCell.xib */; };
+		5A92278F1C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
+		5A9227901C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
+		5A9227911C3800F100455B10 /* ProfileLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9227871C3800F100455B10 /* ProfileLabelCell.xib */; };
 		5AA008151C26C7C600E20B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA008141C26C7C600E20B1F /* AppDelegate.swift */; };
 		5AA0081D1C26C7C600E20B1F /* Fuot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */; };
 		5AA0081F1C26C7C600E20B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA0081E1C26C7C600E20B1F /* Assets.xcassets */; };
@@ -376,6 +409,17 @@
 		5A8331151C304A1F00C5F2C8 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		5A8331161C304A1F00C5F2C8 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		5A8331171C304A1F00C5F2C8 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZCCEditProfileViewController.swift; path = ViewControllers/EditProfile/ZCCEditProfileViewController.swift; sourceTree = "<group>"; };
+		5A9227681C37F6E400455B10 /* ProfileFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileFieldCell.swift; sourceTree = "<group>"; };
+		5A92276C1C37F70000455B10 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5A9227701C37F71600455B10 /* FormerInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormerInputAccessoryView.swift; sourceTree = "<group>"; };
+		5A9227751C37F74F00455B10 /* ProfileLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLabelCell.swift; sourceTree = "<group>"; };
+		5A9227791C37F77E00455B10 /* String+FormerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FormerDemo.swift"; sourceTree = "<group>"; };
+		5A92277A1C37F77E00455B10 /* UIColor+FormerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+FormerDemo.swift"; sourceTree = "<group>"; };
+		5A9227811C37F7DB00455B10 /* ProfileImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageCell.swift; sourceTree = "<group>"; };
+		5A9227851C3800F100455B10 /* ProfileFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileFieldCell.xib; sourceTree = "<group>"; };
+		5A9227861C3800F100455B10 /* ProfileImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileImageCell.xib; sourceTree = "<group>"; };
+		5A9227871C3800F100455B10 /* ProfileLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileLabelCell.xib; sourceTree = "<group>"; };
 		5AA008111C26C7C600E20B1F /* Fuot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA008141C26C7C600E20B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA0081C1C26C7C600E20B1F /* Fuot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fuot.xcdatamodel; sourceTree = "<group>"; };
@@ -630,6 +674,45 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		5A9227621C37F48500455B10 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				5A9227741C37F73700455B10 /* Cells */,
+				5A9227671C37F6CD00455B10 /* Views */,
+				5A92276C1C37F70000455B10 /* Profile.swift */,
+				5A9227631C37F4B200455B10 /* ZCCEditProfileViewController.swift */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		5A9227671C37F6CD00455B10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A9227701C37F71600455B10 /* FormerInputAccessoryView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5A9227741C37F73700455B10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A9227851C3800F100455B10 /* ProfileFieldCell.xib */,
+				5A9227861C3800F100455B10 /* ProfileImageCell.xib */,
+				5A9227871C3800F100455B10 /* ProfileLabelCell.xib */,
+				5A9227811C37F7DB00455B10 /* ProfileImageCell.swift */,
+				5A9227751C37F74F00455B10 /* ProfileLabelCell.swift */,
+				5A9227681C37F6E400455B10 /* ProfileFieldCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		5A9227951C38EC5B00455B10 /* Languges */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Languges;
+			sourceTree = "<group>";
+		};
 		5AA008081C26C7C600E20B1F = {
 			isa = PBXGroup;
 			children = (
@@ -655,6 +738,7 @@
 		5AA008131C26C7C600E20B1F /* VietNamToGo */ = {
 			isa = PBXGroup;
 			children = (
+				5A9227951C38EC5B00455B10 /* Languges */,
 				5AC107411C2D54A4001A5A29 /* Models */,
 				5AC107221C2D0B28001A5A29 /* Helpers */,
 				5ADAFECA1C2C5A8100AC88BB /* Frameworks */,
@@ -662,7 +746,7 @@
 				5AA008AE1C270C6000E20B1F /* Images */,
 				5AA008641C270B2B00E20B1F /* Resources */,
 				5AA008521C26DE4100E20B1F /* Libs */,
-				5AA008461C26C80400E20B1F /* ViewControllers */,
+				5AA008461C26C80400E20B1F /* Controllers */,
 				5AA008451C26C7FD00E20B1F /* Storyboards */,
 				5AA008B61C270DCB00E20B1F /* ZCCViewController.swift */,
 				5AA008141C26C7C600E20B1F /* AppDelegate.swift */,
@@ -702,14 +786,15 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		5AA008461C26C80400E20B1F /* ViewControllers */ = {
+		5AA008461C26C80400E20B1F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5A9227621C37F48500455B10 /* EditProfile */,
 				5A3C8ECB1C3688A8009F43EB /* MakeATrip */,
 				5AC107341C2D1618001A5A29 /* CitiesViewController */,
 				5ADAFE581C2C135A00AC88BB /* Authentication */,
 			);
-			name = ViewControllers;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		5AA008521C26DE4100E20B1F /* Libs */ = {
@@ -951,6 +1036,8 @@
 		5AC107221C2D0B28001A5A29 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5A9227791C37F77E00455B10 /* String+FormerDemo.swift */,
+				5A92277A1C37F77E00455B10 /* UIColor+FormerDemo.swift */,
 				5AC106E21C2C82C5001A5A29 /* ZCCHelper.swift */,
 				5AC107271C2D0B7D001A5A29 /* UIColorHelper.swift */,
 			);
@@ -1296,10 +1383,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A83311B1C304A1F00C5F2C8 /* SVProgressHUD.bundle in Resources */,
+				5A92278C1C3800F100455B10 /* ProfileImageCell.xib in Resources */,
+				5A92278F1C3800F100455B10 /* ProfileLabelCell.xib in Resources */,
 				5AA008981C270B4500E20B1F /* Roboto-ThinItalic.ttf in Resources */,
 				5AA008951C270B4500E20B1F /* Roboto-Thin.ttf in Resources */,
 				5A83310C1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */,
 				5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */,
+				5A9227891C3800F100455B10 /* ProfileFieldCell.xib in Resources */,
 				5AA008A71C270B4500E20B1F /* RobotoCondensed-LightItalic.ttf in Resources */,
 				5ADAFE341C2BD21C00AC88BB /* vietnam3@2x.png in Resources */,
 				5AA008491C26C85500E20B1F /* Onboarding.storyboard in Resources */,
@@ -1358,7 +1448,9 @@
 				5ADAFE641C2C4F9D00AC88BB /* vietnam4@2x.png in Resources */,
 				5AA0089F1C270B4500E20B1F /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				5AA0089C1C270B4500E20B1F /* RobotoCondensed-Bold.ttf in Resources */,
+				5A92278D1C3800F100455B10 /* ProfileImageCell.xib in Resources */,
 				5AA008931C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
+				5A9227901C3800F100455B10 /* ProfileLabelCell.xib in Resources */,
 				5ADAFE611C2C4F9D00AC88BB /* vietnam5@2x.png in Resources */,
 				5AA008A51C270B4500E20B1F /* RobotoCondensed-Light.ttf in Resources */,
 				5AA0088A1C270B4500E20B1F /* Roboto-LightItalic.ttf in Resources */,
@@ -1378,6 +1470,7 @@
 				5AC106E91C2CF475001A5A29 /* Home.storyboard in Resources */,
 				5A3C8ED71C368963009F43EB /* ZCCPickCityTableViewCell.xib in Resources */,
 				5A83311C1C304A1F00C5F2C8 /* SVProgressHUD.bundle in Resources */,
+				5A92278A1C3800F100455B10 /* ProfileFieldCell.xib in Resources */,
 				5A83310D1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */,
 				5AA008961C270B4500E20B1F /* Roboto-Thin.ttf in Resources */,
 				5AA008AB1C270B4500E20B1F /* RobotoCondensed-Regular.ttf in Resources */,
@@ -1402,7 +1495,9 @@
 				5ADAFE651C2C4F9D00AC88BB /* vietnam4@2x.png in Resources */,
 				5AA008A01C270B4500E20B1F /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				5AA0089D1C270B4500E20B1F /* RobotoCondensed-Bold.ttf in Resources */,
+				5A92278E1C3800F100455B10 /* ProfileImageCell.xib in Resources */,
 				5AA008941C270B4500E20B1F /* Roboto-Regular.ttf in Resources */,
+				5A9227911C3800F100455B10 /* ProfileLabelCell.xib in Resources */,
 				5ADAFE621C2C4F9D00AC88BB /* vietnam5@2x.png in Resources */,
 				5AA008A61C270B4500E20B1F /* RobotoCondensed-Light.ttf in Resources */,
 				5AA0088B1C270B4500E20B1F /* Roboto-LightItalic.ttf in Resources */,
@@ -1422,6 +1517,7 @@
 				5AC106EA1C2CF475001A5A29 /* Home.storyboard in Resources */,
 				5A3C8ED81C368963009F43EB /* ZCCPickCityTableViewCell.xib in Resources */,
 				5A83311D1C304A1F00C5F2C8 /* SVProgressHUD.bundle in Resources */,
+				5A92278B1C3800F100455B10 /* ProfileFieldCell.xib in Resources */,
 				5A83310E1C30497D00C5F2C8 /* Launch Screen.storyboard in Resources */,
 				5AA008971C270B4500E20B1F /* Roboto-Thin.ttf in Resources */,
 				5AA008AC1C270B4500E20B1F /* RobotoCondensed-Regular.ttf in Resources */,
@@ -1485,10 +1581,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9227691C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC107F71C2D56D3001A5A29 /* NSPredicateExtension.swift in Sources */,
 				5AC108441C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
+				5A92277B1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
 				5AC108591C2D62BA001A5A29 /* UIView+WebCacheOperation.m in Sources */,
 				5AC1082C1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
+				5A9227711C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
 				5ADAFE381C2BD6ED00AC88BB /* ZCCButton.swift in Sources */,
 				5AC1073B1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
 				5AC107F11C2D56D3001A5A29 /* NSFetchedResultsControllerExtension.swift in Sources */,
@@ -1497,12 +1596,14 @@
 				5A2F234D1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5A2F23591C3525A700731A56 /* DropDownCell.swift in Sources */,
 				5ADAFEB51C2C5A0500AC88BB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5A9227761C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5AC107FA1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
 				5ADAFEB31C2C5A0500AC88BB /* TPKeyboardAvoidingScrollView.m in Sources */,
 				5ADAFEB21C2C5A0500AC88BB /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				5AC1082F1C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5A2F236E1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5AC1084A1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
+				5A92276D1C37F70000455B10 /* Profile.swift in Sources */,
 				5AC107361C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC1083B1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
 				5AC108351C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
@@ -1542,12 +1643,15 @@
 				5AC108321C2D62BA001A5A29 /* SDImageCache.m in Sources */,
 				5ADAFE5B1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
 				5AA008151C26C7C600E20B1F /* AppDelegate.swift in Sources */,
+				5A9227821C37F7DB00455B10 /* ProfileImageCell.swift in Sources */,
 				5A8331211C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */,
 				5AC107FD1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5AC1070E1C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				5A92277E1C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */,
 				5AC108561C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5A2F23621C3538F800731A56 /* CityType.swift in Sources */,
 				5AC108501C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
+				5A9227641C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1558,10 +1662,12 @@
 				5AC107181C2CF4FB001A5A29 /* YALFoldingTabBarController.m in Sources */,
 				5AC108481C2D62BA001A5A29 /* UIButton+WebCache.m in Sources */,
 				5AC108421C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
+				5A9227651C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */,
 				5A2F234E1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5AC107FE1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5A2F23631C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073C1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
+				5A92277C1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
 				5A8331191C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070C1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
 				5AC1083C1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
@@ -1569,15 +1675,18 @@
 				5AC1070F1C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				5A83311F1C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
 				5AC107FB1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
+				5A9227721C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
 				5AC107F81C2D56D3001A5A29 /* NSPredicateExtension.swift in Sources */,
 				5AC1085A1C2D62BA001A5A29 /* UIView+WebCacheOperation.m in Sources */,
 				5AA008BC1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5A52F2621C37060500F0C92C /* ZCCMoneySliderTableViewCell.swift in Sources */,
 				5AA0082D1C26C7C600E20B1F /* VietNamToGoTests.swift in Sources */,
+				5A92276A1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC108571C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108511C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
 				5A2F23731C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC108331C2D62BA001A5A29 /* SDImageCache.m in Sources */,
+				5A9227771C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5ADAFE5C1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
 				5AC1084E1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC1083F1C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1587,6 +1696,7 @@
 				5AA008B81C270DCB00E20B1F /* ZCCViewController.swift in Sources */,
 				5AC1071E1C2CF4FB001A5A29 /* YALFoldingTabBar.m in Sources */,
 				5AC108071C2D573C001A5A29 /* City.swift in Sources */,
+				5A9227831C37F7DB00455B10 /* ProfileImageCell.swift in Sources */,
 				5AC107F51C2D56D3001A5A29 /* NSManagedObjectExtension.swift in Sources */,
 				5AC108301C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5AC107121C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
@@ -1601,7 +1711,9 @@
 				5AC1071B1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
 				5A2F236F1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5A2F234B1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
+				5A92277F1C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */,
 				5ABBFEC31C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
+				5A92276E1C37F70000455B10 /* Profile.swift in Sources */,
 				5A3C8ED41C368963009F43EB /* ZCCPickCityTableViewCell.swift in Sources */,
 				5AC108451C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
 				5AC1082D1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
@@ -1621,10 +1733,12 @@
 				5AC107191C2CF4FB001A5A29 /* YALFoldingTabBarController.m in Sources */,
 				5AC108491C2D62BA001A5A29 /* UIButton+WebCache.m in Sources */,
 				5AC108431C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
+				5A9227661C37F4B200455B10 /* ZCCEditProfileViewController.swift in Sources */,
 				5A2F234F1C35259A00731A56 /* DPDUIView+Extension.swift in Sources */,
 				5AC107FF1C2D56D3001A5A29 /* SuperFetchedResultsControllerDelegate.swift in Sources */,
 				5A2F23641C3538F800731A56 /* CityType.swift in Sources */,
 				5AC1073D1C2D2893001A5A29 /* ZCCCityTableViewCell.swift in Sources */,
+				5A92277D1C37F77E00455B10 /* String+FormerDemo.swift in Sources */,
 				5A83311A1C304A1F00C5F2C8 /* SVIndefiniteAnimatedView.m in Sources */,
 				5AC1070D1C2CF4FB001A5A29 /* YALSpringAnimation.m in Sources */,
 				5AC1083D1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
@@ -1632,15 +1746,18 @@
 				5AC107101C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				5A8331201C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
 				5AC107FC1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
+				5A9227731C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
 				5AC107F91C2D56D3001A5A29 /* NSPredicateExtension.swift in Sources */,
 				5AC1085B1C2D62BA001A5A29 /* UIView+WebCacheOperation.m in Sources */,
 				5AA008BD1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
 				5A52F2631C37060500F0C92C /* ZCCMoneySliderTableViewCell.swift in Sources */,
 				5AA008381C26C7C600E20B1F /* VietNamToGoUITests.swift in Sources */,
+				5A92276B1C37F6E400455B10 /* ProfileFieldCell.swift in Sources */,
 				5AC108581C2D62BA001A5A29 /* UIImageView+WebCache.m in Sources */,
 				5AC108521C2D62BA001A5A29 /* UIImage+WebP.m in Sources */,
 				5A2F23741C353BA900731A56 /* CityType+CoreDataProperties.swift in Sources */,
 				5AC108341C2D62BA001A5A29 /* SDImageCache.m in Sources */,
+				5A9227781C37F74F00455B10 /* ProfileLabelCell.swift in Sources */,
 				5ADAFE5D1C2C138E00AC88BB /* ZCCRegisterViewController.swift in Sources */,
 				5AC1084F1C2D62BA001A5A29 /* UIImage+MultiFormat.m in Sources */,
 				5AC108401C2D62BA001A5A29 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1650,6 +1767,7 @@
 				5AA008B91C270DCB00E20B1F /* ZCCViewController.swift in Sources */,
 				5AC1071F1C2CF4FB001A5A29 /* YALFoldingTabBar.m in Sources */,
 				5AC108081C2D573C001A5A29 /* City.swift in Sources */,
+				5A9227841C37F7DB00455B10 /* ProfileImageCell.swift in Sources */,
 				5AC107F61C2D56D3001A5A29 /* NSManagedObjectExtension.swift in Sources */,
 				5AC108311C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5AC107131C2CF4FB001A5A29 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
@@ -1664,7 +1782,9 @@
 				5AC1071C1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
 				5A2F23701C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5A2F234C1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
+				5A9227801C37F77E00455B10 /* UIColor+FormerDemo.swift in Sources */,
 				5ABBFEC41C2FE52B0096AD2C /* ZCCNaviViewController.swift in Sources */,
+				5A92276F1C37F70000455B10 /* Profile.swift in Sources */,
 				5A3C8ED51C368963009F43EB /* ZCCPickCityTableViewCell.swift in Sources */,
 				5AC108461C2D62BA001A5A29 /* SDWebImagePrefetcher.m in Sources */,
 				5AC1082E1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,

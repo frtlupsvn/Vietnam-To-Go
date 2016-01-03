@@ -1,5 +1,6 @@
 PODS:
   - EZSwiftExtensions (1.0.2)
+  - Former (1.1.0)
   - KNSemiModalViewController_hons82 (0.4.4)
   - PullToMakeFlight (1.1):
     - PullToRefresher (~> 1.0)
@@ -10,12 +11,14 @@ PODS:
 
 DEPENDENCIES:
   - EZSwiftExtensions
+  - Former
   - PullToMakeFlight
   - THCalendarDatePicker
   - UNAlertView
 
 SPEC CHECKSUMS:
   EZSwiftExtensions: 31df4ec881d0653e3aa0a58229a46d4b5456dbb2
+  Former: 5b2ac5acdc8b059e1346d048c26a9d5dbd751c55
   KNSemiModalViewController_hons82: 22aead5ef5d8ca749bc1babb43fa7d6f14b030a3
   PullToMakeFlight: ca24fa0dc23b441e91e4928513f318710534341d
   PullToRefresher: e17cc032b48148824a77fbf4bce5beb81933071a

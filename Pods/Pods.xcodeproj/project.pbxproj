@@ -7,297 +7,407 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E901F4E191E02850930B17BA17D478 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7242361907F3C8B9AAD83DCA7F93FBC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		063C065120DB791571D21D1EC3734F90 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7F35443EE4A62DEE4652CA1ADA946 /* Pods-dummy.m */; };
+		069445EC1CE1D5E6F12A6B423D298F4D /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74307690EC7164CEC8F0AC55DA5CD /* BlockLongPress.swift */; };
 		0BDCD5277FB61A100B1505455E314519 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F862966BF9D397D1DCBDEB10DC17432 /* bg@3x.png */; };
+		0DA675319B6D54CCE3B8A7218D6750F7 /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFF644A1AE39AE91934DE3A1774690 /* BaseViewFormer.swift */; };
 		0DD3AFD4189A245437388931C7C4A2DD /* THDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C62D51CD746956BA0CB57F80EDF44 /* THDatePickerViewController.xib */; };
-		0E1FFD22BF03C708415CC4A8F1982C72 /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B8FE2162CF3761400D67FA6B32F21 /* BlockTap.swift */; };
-		104BAD2CFEEEDB618AF205D74D96479E /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925552D8E415142C5C956DC1899C633 /* UIViewController+KNSemiModal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		10E63626340D1964BA9BC428D8DF800B /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E58E59EA7304B4901DAA6DA00EA2A9 /* UIColorExtensions.swift */; };
+		0DE986CEE18F8ED5639771E5009084A1 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1D6AD4450AA2CAB0DA6E712A6C090 /* UIViewControllerExtensions.swift */; };
+		0EBD6CC7B8390081BF92EDE63CE674BD /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD99B25FC3A173F2E08238A5C0559E35 /* BlockWebView.swift */; };
+		0F306F153E1377BB532101611FCC0073 /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1457EB7D3224F3C50276E3BF1F17628D /* FormSegmentedCell.swift */; };
 		110FF7FB9F574A1D6B22DFFBCDEAED8C /* UIScrollView+PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1BA307818B4D1B18C171E4A491E58A /* UIScrollView+PullToRefresh.swift */; };
+		114F144FE3D003FAFE900780D04CEA76 /* KNSemiModalViewController_hons82-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 227F0F955E1F330F0687917768E2E50B /* KNSemiModalViewController_hons82-dummy.m */; };
+		13624792768B69D8CCF93E601FC88E98 /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D9C889ACD0A7D96E4A9A77D20F849 /* UITextViewExtensions.swift */; };
+		166BE816271A6E9E664760AEA5B992EE /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F6CD0DDC5D1D2C02EA07422413257 /* SegmentedRowFormer.swift */; };
 		16C69A164B91F1D578F7A1C7CA32D1B0 /* UNAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED389F8613A5BD9BAE0700D10D901CDA /* UNAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17679163AF6993F4DEB9B9282B679E0B /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09B2361E857FBF3BC6F0BCC727B4B2 /* BlockPinch.swift */; };
-		1C9E6F69C925E2253D40D6FB0CD1B875 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB099F87ED8C835273A6187932389A /* CGRectExtensions.swift */; };
-		1EB0544948336AA0C0BB0834E3C20612 /* BoolExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B995819D42B21B295D1CF9EDCAA93A7B /* BoolExtentions.swift */; };
-		1F5F52D82535D1E3776B17504361CB83 /* KNSemiModalViewController_hons82-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD515DE4FDA1D9871D8B8B43149B18 /* KNSemiModalViewController_hons82-dummy.m */; };
+		173DE7C756291C7554D2B8CD06C96B96 /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754D6132E320296679A088A35FDAC7FB /* UIDeviceExtensions.swift */; };
+		18176E15394055F77ADEED54FDD150F9 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AE276031B8315A5253CDFEF0E07F4 /* FormPickerCell.swift */; };
+		1CC0F6695D243B68FCBE36B465E0B084 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D34E01199BF30AF6C4EDB370DA23D /* UIColorExtensions.swift */; };
 		21031DF9DA62395AAC4CB774BAD9DD05 /* clouds_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E947A491A4B9D0075FA85D2AA4E533 /* clouds_right@2x.png */; };
+		21E798ECD167BD99CCF0E64AB0109039 /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820EABBCE3F4D0AB3BA38A93EFEF130 /* NSDateExtensions.swift */; };
+		2240BBC34DD3912C2E6121293B2062B1 /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9FDA272B6AAC52D5693A66B4F3E4B4 /* FormSelectorPickerCell.swift */; };
 		22781BA1CDD17EB0C9B717C8554AE9A3 /* clouds_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62FA3C60B0F0082B8BB78AA4620A848A /* clouds_right@3x.png */; };
-		2917405026D9691506CA1E431BD46F39 /* EZSwiftExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEF8EDB0507A8539DD79F1E901DE06 /* EZSwiftExtensions-dummy.m */; };
-		3112F07C0476AA8231B878282C493A0F /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460393BE6FEB06DB1680C881BCFFAE40 /* BlockLongPress.swift */; };
+		22AD3E3F448974806DEFFFDD109662B9 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A69F5678D2E8C5D1F70CD05F71190D /* Former.swift */; };
+		253A979CFC75F916A8CCEE9B984FB8F2 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76084A33A32A3727B5E1AE840D481616 /* DatePickerRowFormer.swift */; };
+		290F90FA191265A402AA80250A1DBBE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		2B3870263931202706D3C32D559C977E /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47BB3286B8A68AB70D699EFA2ECBD9D /* SliderRowFormer.swift */; };
+		30C374B0C78E299E6C2F94B63C7C6038 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87F6FE37C605377761133440EBE06A /* NSUserDefaultsExtension.swift */; };
 		315657BE2F22613CE1AC61F295FB3407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
-		31C75A678176265A26BD041B5BF7A3ED /* KNSemiModalViewController_hons82-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D078812464407812B2DCE19B1778EE3A /* KNSemiModalViewController_hons82-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34880F7386C913CE460A3B8EDB4E30DC /* NSObjectExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFB1BD086B835C66D7A08BD251EFAFE /* NSObjectExtentions.swift */; };
-		34E88B2DE4AE87AB0C226BFC17C4D813 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0F2867132A4261B96EAD9754B31801 /* QuartzCore.framework */; };
+		3179EFEACECD108AFF79DC2EF4DF990E /* UIViewController+KNSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF64EA212E9765246D643086DBEC75FD /* UIViewController+KNSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32ED6169C55E42D2C4E13055F2C5D652 /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC293C32A6EA4222EAC30FFE203921C5 /* InlineDatePickerRowFormer.swift */; };
+		34E88B2DE4AE87AB0C226BFC17C4D813 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FF987FEF7A69E9A9F854D8E309D0F4 /* QuartzCore.framework */; };
 		356858FF15021A50C500DB7A34BA50F0 /* clouds_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F3638CE4160D9A0769D417A0E018DF /* clouds_left@2x.png */; };
+		361D543927269073E7782A4C23D67D05 /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D66227184646D85699B650822EF1E7 /* FormLabelCell.swift */; };
+		39EFF8EFE9CEC6FB6A1F038B2C968990 /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B78AB5E1A0D8B7EDDFEC9D8479864D /* BlockTap.swift */; };
 		3A7C938982BFFCF4D95EDD6F761F7200 /* PullToMakeFlight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E156A97F423656BA16F3FD1B37682E72 /* PullToMakeFlight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C85B3B7D8646283AF251A5965E606C8 /* arrow_full@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C2A4BC66F2B7AEB437F138C263E5A49 /* arrow_full@3x.png */; };
+		3D5FE07779308886BE226D5E2BCEE29E /* KNSemiModalViewController_hons82-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6C97BD814D538D1544E21E96F189A2 /* KNSemiModalViewController_hons82-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCEB967F7D9A2E3FE0990514EFE684E /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5B749C2FF6017115118698369A9E6 /* UIFontExtensions.swift */; };
+		41EB3748CB939C11424DA8C817C09379 /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E341F94E238BEE05DCB5AD6F9E94573F /* BlockPan.swift */; };
+		42026941DDE8BC197BDE33F9F34A99D5 /* BoolExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CAEC3CA0B58094A0028100C110F6A /* BoolExtentions.swift */; };
+		43D93152BE3F510535D8E4253FB8F401 /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17F51C7BC0CE803C65682897250C79 /* TextFieldRowFormer.swift */; };
+		43FBC4D7C18CF022EE7124DEF592F2F7 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CE8D6744BD1264B83F47B5B83CB57D /* UIButtonExtensions.swift */; };
+		4403277DA3B6E5CB8B401922594CBEEC /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05A18FD7B372E963BA80519EC693EF /* UILabelExtensions.swift */; };
+		4520DE22C95247557171946E70A2B01E /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93759F9EAFD6A3BC012431AF71D20B6A /* UITableViewCell+Former.swift */; };
 		45964CD95E2FCC0BD477589A186CD385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
 		4A1B392F77CD5C27844255695DB94666 /* clouds_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 0207A62A5CC27EA9878E6B4FDEEF5583 /* clouds_right.png */; };
-		4E331A0B1608FC354689EC0F956888FB /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240B5BA6803EAD1D55EB7E7B2086381 /* BlockButton.swift */; };
+		4DDE4BD3B7C3A119051F7A3F5A798B1E /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F78FA693C07A3012BC7E7B636D7739 /* FormerProtocol.swift */; };
+		5014552AAE349D6ECC209A179923AA86 /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A0E6CCB01DF7A62F693A3FC30823EE /* BaseRowFormer.swift */; };
 		56CEC07B3CEBF4B61C3A1F009BE612C3 /* NSDate+Difference.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F653A80BE054C6F533604F66BCE755 /* NSDate+Difference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5703DAE40B50D540B370B2B53A7CE901 /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D027FDB894DB64565AC624E9FDBD /* SelectorDatePickerRowFormer.swift */; };
 		586AB8AB89F28A1F1F69310D8F4F1D7C /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E922AEB5BEF471D84D6B6B46B814ED1 /* bg@2x.png */; };
-		5949C3A08F19DD1D62CD344814E293C8 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ADC5CF06EF1D90CE5DD308D386A67F /* UIImageExtensions.swift */; };
-		5C7AAAD4745A966152DEBC9806D58214 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35451F63BBE8C35105CEC41E3058F48F /* UIImageViewExtensions.swift */; };
-		60EF68DD4FB91B6E51838AED13EFE4A9 /* EZSwiftExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D538CFE0FE51515AC21CB7CDC808C34 /* EZSwiftExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB3F2365A53DB68136FF78828D3908F /* EZSwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D2E5803DC941B810B9305C1A395AB /* EZSwiftExtensions.swift */; };
+		5F631F78E9C67C450BF2FB4BF335D1B9 /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AB2F709800070DEDBCF4598E2C278D /* PickerRowFormer.swift */; };
+		5F9BA6FA23CC6461A1AF1B77A0475D0E /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D7BD0F09ABF3F9332604D889AD0932 /* TextViewRowFormer.swift */; };
+		60F1A0DAA82CEF48E6AECAC6AB6B0551 /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AD49EBB518E78DA93C9B6F22FA775 /* RowFormer.swift */; };
 		615D7EB479455E213DA72F1C99B7DED0 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4810F2C526B896C73C261C6DA0CC193 /* arrow@3x.png */; };
 		6193F03E368BE6F74C150FFA210C654C /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BD16C887D94A36CEFEBB60EE677E2B9D /* arrow.png */; };
-		62286B894AE06A468DA9764FF5837856 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0F2867132A4261B96EAD9754B31801 /* QuartzCore.framework */; };
 		628C697330BF9CCB9B7FA4E6EA219E1D /* clouds_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0A914B436802301B96D9B6BB798F31 /* clouds_left.png */; };
-		65C8D29AF373C20CC6313B385C200473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
-		65CD5B0278580A6CD90D145AC0F0C222 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78EF1ECFF32CD99F186B0B6489C8E80 /* UIViewExtensions.swift */; };
 		660B60E91D51296BDE14F71E3BDCEB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
-		682EB938CFE9E8D32B5951B08D6BA1EA /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC66B52A4CC1A3FD4240E1B368B4AF4 /* UIFontExtensions.swift */; };
-		69B779634FE7339A63D7AA3EE1EA7F82 /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9183159312FF3BD7A6ADA77AB22A0 /* BlockSwipe.swift */; };
+		6911FF9391C68D5B72938749701E5BC0 /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EC1183171F59A3EC62E5BB0575688 /* FormSliderCell.swift */; };
+		698C036BCBED013F1E01E83060F0CD2E /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E8266FC4BD1CFCDC81F54B30AC49E8 /* Former-dummy.m */; };
+		6C96EAF423503FD005B3624EA6292505 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA811308C5F1FB5EDD431A5CE8846C41 /* UIViewExtensions.swift */; };
+		6D04C0B390F9E6F7474CF83DD6ADF83B /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230C14A6EFBCAB889B58852C79CEC91 /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E651D6FDD1CC785671507233FF84C5B /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE64C4AEF7BD7E76E3BCC67B22122 /* BlockSwipe.swift */; };
 		6FFCFECB6C8AE8A15F398F545CB8DC88 /* airplane@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55696B70A7547080A330337CF33BA662 /* airplane@3x.png */; };
 		7189A408117548E88C1D028D558AD853 /* PullToRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E61E69CFE22BFF378C7704BB4922CAE9 /* PullToRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		750B260EF5400E337494E2982A86D920 /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B425FB0461A41A9B5F3890AF5AE73F72 /* BlockPan.swift */; };
-		79596A52F3F2BFBF10CD71098E5FE1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		73C9E5681E50DA048E702123E4A2ABC1 /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CA6F7778B6BFCEA8341A6E6FABA0E /* InlinePickerRowFormer.swift */; };
+		746D3CF8B7E7CC6D20609D1BF4F27797 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A165B9834C67CF0AAF698141B01EC /* FormViewController.swift */; };
+		79EAD575E9EF4CB2A1619770239BDD66 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC4ADA4ED515ADF95BC265ED010636 /* CGRectExtensions.swift */; };
 		7A21566EE7E682C4043B6BB36497200F /* arrow_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3131D712004C6B08B3F9ADF35A3B0A2A /* arrow_full@2x.png */; };
+		7C6238D64EE0DDDDE4DE537049094DD1 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3585B0F8ECB587528664B70E1F39A6A7 /* UIImageExtensions.swift */; };
 		7D5463048B7CD835F74AF3A7E36F64C8 /* FlightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBD918DA22FB21E3BE7065637B6F374 /* FlightView.xib */; };
 		7DEAC3972E174F65965B767D3264E4EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6C81039E6BD15F7399AC341E60F890 /* CoreGraphics.framework */; };
+		7F3B4E0BD615AA1E972895BC76D4245E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		80BA581DA38AC3898329F21EF7A43275 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C502CD7A3F68698466EF2B287696E797 /* CustomViewFormer.swift */; };
 		80FB80C9F4B219518D68C3364DED465C /* THCalendarDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4365C5FD4FA5B6FDF3B4C35C4B6CDC7 /* THCalendarDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82D95EFD08A477D946FC128D7398FB0B /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF683D490521DD6FB43C024B9FDD190 /* DictionaryExtensions.swift */; };
+		81B416E8E7693C61DCDE3BD3CCF2D8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		83CADDF7AE743451B59F296E55D2B598 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE88328A8FDE8B0CA3D6036D645F45 /* FormTextViewCell.swift */; };
+		888C27FB31B30036558F8A2F00AE5C30 /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D005C958403BAA52E2D6B7348149B1A7 /* FormTextFieldCell.swift */; };
 		88CE5882F29E3E6E03FA6AC6830A0626 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A0B62650C87A6C0146A66CB4F8861F /* arrow@2x.png */; };
+		89FE95F3FCDA65C50AE2FA3973B2C296 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 30677439923CB7F17342836D7269BA3F /* UIViewController+KNSemiModal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8A9EC903F7CF9E43BDC398D35E78DB12 /* KNSemiModalViewController_hons82.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AB63812C35FC5E94E9D834150C824C /* KNSemiModalViewController_hons82.framework */; };
+		8BE15E15F5225CED3846256C199F538D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DC0F1FBE1CB499747FDEFF3A2A4552 /* FormCheckCell.swift */; };
 		8CB29FDFEA39A0B209221EA716CD2839 /* THDatePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0185050CA758A0B1106FDB6CA0C1203F /* THDatePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92BF3E6B7C349CA59F66810AAD98C02B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB2508D2B930AAA09C48217FF8C614 /* Pods-dummy.m */; };
+		8E2366CD07942804474EE0629300D392 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72F677E69F5518C6DB5B70517F9343 /* StepperRowFormer.swift */; };
+		93535B714131ABE89EC0465DF011199B /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F682A8CAB910CADE5EDC444313C421 /* FormInlinePickerCell.swift */; };
 		9644B3F7795B6B1C314164CC2A50C78A /* PullToMakeFlight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C505BAA15916ACC5250DAC635D9F48 /* PullToMakeFlight-dummy.m */; };
 		96985AC1132996CB5C413D2C78E6C982 /* clouds_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BC066E5FC4262916C2E9DAAA8CFFA /* clouds_center@3x.png */; };
-		A75CD095C7A81D9A55DC1AC0FFB4E6D9 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6BC5E64E9021E8269A1ABC4C39E8B0 /* NSUserDefaultsExtension.swift */; };
-		ADDB0ED3802AB9962CA4D8CAD1C907C7 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E71D8D7B8947A5CDC0538DFCFA9D594 /* UILabelExtensions.swift */; };
+		97F3F1E321104DA31B099B4284111DD0 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A081B92E9281DCAA4F32D8BB9F649 /* SwitchRowFormer.swift */; };
+		99CDF1A2880D28A39C6C656EA520B892 /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B024EF815FCBF8FE9A162464DE6F464 /* FormLabelFooterView.swift */; };
+		9D575A73E8BE8AE40ED7F7D431C8903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		9F8133C37FAE9490425A30C8A0DBB02C /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667732BFD89D53046366C37928F69726 /* SelectorPickerRowFormer.swift */; };
+		A0F6524B32B3D5B0D17B977A7795D13B /* EZSwiftExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F727F91E718649C8A8DF2DFFB79605 /* EZSwiftExtensions-dummy.m */; };
+		A2BBFABF9231A70C75B7B59F9F726455 /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44E73A13C2466F3A8B915D965BFA7 /* FormDatePickerCell.swift */; };
+		A60EAFEACC52B18B2296B2772815D642 /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C9E4435D05926163BA92D20177926 /* BlockButton.swift */; };
+		A9762C774F92B3DCE872976394D5D966 /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409FEBA1F1A36B7FFCAF7266EE60800 /* SectionFormer.swift */; };
+		A98743E7B0700E81A9E910C3DA152580 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FF987FEF7A69E9A9F854D8E309D0F4 /* QuartzCore.framework */; };
+		A99FA2EE30096EC2C8677E0F1E041191 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FFE29032CC589DCD637A9C9B765FC4 /* LabelViewFormer.swift */; };
 		AE81DBE6D73795E3C79E92E98885A2B8 /* arrow_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C84B8AE5537340F0ED04EF862CA42C5 /* arrow_full.png */; };
-		B0A6AC44F1395FCEDCF08A726F69822F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC711C9C3DE99B5ABE891DBC830A73E0 /* ArrayExtensions.swift */; };
-		B0E56FBEBD11615BDBC6361B7231315D /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C656A2405E045D202FE61B114A837 /* UIViewControllerExtensions.swift */; };
 		B3D1E6F5295834FF5C04BB2318B4F6C5 /* PullToRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38043C463E3853B891A32CC8794CEC4B /* PullToRefresher-dummy.m */; };
+		B42D43F8F696BC1547BE8CDAFFB22CD5 /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEDD0BD026887CB93D5F1FB17EE142D /* FormSwitchCell.swift */; };
 		B51C5BE0FD37AB609B2ADC602757AFA5 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65117B43CACA5A24920725C8581DFF /* PullToRefresh.swift */; };
-		B54D511FABAD070E62AD431FE687FAC7 /* EZSwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071F1586F8419A1C0D119EB392ACFF9 /* EZSwiftExtensions.swift */; };
 		B5547174A428961E68CC7EBC93E52E43 /* THDateDay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59629C1E0E8AFE132D15F911178EAC06 /* THDateDay.xib */; };
 		B673601EEFA517426F4BC9EDF0567C82 /* THDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942E88262FEF356EEE3C029AE0E99188 /* THDatePickerViewController.m */; };
+		B6BEEF4E2E6C58090D971C6EC95C6C72 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB29EDE681ABEC9996F8770B4D71EF1 /* FormCell.swift */; };
 		B6D827FE137177E3A4B6189BD92E4FC3 /* UNAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DA5E7BC136D66FC0F7F0C39BF01AD /* UNAlertView.swift */; };
 		B7A38A5FC41670E378E2BD56DE29D158 /* THCalendarDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5383F840018C52B3146D5A1BD2235 /* THCalendarDatePicker-dummy.m */; };
-		B7FC75EE56E88A613F3340CF4DB83242 /* UIColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FDBB44772A4431259704332290303 /* UIColoredView.swift */; };
+		B829ABCD58A299FD8BCF92308DE1E77D /* UIColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A37631C3ED73FB98E9A079A4E2D9E2 /* UIColoredView.swift */; };
+		B8E9B132B04CC2AF0F57836E4A6FADF8 /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BA2175E5343F122CD4B7BA5D8203D8 /* FormStepperCell.swift */; };
+		B93B6F414CD86CA49F043D1322337EDF /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F371FB9A214F2C8AF4983ECAD2A07A5 /* DoubleExtensions.swift */; };
+		BC2D2D14A571F672C4AF33AF31787780 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10A4918AB0DC4EB04602024C9912C66 /* UIImageViewExtensions.swift */; };
+		BC73FAA1AEC92939F29AEB892557E748 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9624DB5B24384692CC044787024DFB61 /* FormLabelHeaderView.swift */; };
 		BEBC5A30CD3361EDA7043F5AAEC340B5 /* airplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3FA89C732A054166C743D6EFEE28CA /* airplane@2x.png */; };
 		BF7975C3106EE79F618332CFCB25BBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
+		C18DD1B9AD6DD81634896AC1EA985BA7 /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B9DF81385EE41C43FBA7954C1C080 /* FormSelectorDatePickerCell.swift */; };
 		C3B8DB4D5D42E216ABE2B3491C98D974 /* THDateDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 58050C8B35611B69E8B44A1313D6FE72 /* THDateDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C54CFEA221A0E447D8D81C3CE171AF8B /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B13BC2E39B2F473F0A94F4DABD3D8 /* airplane.png */; };
-		C760D478EFA672C67E994D4A03A144A5 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591E227DA27938A9852EFEC1BA6F20AE /* UIButtonExtensions.swift */; };
-		CCAED245D11BFFE6931406659D985C6F /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDCA5671FA7A4D896FB0BA5C93935B /* DoubleExtensions.swift */; };
-		CD63447D60D670060C361745074F354C /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B2941D58D7AFBA9EB46A3220FAC93 /* UIDeviceExtensions.swift */; };
+		C7DC069DECEEB21568C901F50D96A35A /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874C47C0EC9B30BA65AD86428068A71 /* CustomRowFormer.swift */; };
+		CA2D7FC85D5BFCA30D3A15FF5687C2A1 /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015993E740AF6F04ACEB1023B28A4F7 /* CheckRowFormer.swift */; };
+		CD77BDAF11CFAF23B076D0C7C77548D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED13B470E131248053D8D8E1C9102346 /* UIKit.framework */; };
 		CF7B35BA1AD3604FE4111FA0E80D93F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8C24F8F1C070C11AF386D8EC55325 /* Images.xcassets */; };
-		D09193C9D4DF2C5A275ED5B459ED6774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */; };
-		D17913DD604AC4E92326C715DE0BE666 /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCB8D2EA7DE91D5AFD1660C640DE4A /* NSDateExtensions.swift */; };
+		CF93CD7E5D38864951ACE384960C2A1E /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423C0EF5F4E57B820DF065F6C53F4117 /* LabelRowFormer.swift */; };
 		D1B86356AEAF2194AC6A77D55F2E6ACB /* clouds_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A12B906825D8A1930A174586269D21 /* clouds_left@3x.png */; };
+		D59EE0FBD616627C1865AD86443BC19E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDAC1F5BF2CF8E1C20BCF9E1361860 /* ArrayExtensions.swift */; };
 		D948583CE2B2D4CC66620E3FEEFF93DF /* PullToMakeFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661B03816CDAFE249F2A424B39D88B23 /* PullToMakeFlight.swift */; };
 		DA5B983CC2FD294C9E74417CAC8D7035 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 09148024F1277E60F0B934AE925F0E75 /* bg.png */; };
-		DC09C725A1ED52C5A73967A73C5CA068 /* UIViewController+KNSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD1388E8A6F0C14278BC847957F2B2C /* UIViewController+KNSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEC2579641C31284AD251A7F56491BA /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A6F26E3B98296E599593F69F46CF63 /* ViewFormer.swift */; };
 		DF24BEC1C5C05DF293260445DB564DFE /* clouds_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03C9E25138550D121C48E5A75B0546A6 /* clouds_center@2x.png */; };
 		E13062EC894007381B361E6B63DFD248 /* CAKeyframeAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B76788C9626D8AA0EFDE5BF0A3E738 /* CAKeyframeAnimation+Extensions.swift */; };
-		E2CE7ECF4C8BAAD09EBAAF44AF16417A /* IntExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03D578C33F8A9F47431A2E4AFE9B284 /* IntExtentions.swift */; };
 		E40934C9BB7E84687D0532B06C9B20C6 /* clouds_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB61AAFAE847E6E97760564BE2C798E /* clouds_center.png */; };
-		E60CD41D0FBEBC3EB0C53A0BAE41D3D1 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB12C87DD4D05C5398BA94D1618DAB2 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9EE2749A62ACBD4CCC81F8367EEC58E /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BC7B6C88003F345FCC6101B9F402C /* UITextViewExtensions.swift */; };
+		E623F88AB279AAB4B7B75AE082269AF6 /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF62492F240C15349F73DBC8C13F75 /* FormHeaderFooterView.swift */; };
+		E8A89EB2D0CE5A8D25E3C45B080B9B04 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782DE018572BFDA1CC716DDE2AAA77AF /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F6548B5849362EA0D5C8E4AD8C033F /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1609AF5DADE86953E8EEC5C847830 /* FormInlineDatePickerCell.swift */; };
+		EBDB6F7EBCB84FF9C0A6FC3A43FE08D6 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D24F0F88BAE89FAC714ACCF8526CFA /* DictionaryExtensions.swift */; };
 		ECEF5E25486FC054BA15096879C01D39 /* PullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE62E8ED90EC1DB420587396A1437C /* PullToRefresh.framework */; };
 		EE6E0AF345AC9F4A508D8AA9EB0902F2 /* PullToMakeFlight.h in Headers */ = {isa = PBXBuildFile; fileRef = E2014A6FCD81D345996F6FB5AF3EEB00 /* PullToMakeFlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF344D2BC511E8BAD6246C4A3C5495A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1579140E771C0DA3BE32C1223A5070 /* StringExtensions.swift */; };
 		EF244CB53A843B62B72F876602A4CE07 /* THDateDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4FC949F3A2F11977E1C8CB0B867B0B /* THDateDay.m */; };
-		EF5E5DB428A0E3670BE8EE5A5F63A5F6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262EAAE30CEC344C72BE6E954AB432D9 /* StringExtensions.swift */; };
-		EF7F1854AC62AADF17D33341AA6CB7B4 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C087144CC18B6C3107B1826A35B4C6F1 /* CGFloatExtensions.swift */; };
 		EF993530339E1F68A46A8CE6DC4D1F36 /* NSDate+Difference.m in Sources */ = {isa = PBXBuildFile; fileRef = 336C2909ECB8C0DDFA3F865739664793 /* NSDate+Difference.m */; };
-		F11BDFA3525C2F03088A9C883F842730 /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B311A0E2D34FAAE1FB656377ED7A5EE /* BlockWebView.swift */; };
+		F4787D6561D987ABA06D87615654A90E /* NSObjectExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE8A6B8AD97E5488921318F1566483 /* NSObjectExtentions.swift */; };
 		F4F0FE270EE1A9051BBA7F9442382F67 /* UNAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B771BBA0484BC77117A945935EF78 /* UNAlertView-dummy.m */; };
+		F513F692CEF2F8E4483D0560A943A016 /* IntExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EAFDBBB6F3A2AE940CFE081C4179B7 /* IntExtentions.swift */; };
+		F8C716ABE9A0012C594AEFA2A696A9CF /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0875CAFA3EE26507EE0EEB1E83615 /* BlockPinch.swift */; };
+		FB1B241E7E34CFAF534EDBE89BFE8E87 /* EZSwiftExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DA9A41E0BE36263ED4BB7E4C67AAE3 /* EZSwiftExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBBF2A9485120F6C61083B4A1E8E55BC /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D300E6DC33450A06D805E50795B738 /* CGFloatExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06870AE9606AA4976FC7BF2A0CBC0E87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16735D61A0DD11D80DE0B8014F9D81DB;
-			remoteInfo = KNSemiModalViewController_hons82;
-		};
-		0839C5F66EE49A03FCFA291316A16F7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16735D61A0DD11D80DE0B8014F9D81DB;
-			remoteInfo = KNSemiModalViewController_hons82;
-		};
-		633B7F29411F232F5E6D85F50A0E6A30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0316E8DF3A016BDD5DCCC003589F1E7A;
-			remoteInfo = PullToRefresher;
-		};
-		7EA2B8D5C5D8ABB1B2B4D12A3A34FC61 /* PBXContainerItemProxy */ = {
+		40531FB4204828CEF6FF48EB20E2E680 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55EBEA56AA4D3FF91CCFF58C1124A56E;
 			remoteInfo = PullToMakeFlight;
 		};
-		BCBDBE4C7779DD5C6E2D2FE942DC7424 /* PBXContainerItemProxy */ = {
+		47F6BDEA50640F78BC7A87F4CCE1A6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06987FC2CB976EA21EF51CF7C227C56;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+		50A19E3DB5DE1D572E3471E1CF61964E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0316E8DF3A016BDD5DCCC003589F1E7A;
 			remoteInfo = PullToRefresher;
 		};
-		C436ED23A3DC6011842048524F6BBCC0 /* PBXContainerItemProxy */ = {
+		66288047AE25F6DDB36173A6BE9BA938 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 49274ADF5CD05C4BB8897DC5049B049B;
 			remoteInfo = UNAlertView;
 		};
-		C504F45391E9ACF514592BA04B4BF9C0 /* PBXContainerItemProxy */ = {
+		A7B959F422010B6EDF684E2CB8825C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60DB4588E33596F8312D0E9C1046EDA5;
+			remoteInfo = EZSwiftExtensions;
+		};
+		ACC87657427A4C38CA7679E5DD082C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD485939BF22F318E997F4DD48D6F75;
+			remoteInfo = Former;
+		};
+		DE333FF7BC24A63D6C2D93318A9B9A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0316E8DF3A016BDD5DCCC003589F1E7A;
+			remoteInfo = PullToRefresher;
+		};
+		E3DF42038A1DA24436DB53527FDE2945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06987FC2CB976EA21EF51CF7C227C56;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+		EA722061E874419EDB9331EA63B87ED2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 893D87CA67C03C866BEBA45B80E74730;
 			remoteInfo = THCalendarDatePicker;
 		};
-		C701B6963E8309FBD26BC01FA1385C0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD70B7F2CACA020A57098D9BC398D3C2;
-			remoteInfo = EZSwiftExtensions;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F3C4CA2285000DC8D5B82CD705B493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0117EB63E13D5A5A03B3DEC18B2A0393 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005141B8616EF0DE5C2C5842BCF255E0 /* EZSwiftExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZSwiftExtensions.xcconfig; sourceTree = "<group>"; };
+		00BA2175E5343F122CD4B7BA5D8203D8 /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
 		0185050CA758A0B1106FDB6CA0C1203F /* THDatePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDatePickerViewController.h; path = THCalendarDatePicker/THDatePickerViewController.h; sourceTree = "<group>"; };
 		0207A62A5CC27EA9878E6B4FDEEF5583 /* clouds_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = clouds_right.png; path = PullToMakeFlight/Image.xcassets/clouds_right.imageset/clouds_right.png; sourceTree = "<group>"; };
-		027C656A2405E045D202FE61B114A837 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		0276E39F44079AE15B093AAF0F4C2C01 /* THCalendarDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THCalendarDatePicker.xcconfig; sourceTree = "<group>"; };
 		03C9E25138550D121C48E5A75B0546A6 /* clouds_center@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_center@2x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_center.imageset/clouds_center@2x.png"; sourceTree = "<group>"; };
+		05B7027474077BC57D73DB48067A2FD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C0875CAFA3EE26507EE0EEB1E83615 /* BlockPinch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPinch.swift; path = Sources/BlockPinch.swift; sourceTree = "<group>"; };
 		09148024F1277E60F0B934AE925F0E75 /* bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bg.png; path = PullToMakeFlight/Image.xcassets/bg.imageset/bg.png; sourceTree = "<group>"; };
-		0963F490F8EA23B6C0D95B6F6E1BB310 /* PullToRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PullToRefresher.modulemap; sourceTree = "<group>"; };
-		0C5CB905D1B0F03AFFA8E4D78791CC9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C823B5F73566D3D6397F43076EA4EDB /* THCalendarDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = THCalendarDatePicker.modulemap; sourceTree = "<group>"; };
-		0D538CFE0FE51515AC21CB7CDC808C34 /* EZSwiftExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-umbrella.h"; sourceTree = "<group>"; };
 		10C505BAA15916ACC5250DAC635D9F48 /* PullToMakeFlight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PullToMakeFlight-dummy.m"; sourceTree = "<group>"; };
 		12F653A80BE054C6F533604F66BCE755 /* NSDate+Difference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Difference.h"; path = "THCalendarDatePicker/NSDate+Difference.h"; sourceTree = "<group>"; };
-		14CCB8D2EA7DE91D5AFD1660C640DE4A /* NSDateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDateExtensions.swift; path = Sources/NSDateExtensions.swift; sourceTree = "<group>"; };
-		19D40E010AD856B72B56A37647CA4E08 /* PullToMakeFlight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PullToMakeFlight.modulemap; sourceTree = "<group>"; };
+		1457EB7D3224F3C50276E3BF1F17628D /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
+		193D2E5803DC941B810B9305C1A395AB /* EZSwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EZSwiftExtensions.swift; path = Sources/EZSwiftExtensions.swift; sourceTree = "<group>"; };
+		1A6B9DF81385EE41C43FBA7954C1C080 /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
 		1C479543CDC7836DD01DEB028F8D02D4 /* PullToMakeFlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PullToMakeFlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CAD515DE4FDA1D9871D8B8B43149B18 /* KNSemiModalViewController_hons82-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNSemiModalViewController_hons82-dummy.m"; sourceTree = "<group>"; };
+		1C54B76BEA0FAFE2C01414085051ACEA /* PullToMakeFlight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PullToMakeFlight.modulemap; sourceTree = "<group>"; };
 		1ECE62E8ED90EC1DB420587396A1437C /* PullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F09B2361E857FBF3BC6F0BCC727B4B2 /* BlockPinch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPinch.swift; path = Sources/BlockPinch.swift; sourceTree = "<group>"; };
-		262EAAE30CEC344C72BE6E954AB432D9 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/StringExtensions.swift; sourceTree = "<group>"; };
-		269EC70E4D875E1EC023E87CEEB75875 /* PullToRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PullToRefresher.xcconfig; sourceTree = "<group>"; };
-		2925552D8E415142C5C956DC1899C633 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KNSemiModal.m"; path = "Source/UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		1F371FB9A214F2C8AF4983ECAD2A07A5 /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Sources/DoubleExtensions.swift; sourceTree = "<group>"; };
+		227F0F955E1F330F0687917768E2E50B /* KNSemiModalViewController_hons82-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNSemiModalViewController_hons82-dummy.m"; sourceTree = "<group>"; };
+		24C6BCA088277EC76EFD4DD680F18425 /* PullToMakeFlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToMakeFlight-prefix.pch"; sourceTree = "<group>"; };
+		25F78FA693C07A3012BC7E7B636D7739 /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
+		28D24F0F88BAE89FAC714ACCF8526CFA /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/DictionaryExtensions.swift; sourceTree = "<group>"; };
 		2A0BC066E5FC4262916C2E9DAAA8CFFA /* clouds_center@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_center@3x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_center.imageset/clouds_center@3x.png"; sourceTree = "<group>"; };
 		2A6C81039E6BD15F7399AC341E60F890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		2C0F2867132A4261B96EAD9754B31801 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2C487E6A514C249FE4EB8AC8CCCE1370 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEF62492F240C15349F73DBC8C13F75 /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
 		2E4FC949F3A2F11977E1C8CB0B867B0B /* THDateDay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDateDay.m; path = THCalendarDatePicker/THDateDay.m; sourceTree = "<group>"; };
-		2E71D8D7B8947A5CDC0538DFCFA9D594 /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/UILabelExtensions.swift; sourceTree = "<group>"; };
 		2E922AEB5BEF471D84D6B6B46B814ED1 /* bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bg@2x.png"; path = "PullToMakeFlight/Image.xcassets/bg.imageset/bg@2x.png"; sourceTree = "<group>"; };
 		2E9C62D51CD746956BA0CB57F80EDF44 /* THDatePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDatePickerViewController.xib; path = THCalendarDatePicker/THDatePickerViewController.xib; sourceTree = "<group>"; };
-		2EC66B52A4CC1A3FD4240E1B368B4AF4 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/UIFontExtensions.swift; sourceTree = "<group>"; };
 		2F862966BF9D397D1DCBDEB10DC17432 /* bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bg@3x.png"; path = "PullToMakeFlight/Image.xcassets/bg.imageset/bg@3x.png"; sourceTree = "<group>"; };
+		2FC61055CECD467E4A432930E820A7CB /* PullToRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToRefresher-prefix.pch"; sourceTree = "<group>"; };
+		30677439923CB7F17342836D7269BA3F /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KNSemiModal.m"; path = "Source/UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
 		3131D712004C6B08B3F9ADF35A3B0A2A /* arrow_full@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_full@2x.png"; path = "PullToMakeFlight/Image.xcassets/arrow_full.imageset/arrow_full@2x.png"; sourceTree = "<group>"; };
+		3230C14A6EFBCAB889B58852C79CEC91 /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
+		32B0F2DAD15DED7948D946FC08DD513F /* UNAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNAlertView.xcconfig; sourceTree = "<group>"; };
+		32DB6268FED79921F10F2A3A8C4882AB /* EZSwiftExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EZSwiftExtensions.modulemap; sourceTree = "<group>"; };
 		336C2909ECB8C0DDFA3F865739664793 /* NSDate+Difference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Difference.m"; path = "THCalendarDatePicker/NSDate+Difference.m"; sourceTree = "<group>"; };
-		35451F63BBE8C35105CEC41E3058F48F /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = Sources/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		3585B0F8ECB587528664B70E1F39A6A7 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/UIImageExtensions.swift; sourceTree = "<group>"; };
+		35EAFDBBB6F3A2AE940CFE081C4179B7 /* IntExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtentions.swift; path = Sources/IntExtentions.swift; sourceTree = "<group>"; };
+		36D66227184646D85699B650822EF1E7 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
 		38043C463E3853B891A32CC8794CEC4B /* PullToRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PullToRefresher-dummy.m"; sourceTree = "<group>"; };
-		386B2941D58D7AFBA9EB46A3220FAC93 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtensions.swift; path = Sources/UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		39173C4E264D34596E43F0C77F560874 /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Former.modulemap; sourceTree = "<group>"; };
 		3A730B301C32A67EED9C384A37E72433 /* PullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4BC7B6C88003F345FCC6101B9F402C /* UITextViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewExtensions.swift; path = Sources/UITextViewExtensions.swift; sourceTree = "<group>"; };
-		3BEEF8EDB0507A8539DD79F1E901DE06 /* EZSwiftExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZSwiftExtensions-dummy.m"; sourceTree = "<group>"; };
-		4006CC72C3E62A7AFC3F8F06DD163445 /* KNSemiModalViewController_hons82.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNSemiModalViewController_hons82.xcconfig; sourceTree = "<group>"; };
-		4071F1586F8419A1C0D119EB392ACFF9 /* EZSwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EZSwiftExtensions.swift; path = Sources/EZSwiftExtensions.swift; sourceTree = "<group>"; };
-		460393BE6FEB06DB1680C881BCFFAE40 /* BlockLongPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockLongPress.swift; path = Sources/BlockLongPress.swift; sourceTree = "<group>"; };
+		3EC84187B7B834D5D989FA68A6CFF1FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4234F227871A2FC4ADDBD2596E5DE979 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423C0EF5F4E57B820DF065F6C53F4117 /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
+		435C65CC3F2B87B9CE49472A812DE93B /* KNSemiModalViewController_hons82.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNSemiModalViewController_hons82.xcconfig; sourceTree = "<group>"; };
+		489D34E01199BF30AF6C4EDB370DA23D /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = Sources/UIColorExtensions.swift; sourceTree = "<group>"; };
+		501C9E4435D05926163BA92D20177926 /* BlockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockButton.swift; path = Sources/BlockButton.swift; sourceTree = "<group>"; };
+		50A37631C3ED73FB98E9A079A4E2D9E2 /* UIColoredView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColoredView.swift; path = Sources/UIColoredView.swift; sourceTree = "<group>"; };
+		52EFF644A1AE39AE91934DE3A1774690 /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
 		53E947A491A4B9D0075FA85D2AA4E533 /* clouds_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_right@2x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_right.imageset/clouds_right@2x.png"; sourceTree = "<group>"; };
-		555F243C3DAE1F21A3CBCCA7531FEA3E /* THCalendarDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THCalendarDatePicker.xcconfig; sourceTree = "<group>"; };
+		54D7BD0F09ABF3F9332604D889AD0932 /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
 		55696B70A7547080A330337CF33BA662 /* airplane@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "airplane@3x.png"; path = "PullToMakeFlight/Image.xcassets/airplane.imageset/airplane@3x.png"; sourceTree = "<group>"; };
+		56DC0F1FBE1CB499747FDEFF3A2A4552 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
 		58050C8B35611B69E8B44A1313D6FE72 /* THDateDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDateDay.h; path = THCalendarDatePicker/THDateDay.h; sourceTree = "<group>"; };
-		591E227DA27938A9852EFEC1BA6F20AE /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = Sources/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		586AD9D651493A691E853E9AAFE0CFC3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5874C47C0EC9B30BA65AD86428068A71 /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
 		59629C1E0E8AFE132D15F911178EAC06 /* THDateDay.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDateDay.xib; path = THCalendarDatePicker/THDateDay.xib; sourceTree = "<group>"; };
 		59AB63812C35FC5E94E9D834150C824C /* KNSemiModalViewController_hons82.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNSemiModalViewController_hons82.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C84B8AE5537340F0ED04EF862CA42C5 /* arrow_full.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow_full.png; path = PullToMakeFlight/Image.xcassets/arrow_full.imageset/arrow_full.png; sourceTree = "<group>"; };
+		5DAA5E7E07E1628AEC040EA55A070535 /* EZSwiftExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-prefix.pch"; sourceTree = "<group>"; };
+		61DA9A41E0BE36263ED4BB7E4C67AAE3 /* EZSwiftExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-umbrella.h"; sourceTree = "<group>"; };
 		62FA3C60B0F0082B8BB78AA4620A848A /* clouds_right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_right@3x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_right.imageset/clouds_right@3x.png"; sourceTree = "<group>"; };
 		63A0B62650C87A6C0146A66CB4F8861F /* arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "PullToMakeFlight/Image.xcassets/arrow.imageset/arrow@2x.png"; sourceTree = "<group>"; };
+		64E8266FC4BD1CFCDC81F54B30AC49E8 /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
 		65C5383F840018C52B3146D5A1BD2235 /* THCalendarDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THCalendarDatePicker-dummy.m"; sourceTree = "<group>"; };
 		661B03816CDAFE249F2A424B39D88B23 /* PullToMakeFlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToMakeFlight.swift; path = PullToMakeFlight/PullToMakeFlight.swift; sourceTree = "<group>"; };
-		6904CAFCB10DA6CFB250E677C87D9799 /* UNAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UNAlertView.xcconfig; sourceTree = "<group>"; };
+		667732BFD89D53046366C37928F69726 /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
 		6A65117B43CACA5A24920725C8581DFF /* PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefresh.swift; path = PullToRefresh/PullToRefresh.swift; sourceTree = "<group>"; };
+		6AEFCE785E231F086EB0C9B55F8AD381 /* UNAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UNAlertView.modulemap; sourceTree = "<group>"; };
 		6C2A4BC66F2B7AEB437F138C263E5A49 /* arrow_full@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_full@3x.png"; path = "PullToMakeFlight/Image.xcassets/arrow_full.imageset/arrow_full@3x.png"; sourceTree = "<group>"; };
-		6C6BC5E64E9021E8269A1ABC4C39E8B0 /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSUserDefaultsExtension.swift; path = Sources/NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
-		6D99293BF22B0E88DA2B747CA1059091 /* PullToMakeFlight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PullToMakeFlight.xcconfig; sourceTree = "<group>"; };
 		6E0A914B436802301B96D9B6BB798F31 /* clouds_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = clouds_left.png; path = PullToMakeFlight/Image.xcassets/clouds_left.imageset/clouds_left.png; sourceTree = "<group>"; };
-		6F0B8FE2162CF3761400D67FA6B32F21 /* BlockTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockTap.swift; path = Sources/BlockTap.swift; sourceTree = "<group>"; };
+		6E4CF9809064900A50EB5774222E8734 /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
+		708877D480D772CF2356B610934F18C5 /* PullToRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PullToRefresher.xcconfig; sourceTree = "<group>"; };
+		72FF987FEF7A69E9A9F854D8E309D0F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		736908C73B858C6ECBB0084F37BF81B1 /* THCalendarDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = THCalendarDatePicker.modulemap; sourceTree = "<group>"; };
+		74734581B603BC58F0D254B88DF9E6F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754D6132E320296679A088A35FDAC7FB /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtensions.swift; path = Sources/UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		76084A33A32A3727B5E1AE840D481616 /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
+		776BE64C4AEF7BD7E76E3BCC67B22122 /* BlockSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockSwipe.swift; path = Sources/BlockSwipe.swift; sourceTree = "<group>"; };
+		7820EABBCE3F4D0AB3BA38A93EFEF130 /* NSDateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDateExtensions.swift; path = Sources/NSDateExtensions.swift; sourceTree = "<group>"; };
+		782DE018572BFDA1CC716DDE2AAA77AF /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
+		789E98E8144C87B6338044D60F37EFE8 /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
 		78DDA507AF547F57A184625D5FA33C59 /* UNAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UNAlertView-Private.xcconfig"; sourceTree = "<group>"; };
-		78F9183159312FF3BD7A6ADA77AB22A0 /* BlockSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockSwipe.swift; path = Sources/BlockSwipe.swift; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7B0CD46DDE6FB6E04F2597A3A1726B42 /* KNSemiModalViewController_hons82.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNSemiModalViewController_hons82.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E58E59EA7304B4901DAA6DA00EA2A9 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = Sources/UIColorExtensions.swift; sourceTree = "<group>"; };
+		8015993E740AF6F04ACEB1023B28A4F7 /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
+		80CDAC1F5BF2CF8E1C20BCF9E1361860 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/ArrayExtensions.swift; sourceTree = "<group>"; };
+		81B83298DE7DA9D73E2445122B2B5F5D /* PullToRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PullToRefresher.modulemap; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A3F103373D47B13A7DE0DF68C2D07AE /* EZSwiftExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZSwiftExtensions.xcconfig; sourceTree = "<group>"; };
+		897454AE5C789222F70975DB038FA007 /* UNAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNAlertView-prefix.pch"; sourceTree = "<group>"; };
+		8A9B7DA3AAEC39B3DD9AFE209B1FA833 /* KNSemiModalViewController_hons82.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KNSemiModalViewController_hons82.modulemap; sourceTree = "<group>"; };
+		8B024EF815FCBF8FE9A162464DE6F464 /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
 		8EB61AAFAE847E6E97760564BE2C798E /* clouds_center.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = clouds_center.png; path = PullToMakeFlight/Image.xcassets/clouds_center.imageset/clouds_center.png; sourceTree = "<group>"; };
+		8F6A1995852E2D3C164A7CB4829B14DD /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93759F9EAFD6A3BC012431AF71D20B6A /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
 		942E88262FEF356EEE3C029AE0E99188 /* THDatePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDatePickerViewController.m; path = THCalendarDatePicker/THDatePickerViewController.m; sourceTree = "<group>"; };
+		951EC1183171F59A3EC62E5BB0575688 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		95799F7C4FA3057B70CCCA9B5A251737 /* Former-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Former-Private.xcconfig"; sourceTree = "<group>"; };
+		9624DB5B24384692CC044787024DFB61 /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
+		989C4156EA70EBAD59F55B646EE2EBF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1DA5E7BC136D66FC0F7F0C39BF01AD /* UNAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAlertView.swift; path = Classes/UNAlertView.swift; sourceTree = "<group>"; };
-		9B311A0E2D34FAAE1FB656377ED7A5EE /* BlockWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockWebView.swift; path = Sources/BlockWebView.swift; sourceTree = "<group>"; };
+		9E05A18FD7B372E963BA80519EC693EF /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/UILabelExtensions.swift; sourceTree = "<group>"; };
+		9E9CA6F7778B6BFCEA8341A6E6FABA0E /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
+		A16D7B567023024894F63435227639AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		A173FCCEC66BB539748C00BC1AD937E6 /* THCalendarDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = THCalendarDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1FADF614A0D456ED4381FA8CCB3CC7C /* KNSemiModalViewController_hons82-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-prefix.pch"; sourceTree = "<group>"; };
-		A3A1BE34540267F87C9520DEF46D287D /* EZSwiftExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-prefix.pch"; sourceTree = "<group>"; };
-		A6B29D1769860DE39B0AE6F3B84FA913 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A730C04335CF3319B6B35372A24C8CBA /* THCalendarDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCalendarDatePicker-prefix.pch"; sourceTree = "<group>"; };
-		A898F1B2EE4A6782A9A543DDF61C5BE7 /* UNAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNAlertView-prefix.pch"; sourceTree = "<group>"; };
-		ABB15F46025654896ED87AC7C84BF42D /* PullToMakeFlight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToMakeFlight-prefix.pch"; sourceTree = "<group>"; };
-		B04DF39EC9CD30E908264F9C58DC41FB /* UNAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UNAlertView.modulemap; sourceTree = "<group>"; };
+		A2B78AB5E1A0D8B7EDDFEC9D8479864D /* BlockTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockTap.swift; path = Sources/BlockTap.swift; sourceTree = "<group>"; };
+		A3D300E6DC33450A06D805E50795B738 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		A65AE276031B8315A5253CDFEF0E07F4 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
+		A6A69F5678D2E8C5D1F70CD05F71190D /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
+		A84A081B92E9281DCAA4F32D8BB9F649 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
+		AA6AD49EBB518E78DA93C9B6F22FA775 /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
+		AA6C97BD814D538D1544E21E96F189A2 /* KNSemiModalViewController_hons82-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-umbrella.h"; sourceTree = "<group>"; };
+		AAA1609AF5DADE86953E8EEC5C847830 /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
+		AC293C32A6EA4222EAC30FFE203921C5 /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		AD69E3751888B928D79FEA0B37F54D81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9FDA272B6AAC52D5693A66B4F3E4B4 /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
 		B1A12B906825D8A1930A174586269D21 /* clouds_left@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_left@3x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_left.imageset/clouds_left@3x.png"; sourceTree = "<group>"; };
-		B240B5BA6803EAD1D55EB7E7B2086381 /* BlockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockButton.swift; path = Sources/BlockButton.swift; sourceTree = "<group>"; };
-		B38FDBB44772A4431259704332290303 /* UIColoredView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColoredView.swift; path = Sources/UIColoredView.swift; sourceTree = "<group>"; };
-		B425FB0461A41A9B5F3890AF5AE73F72 /* BlockPan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPan.swift; path = Sources/BlockPan.swift; sourceTree = "<group>"; };
+		B2F682A8CAB910CADE5EDC444313C421 /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
+		B409FEBA1F1A36B7FFCAF7266EE60800 /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
 		B4810F2C526B896C73C261C6DA0CC193 /* arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow@3x.png"; path = "PullToMakeFlight/Image.xcassets/arrow.imageset/arrow@3x.png"; sourceTree = "<group>"; };
-		B4AE8AE00B38847B18380CC5F3F558BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B995819D42B21B295D1CF9EDCAA93A7B /* BoolExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtentions.swift; path = Sources/BoolExtentions.swift; sourceTree = "<group>"; };
+		B7242361907F3C8B9AAD83DCA7F93FBC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAB12C87DD4D05C5398BA94D1618DAB2 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		BA811308C5F1FB5EDD431A5CE8846C41 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/UIViewExtensions.swift; sourceTree = "<group>"; };
 		BB9B13BC2E39B2F473F0A94F4DABD3D8 /* airplane.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = airplane.png; path = PullToMakeFlight/Image.xcassets/airplane.imageset/airplane.png; sourceTree = "<group>"; };
 		BD16C887D94A36CEFEBB60EE677E2B9D /* arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow.png; path = PullToMakeFlight/Image.xcassets/arrow.imageset/arrow.png; sourceTree = "<group>"; };
-		C03D578C33F8A9F47431A2E4AFE9B284 /* IntExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtentions.swift; path = Sources/IntExtentions.swift; sourceTree = "<group>"; };
-		C087144CC18B6C3107B1826A35B4C6F1 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		C0FC465FE95832314DB5FD436DA77DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16F6CD0DDC5D1D2C02EA07422413257 /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
 		C3B76788C9626D8AA0EFDE5BF0A3E738 /* CAKeyframeAnimation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAKeyframeAnimation+Extensions.swift"; path = "PullToMakeFlight/CAKeyframeAnimation+Extensions.swift"; sourceTree = "<group>"; };
-		C427313DC20F962D45BF219B8DFF0527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5199B37D6DBCE01A1415EDC805E5A12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		C667AEDDA6A0479B431C604CF941614C /* EZSwiftExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EZSwiftExtensions.modulemap; sourceTree = "<group>"; };
-		C7FB099F87ED8C835273A6187932389A /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = Sources/CGRectExtensions.swift; sourceTree = "<group>"; };
+		C502CD7A3F68698466EF2B287696E797 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
+		C58094551DC10059A3B9FBC74F64D373 /* KNSemiModalViewController_hons82-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KNSemiModalViewController_hons82-Private.xcconfig"; sourceTree = "<group>"; };
+		C6346E779D1B3DF3A32F31A8B145293F /* THCalendarDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCalendarDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		CB0FD4A1BC46BA981DCC5056FDB5C267 /* KNSemiModalViewController_hons82.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNSemiModalViewController_hons82.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CBD1388E8A6F0C14278BC847957F2B2C /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KNSemiModal.h"; path = "Source/UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		CC1579140E771C0DA3BE32C1223A5070 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/StringExtensions.swift; sourceTree = "<group>"; };
+		CC72F677E69F5518C6DB5B70517F9343 /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
+		CD1BBEDC8BE2480F2E5C81CC4EBE92DF /* KNSemiModalViewController_hons82-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-prefix.pch"; sourceTree = "<group>"; };
+		CD99B25FC3A173F2E08238A5C0559E35 /* BlockWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockWebView.swift; path = Sources/BlockWebView.swift; sourceTree = "<group>"; };
+		CEA5B749C2FF6017115118698369A9E6 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/UIFontExtensions.swift; sourceTree = "<group>"; };
+		D005C958403BAA52E2D6B7348149B1A7 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D06FECCB74BF47E756EA5955DFC0E91B /* PullToRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToRefresher-prefix.pch"; sourceTree = "<group>"; };
-		D078812464407812B2DCE19B1778EE3A /* KNSemiModalViewController_hons82-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-umbrella.h"; sourceTree = "<group>"; };
+		D10A4918AB0DC4EB04602024C9912C66 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = Sources/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		D1A3D027FDB894DB64565AC624E9FDBD /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		D3D44E73A13C2466F3A8B915D965BFA7 /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
 		D4365C5FD4FA5B6FDF3B4C35C4B6CDC7 /* THCalendarDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCalendarDatePicker-umbrella.h"; sourceTree = "<group>"; };
-		D4CB2508D2B930AAA09C48217FF8C614 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		D643F6471958B198B3167BADCEDF6545 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D4AB2F709800070DEDBCF4598E2C278D /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
 		D644A45C73B2F3A665A1D0B594926C28 /* PullToRefresher-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PullToRefresher-Private.xcconfig"; sourceTree = "<group>"; };
-		D78EF1ECFF32CD99F186B0B6489C8E80 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/UIViewExtensions.swift; sourceTree = "<group>"; };
+		D6FFE29032CC589DCD637A9C9B765FC4 /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
 		D797B1ED248110A75DB001F7292F1662 /* THCalendarDatePicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "THCalendarDatePicker-Private.xcconfig"; sourceTree = "<group>"; };
+		D9CE8D6744BD1264B83F47B5B83CB57D /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = Sources/UIButtonExtensions.swift; sourceTree = "<group>"; };
 		DA0B771BBA0484BC77117A945935EF78 /* UNAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UNAlertView-dummy.m"; sourceTree = "<group>"; };
-		DC711C9C3DE99B5ABE891DBC830A73E0 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/ArrayExtensions.swift; sourceTree = "<group>"; };
+		DC87F6FE37C605377761133440EBE06A /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSUserDefaultsExtension.swift; path = Sources/NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
+		DCBE88328A8FDE8B0CA3D6036D645F45 /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
 		DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DE2E04960D7F0192AE716DE9B48B1BA2 /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFFB1BD086B835C66D7A08BD251EFAFE /* NSObjectExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtentions.swift; path = Sources/NSObjectExtentions.swift; sourceTree = "<group>"; };
+		E0F7F35443EE4A62DEE4652CA1ADA946 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		E156A97F423656BA16F3FD1B37682E72 /* PullToMakeFlight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToMakeFlight-umbrella.h"; sourceTree = "<group>"; };
 		E1BC5C89417395F83019FFECB5E17192 /* PullToMakeFlight-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PullToMakeFlight-Private.xcconfig"; sourceTree = "<group>"; };
 		E1E8C24F8F1C070C11AF386D8EC55325 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = THCalendarDatePicker/Images.xcassets; sourceTree = "<group>"; };
 		E2014A6FCD81D345996F6FB5AF3EEB00 /* PullToMakeFlight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PullToMakeFlight.h; path = PullToMakeFlight/PullToMakeFlight.h; sourceTree = "<group>"; };
+		E341F94E238BEE05DCB5AD6F9E94573F /* BlockPan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPan.swift; path = Sources/BlockPan.swift; sourceTree = "<group>"; };
 		E61E69CFE22BFF378C7704BB4922CAE9 /* PullToRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToRefresher-umbrella.h"; sourceTree = "<group>"; };
-		E68858CF2F40C9DCBB14505E668CDE65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70A165B9834C67CF0AAF698141B01EC /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DE8A6B8AD97E5488921318F1566483 /* NSObjectExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtentions.swift; path = Sources/NSObjectExtentions.swift; sourceTree = "<group>"; };
+		EAB29EDE681ABEC9996F8770B4D71EF1 /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
 		EB3FA89C732A054166C743D6EFEE28CA /* airplane@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "airplane@2x.png"; path = "PullToMakeFlight/Image.xcassets/airplane.imageset/airplane@2x.png"; sourceTree = "<group>"; };
-		EB7CC0764316AEC6B46CA1E9A5D50DF7 /* EZSwiftExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EZSwiftExtensions-Private.xcconfig"; sourceTree = "<group>"; };
 		EB930C94DB16DDF53B6412B47BB5BF64 /* UNAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UNAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1BA307818B4D1B18C171E4A491E58A /* UIScrollView+PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+PullToRefresh.swift"; path = "PullToRefresh/UIScrollView+PullToRefresh.swift"; sourceTree = "<group>"; };
+		ED13B470E131248053D8D8E1C9102346 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED389F8613A5BD9BAE0700D10D901CDA /* UNAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UNAlertView-umbrella.h"; sourceTree = "<group>"; };
-		EDC503A9FDE3175ACBE591C1DCBB673F /* KNSemiModalViewController_hons82-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KNSemiModalViewController_hons82-Private.xcconfig"; sourceTree = "<group>"; };
+		ED9CAEC3CA0B58094A0028100C110F6A /* BoolExtentions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtentions.swift; path = Sources/BoolExtentions.swift; sourceTree = "<group>"; };
 		EFBD918DA22FB21E3BE7065637B6F374 /* FlightView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FlightView.xib; path = PullToMakeFlight/FlightView.xib; sourceTree = "<group>"; };
+		F17D9C889ACD0A7D96E4A9A77D20F849 /* UITextViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewExtensions.swift; path = Sources/UITextViewExtensions.swift; sourceTree = "<group>"; };
+		F2F727F91E718649C8A8DF2DFFB79605 /* EZSwiftExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZSwiftExtensions-dummy.m"; sourceTree = "<group>"; };
 		F3F3638CE4160D9A0769D417A0E018DF /* clouds_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "clouds_left@2x.png"; path = "PullToMakeFlight/Image.xcassets/clouds_left.imageset/clouds_left@2x.png"; sourceTree = "<group>"; };
-		F8DDCA5671FA7A4D896FB0BA5C93935B /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Sources/DoubleExtensions.swift; sourceTree = "<group>"; };
-		F9ADC5CF06EF1D90CE5DD308D386A67F /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/UIImageExtensions.swift; sourceTree = "<group>"; };
-		FE5E97392B19D80A1D4515A7D020288C /* KNSemiModalViewController_hons82.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KNSemiModalViewController_hons82.modulemap; sourceTree = "<group>"; };
-		FFF683D490521DD6FB43C024B9FDD190 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		F47BB3286B8A68AB70D699EFA2ECBD9D /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
+		F4A0E6CCB01DF7A62F693A3FC30823EE /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
+		F7A6F26E3B98296E599593F69F46CF63 /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
+		F8A74307690EC7164CEC8F0AC55DA5CD /* BlockLongPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockLongPress.swift; path = Sources/BlockLongPress.swift; sourceTree = "<group>"; };
+		F9AC4ADA4ED515ADF95BC265ED010636 /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = Sources/CGRectExtensions.swift; sourceTree = "<group>"; };
+		FD4FF184F9DD5C4AE1AA1165DAD675F1 /* EZSwiftExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EZSwiftExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		FDEDD0BD026887CB93D5F1FB17EE142D /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		FE17F51C7BC0CE803C65682897250C79 /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
+		FE7D67567F6CB878E7C006C34B539878 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		FEDAA7BAD0A51C0292351D6299822E2B /* PullToMakeFlight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PullToMakeFlight.xcconfig; sourceTree = "<group>"; };
+		FF64EA212E9765246D643086DBEC75FD /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KNSemiModal.h"; path = "Source/UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		FFD1D6AD4450AA2CAB0DA6E712A6C090 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +419,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C966F91B3345055837BC8E8F9FDF67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3B4E0BD615AA1E972895BC76D4245E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1917C5F6C23CD14A92E0E046BD611E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D575A73E8BE8AE40ED7F7D431C8903C /* Foundation.framework in Frameworks */,
+				CD77BDAF11CFAF23B076D0C7C77548D8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DBED1370CAF34B57AA28E4846D71DC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,28 +444,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37581A40737B13B781531C755723C5B1 /* Frameworks */ = {
+		A845ADC581D92E7796ADF7165B8625ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09193C9D4DF2C5A275ED5B459ED6774 /* Foundation.framework in Frameworks */,
-				62286B894AE06A468DA9764FF5837856 /* QuartzCore.framework in Frameworks */,
+				81B416E8E7693C61DCDE3BD3CCF2D8B4 /* Foundation.framework in Frameworks */,
+				A98743E7B0700E81A9E910C3DA152580 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707688555149E4C2FEB1DBD0E43184FB /* Frameworks */ = {
+		AF897DD23BD75CCA75A0ADC9D25D76EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C8D29AF373C20CC6313B385C200473 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		717FB4F6A3AA47C38DAADEDEB2EDB7B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79596A52F3F2BFBF10CD71098E5FE1D5 /* Foundation.framework in Frameworks */,
+				290F90FA191265A402AA80250A1DBBE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,55 +484,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0067A5D11E4B44A361A1202D3EC8141D /* Support Files */ = {
+		037830121B68F24AA23C31C18F041186 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C667AEDDA6A0479B431C604CF941614C /* EZSwiftExtensions.modulemap */,
-				8A3F103373D47B13A7DE0DF68C2D07AE /* EZSwiftExtensions.xcconfig */,
-				EB7CC0764316AEC6B46CA1E9A5D50DF7 /* EZSwiftExtensions-Private.xcconfig */,
-				3BEEF8EDB0507A8539DD79F1E901DE06 /* EZSwiftExtensions-dummy.m */,
-				A3A1BE34540267F87C9520DEF46D287D /* EZSwiftExtensions-prefix.pch */,
-				0D538CFE0FE51515AC21CB7CDC808C34 /* EZSwiftExtensions-umbrella.h */,
-				00F3C4CA2285000DC8D5B82CD705B493 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EZSwiftExtensions";
-			sourceTree = "<group>";
-		};
-		158340E2EAA96F3D0DA73B7E5DC05237 /* PullToRefresher */ = {
-			isa = PBXGroup;
-			children = (
-				6A65117B43CACA5A24920725C8581DFF /* PullToRefresh.swift */,
-				EC1BA307818B4D1B18C171E4A491E58A /* UIScrollView+PullToRefresh.swift */,
-				BC83570C788D6E86D4843A722F432FE5 /* Support Files */,
-			);
-			path = PullToRefresher;
-			sourceTree = "<group>";
-		};
-		2206C70820C7E4AB00072B6C3715EB56 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59AB63812C35FC5E94E9D834150C824C /* KNSemiModalViewController_hons82.framework */,
-				1ECE62E8ED90EC1DB420587396A1437C /* PullToRefresh.framework */,
-				4D8F45F9C48CAA927127AE5D24AC802E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2802D1F78CD19EBE0A7D4A3EBBE55888 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DE4921CC507A6E7A92909EC0A860B130 /* EZSwiftExtensions */,
-				7645A4D724A4BCEC06C38D11B5C6F647 /* KNSemiModalViewController_hons82 */,
-				F9454A9ED8D235A511FF6289E2D9E6A0 /* PullToMakeFlight */,
-				158340E2EAA96F3D0DA73B7E5DC05237 /* PullToRefresher */,
-				2E8F1BC09F3E04EDFC7E6454C98BEF88 /* THCalendarDatePicker */,
-				5D393C0994CB921F3CB67315EEECB9C4 /* UNAlertView */,
+				FB588375ACBB753719C2FEA5479F0D6A /* EZSwiftExtensions */,
+				6CA9D4A472327302894CEB19A7E49AD2 /* Former */,
+				32CF7544EBABDCA2C3FDCDBBC2D1CBBC /* KNSemiModalViewController_hons82 */,
+				09EC076A029DBA5B78481961B1AFF8C0 /* PullToMakeFlight */,
+				9D289CC110D77CDEE64749D1E07A6953 /* PullToRefresher */,
+				1FD3741C8C62ABC1343B844F96DCD42B /* THCalendarDatePicker */,
+				48A5739A97ACF5D835C3C58214B4C698 /* UNAlertView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2E8F1BC09F3E04EDFC7E6454C98BEF88 /* THCalendarDatePicker */ = {
+		09EC076A029DBA5B78481961B1AFF8C0 /* PullToMakeFlight */ = {
+			isa = PBXGroup;
+			children = (
+				C3B76788C9626D8AA0EFDE5BF0A3E738 /* CAKeyframeAnimation+Extensions.swift */,
+				E2014A6FCD81D345996F6FB5AF3EEB00 /* PullToMakeFlight.h */,
+				661B03816CDAFE249F2A424B39D88B23 /* PullToMakeFlight.swift */,
+				51F88E2DE9C7479BEF68208A302C00DA /* Resources */,
+				FE6A6CE82174367413D966055150157F /* Support Files */,
+			);
+			path = PullToMakeFlight;
+			sourceTree = "<group>";
+		};
+		15FD953FC303459240905141902FAAF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				989C4156EA70EBAD59F55B646EE2EBF5 /* Info.plist */,
+				8A9B7DA3AAEC39B3DD9AFE209B1FA833 /* KNSemiModalViewController_hons82.modulemap */,
+				435C65CC3F2B87B9CE49472A812DE93B /* KNSemiModalViewController_hons82.xcconfig */,
+				C58094551DC10059A3B9FBC74F64D373 /* KNSemiModalViewController_hons82-Private.xcconfig */,
+				227F0F955E1F330F0687917768E2E50B /* KNSemiModalViewController_hons82-dummy.m */,
+				CD1BBEDC8BE2480F2E5C81CC4EBE92DF /* KNSemiModalViewController_hons82-prefix.pch */,
+				AA6C97BD814D538D1544E21E96F189A2 /* KNSemiModalViewController_hons82-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KNSemiModalViewController_hons82";
+			sourceTree = "<group>";
+		};
+		1A1B6A308F18A2BE815907518349DC41 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C81039E6BD15F7399AC341E60F890 /* CoreGraphics.framework */,
+				DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */,
+				72FF987FEF7A69E9A9F854D8E309D0F4 /* QuartzCore.framework */,
+				ED13B470E131248053D8D8E1C9102346 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1FD3741C8C62ABC1343B844F96DCD42B /* THCalendarDatePicker */ = {
 			isa = PBXGroup;
 			children = (
 				12F653A80BE054C6F533604F66BCE755 /* NSDate+Difference.h */,
@@ -422,149 +545,32 @@
 				2E4FC949F3A2F11977E1C8CB0B867B0B /* THDateDay.m */,
 				0185050CA758A0B1106FDB6CA0C1203F /* THDatePickerViewController.h */,
 				942E88262FEF356EEE3C029AE0E99188 /* THDatePickerViewController.m */,
-				4E1A080E743A7FE0A0D53B4B9BC92AE7 /* Resources */,
-				2FC4809D1D3D5C3AEECD674CB9680F40 /* Support Files */,
+				B197B5D01A0D42D363B85C58A5D4C680 /* Resources */,
+				5A95A580029066ADB5A494785EE3218E /* Support Files */,
 			);
 			path = THCalendarDatePicker;
 			sourceTree = "<group>";
 		};
-		2FC4809D1D3D5C3AEECD674CB9680F40 /* Support Files */ = {
+		32CF7544EBABDCA2C3FDCDBBC2D1CBBC /* KNSemiModalViewController_hons82 */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE8AE00B38847B18380CC5F3F558BF /* Info.plist */,
-				0C823B5F73566D3D6397F43076EA4EDB /* THCalendarDatePicker.modulemap */,
-				555F243C3DAE1F21A3CBCCA7531FEA3E /* THCalendarDatePicker.xcconfig */,
-				D797B1ED248110A75DB001F7292F1662 /* THCalendarDatePicker-Private.xcconfig */,
-				65C5383F840018C52B3146D5A1BD2235 /* THCalendarDatePicker-dummy.m */,
-				A730C04335CF3319B6B35372A24C8CBA /* THCalendarDatePicker-prefix.pch */,
-				D4365C5FD4FA5B6FDF3B4C35C4B6CDC7 /* THCalendarDatePicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/THCalendarDatePicker";
-			sourceTree = "<group>";
-		};
-		30056BAE996398FF5528659AC910370B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0117EB63E13D5A5A03B3DEC18B2A0393 /* Info.plist */,
-				FE5E97392B19D80A1D4515A7D020288C /* KNSemiModalViewController_hons82.modulemap */,
-				4006CC72C3E62A7AFC3F8F06DD163445 /* KNSemiModalViewController_hons82.xcconfig */,
-				EDC503A9FDE3175ACBE591C1DCBB673F /* KNSemiModalViewController_hons82-Private.xcconfig */,
-				1CAD515DE4FDA1D9871D8B8B43149B18 /* KNSemiModalViewController_hons82-dummy.m */,
-				A1FADF614A0D456ED4381FA8CCB3CC7C /* KNSemiModalViewController_hons82-prefix.pch */,
-				D078812464407812B2DCE19B1778EE3A /* KNSemiModalViewController_hons82-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KNSemiModalViewController_hons82";
-			sourceTree = "<group>";
-		};
-		4D8F45F9C48CAA927127AE5D24AC802E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2A6C81039E6BD15F7399AC341E60F890 /* CoreGraphics.framework */,
-				DD86683CE919ED153A4C5BE62162F5C8 /* Foundation.framework */,
-				2C0F2867132A4261B96EAD9754B31801 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4E1A080E743A7FE0A0D53B4B9BC92AE7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E1E8C24F8F1C070C11AF386D8EC55325 /* Images.xcassets */,
-				59629C1E0E8AFE132D15F911178EAC06 /* THDateDay.xib */,
-				2E9C62D51CD746956BA0CB57F80EDF44 /* THDatePickerViewController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5B27D11B056F7B2891B7092CB75862A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C427313DC20F962D45BF219B8DFF0527 /* Info.plist */,
-				B04DF39EC9CD30E908264F9C58DC41FB /* UNAlertView.modulemap */,
-				6904CAFCB10DA6CFB250E677C87D9799 /* UNAlertView.xcconfig */,
-				78DDA507AF547F57A184625D5FA33C59 /* UNAlertView-Private.xcconfig */,
-				DA0B771BBA0484BC77117A945935EF78 /* UNAlertView-dummy.m */,
-				A898F1B2EE4A6782A9A543DDF61C5BE7 /* UNAlertView-prefix.pch */,
-				ED389F8613A5BD9BAE0700D10D901CDA /* UNAlertView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UNAlertView";
-			sourceTree = "<group>";
-		};
-		5D393C0994CB921F3CB67315EEECB9C4 /* UNAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				9A1DA5E7BC136D66FC0F7F0C39BF01AD /* UNAlertView.swift */,
-				5B27D11B056F7B2891B7092CB75862A1 /* Support Files */,
-			);
-			path = UNAlertView;
-			sourceTree = "<group>";
-		};
-		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
-				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
-				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
-				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
-				D4CB2508D2B930AAA09C48217FF8C614 /* Pods-dummy.m */,
-				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
-				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
-				BAB12C87DD4D05C5398BA94D1618DAB2 /* Pods-umbrella.h */,
-				D643F6471958B198B3167BADCEDF6545 /* Pods.debug.xcconfig */,
-				C5199B37D6DBCE01A1415EDC805E5A12 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		7645A4D724A4BCEC06C38D11B5C6F647 /* KNSemiModalViewController_hons82 */ = {
-			isa = PBXGroup;
-			children = (
-				CBD1388E8A6F0C14278BC847957F2B2C /* UIViewController+KNSemiModal.h */,
-				2925552D8E415142C5C956DC1899C633 /* UIViewController+KNSemiModal.m */,
-				30056BAE996398FF5528659AC910370B /* Support Files */,
+				FF64EA212E9765246D643086DBEC75FD /* UIViewController+KNSemiModal.h */,
+				30677439923CB7F17342836D7269BA3F /* UIViewController+KNSemiModal.m */,
+				15FD953FC303459240905141902FAAF1 /* Support Files */,
 			);
 			path = KNSemiModalViewController_hons82;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		48A5739A97ACF5D835C3C58214B4C698 /* UNAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				2206C70820C7E4AB00072B6C3715EB56 /* Frameworks */,
-				2802D1F78CD19EBE0A7D4A3EBBE55888 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+				9A1DA5E7BC136D66FC0F7F0C39BF01AD /* UNAlertView.swift */,
+				ABC05450E2D443A6B5BF08DE9520D6E7 /* Support Files */,
 			);
+			path = UNAlertView;
 			sourceTree = "<group>";
 		};
-		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC83570C788D6E86D4843A722F432FE5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C5CB905D1B0F03AFFA8E4D78791CC9D /* Info.plist */,
-				0963F490F8EA23B6C0D95B6F6E1BB310 /* PullToRefresher.modulemap */,
-				269EC70E4D875E1EC023E87CEEB75875 /* PullToRefresher.xcconfig */,
-				D644A45C73B2F3A665A1D0B594926C28 /* PullToRefresher-Private.xcconfig */,
-				38043C463E3853B891A32CC8794CEC4B /* PullToRefresher-dummy.m */,
-				D06FECCB74BF47E756EA5955DFC0E91B /* PullToRefresher-prefix.pch */,
-				E61E69CFE22BFF378C7704BB4922CAE9 /* PullToRefresher-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PullToRefresher";
-			sourceTree = "<group>";
-		};
-		BD1D73BEC9035F2ACE8FA4BEC7032407 /* Resources */ = {
+		51F88E2DE9C7479BEF68208A302C00DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD918DA22FB21E3BE7065637B6F374 /* FlightView.xib */,
@@ -593,12 +599,193 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		5A95A580029066ADB5A494785EE3218E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD69E3751888B928D79FEA0B37F54D81 /* Info.plist */,
+				736908C73B858C6ECBB0084F37BF81B1 /* THCalendarDatePicker.modulemap */,
+				0276E39F44079AE15B093AAF0F4C2C01 /* THCalendarDatePicker.xcconfig */,
+				D797B1ED248110A75DB001F7292F1662 /* THCalendarDatePicker-Private.xcconfig */,
+				65C5383F840018C52B3146D5A1BD2235 /* THCalendarDatePicker-dummy.m */,
+				C6346E779D1B3DF3A32F31A8B145293F /* THCalendarDatePicker-prefix.pch */,
+				D4365C5FD4FA5B6FDF3B4C35C4B6CDC7 /* THCalendarDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/THCalendarDatePicker";
+			sourceTree = "<group>";
+		};
+		6415E3A9CD3E97DA638EFC4C570EF55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59AB63812C35FC5E94E9D834150C824C /* KNSemiModalViewController_hons82.framework */,
+				1ECE62E8ED90EC1DB420587396A1437C /* PullToRefresh.framework */,
+				1A1B6A308F18A2BE815907518349DC41 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA9D4A472327302894CEB19A7E49AD2 /* Former */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0E6CCB01DF7A62F693A3FC30823EE /* BaseRowFormer.swift */,
+				52EFF644A1AE39AE91934DE3A1774690 /* BaseViewFormer.swift */,
+				8015993E740AF6F04ACEB1023B28A4F7 /* CheckRowFormer.swift */,
+				5874C47C0EC9B30BA65AD86428068A71 /* CustomRowFormer.swift */,
+				C502CD7A3F68698466EF2B287696E797 /* CustomViewFormer.swift */,
+				76084A33A32A3727B5E1AE840D481616 /* DatePickerRowFormer.swift */,
+				EAB29EDE681ABEC9996F8770B4D71EF1 /* FormCell.swift */,
+				56DC0F1FBE1CB499747FDEFF3A2A4552 /* FormCheckCell.swift */,
+				D3D44E73A13C2466F3A8B915D965BFA7 /* FormDatePickerCell.swift */,
+				2CEF62492F240C15349F73DBC8C13F75 /* FormHeaderFooterView.swift */,
+				AAA1609AF5DADE86953E8EEC5C847830 /* FormInlineDatePickerCell.swift */,
+				B2F682A8CAB910CADE5EDC444313C421 /* FormInlinePickerCell.swift */,
+				36D66227184646D85699B650822EF1E7 /* FormLabelCell.swift */,
+				8B024EF815FCBF8FE9A162464DE6F464 /* FormLabelFooterView.swift */,
+				9624DB5B24384692CC044787024DFB61 /* FormLabelHeaderView.swift */,
+				A65AE276031B8315A5253CDFEF0E07F4 /* FormPickerCell.swift */,
+				1457EB7D3224F3C50276E3BF1F17628D /* FormSegmentedCell.swift */,
+				1A6B9DF81385EE41C43FBA7954C1C080 /* FormSelectorDatePickerCell.swift */,
+				AD9FDA272B6AAC52D5693A66B4F3E4B4 /* FormSelectorPickerCell.swift */,
+				951EC1183171F59A3EC62E5BB0575688 /* FormSliderCell.swift */,
+				00BA2175E5343F122CD4B7BA5D8203D8 /* FormStepperCell.swift */,
+				FDEDD0BD026887CB93D5F1FB17EE142D /* FormSwitchCell.swift */,
+				D005C958403BAA52E2D6B7348149B1A7 /* FormTextFieldCell.swift */,
+				DCBE88328A8FDE8B0CA3D6036D645F45 /* FormTextViewCell.swift */,
+				E70A165B9834C67CF0AAF698141B01EC /* FormViewController.swift */,
+				3230C14A6EFBCAB889B58852C79CEC91 /* Former.h */,
+				A6A69F5678D2E8C5D1F70CD05F71190D /* Former.swift */,
+				25F78FA693C07A3012BC7E7B636D7739 /* FormerProtocol.swift */,
+				AC293C32A6EA4222EAC30FFE203921C5 /* InlineDatePickerRowFormer.swift */,
+				9E9CA6F7778B6BFCEA8341A6E6FABA0E /* InlinePickerRowFormer.swift */,
+				423C0EF5F4E57B820DF065F6C53F4117 /* LabelRowFormer.swift */,
+				D6FFE29032CC589DCD637A9C9B765FC4 /* LabelViewFormer.swift */,
+				D4AB2F709800070DEDBCF4598E2C278D /* PickerRowFormer.swift */,
+				AA6AD49EBB518E78DA93C9B6F22FA775 /* RowFormer.swift */,
+				B409FEBA1F1A36B7FFCAF7266EE60800 /* SectionFormer.swift */,
+				C16F6CD0DDC5D1D2C02EA07422413257 /* SegmentedRowFormer.swift */,
+				D1A3D027FDB894DB64565AC624E9FDBD /* SelectorDatePickerRowFormer.swift */,
+				667732BFD89D53046366C37928F69726 /* SelectorPickerRowFormer.swift */,
+				F47BB3286B8A68AB70D699EFA2ECBD9D /* SliderRowFormer.swift */,
+				CC72F677E69F5518C6DB5B70517F9343 /* StepperRowFormer.swift */,
+				A84A081B92E9281DCAA4F32D8BB9F649 /* SwitchRowFormer.swift */,
+				FE17F51C7BC0CE803C65682897250C79 /* TextFieldRowFormer.swift */,
+				54D7BD0F09ABF3F9332604D889AD0932 /* TextViewRowFormer.swift */,
+				93759F9EAFD6A3BC012431AF71D20B6A /* UITableViewCell+Former.swift */,
+				F7A6F26E3B98296E599593F69F46CF63 /* ViewFormer.swift */,
+				C0918F4CB9BD8C5489661A75A572682F /* Support Files */,
+			);
+			path = Former;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				E0F7F35443EE4A62DEE4652CA1ADA946 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				B7242361907F3C8B9AAD83DCA7F93FBC /* Pods-umbrella.h */,
+				FE7D67567F6CB878E7C006C34B539878 /* Pods.debug.xcconfig */,
+				A16D7B567023024894F63435227639AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6415E3A9CD3E97DA638EFC4C570EF55F /* Frameworks */,
+				037830121B68F24AA23C31C18F041186 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D289CC110D77CDEE64749D1E07A6953 /* PullToRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				6A65117B43CACA5A24920725C8581DFF /* PullToRefresh.swift */,
+				EC1BA307818B4D1B18C171E4A491E58A /* UIScrollView+PullToRefresh.swift */,
+				E8C7BDAAD542F8B36B611B69F888A5B8 /* Support Files */,
+			);
+			path = PullToRefresher;
+			sourceTree = "<group>";
+		};
+		ABC05450E2D443A6B5BF08DE9520D6E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C487E6A514C249FE4EB8AC8CCCE1370 /* Info.plist */,
+				6AEFCE785E231F086EB0C9B55F8AD381 /* UNAlertView.modulemap */,
+				32B0F2DAD15DED7948D946FC08DD513F /* UNAlertView.xcconfig */,
+				78DDA507AF547F57A184625D5FA33C59 /* UNAlertView-Private.xcconfig */,
+				DA0B771BBA0484BC77117A945935EF78 /* UNAlertView-dummy.m */,
+				897454AE5C789222F70975DB038FA007 /* UNAlertView-prefix.pch */,
+				ED389F8613A5BD9BAE0700D10D901CDA /* UNAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UNAlertView";
+			sourceTree = "<group>";
+		};
+		B197B5D01A0D42D363B85C58A5D4C680 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8C24F8F1C070C11AF386D8EC55325 /* Images.xcassets */,
+				59629C1E0E8AFE132D15F911178EAC06 /* THDateDay.xib */,
+				2E9C62D51CD746956BA0CB57F80EDF44 /* THDatePickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B3576AEBB7B49C8AEC3BE5BDCE42F912 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32DB6268FED79921F10F2A3A8C4882AB /* EZSwiftExtensions.modulemap */,
+				005141B8616EF0DE5C2C5842BCF255E0 /* EZSwiftExtensions.xcconfig */,
+				FD4FF184F9DD5C4AE1AA1165DAD675F1 /* EZSwiftExtensions-Private.xcconfig */,
+				F2F727F91E718649C8A8DF2DFFB79605 /* EZSwiftExtensions-dummy.m */,
+				5DAA5E7E07E1628AEC040EA55A070535 /* EZSwiftExtensions-prefix.pch */,
+				61DA9A41E0BE36263ED4BB7E4C67AAE3 /* EZSwiftExtensions-umbrella.h */,
+				74734581B603BC58F0D254B88DF9E6F8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EZSwiftExtensions";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0918F4CB9BD8C5489661A75A572682F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39173C4E264D34596E43F0C77F560874 /* Former.modulemap */,
+				6E4CF9809064900A50EB5774222E8734 /* Former.xcconfig */,
+				95799F7C4FA3057B70CCCA9B5A251737 /* Former-Private.xcconfig */,
+				64E8266FC4BD1CFCDC81F54B30AC49E8 /* Former-dummy.m */,
+				789E98E8144C87B6338044D60F37EFE8 /* Former-prefix.pch */,
+				782DE018572BFDA1CC716DDE2AAA77AF /* Former-umbrella.h */,
+				05B7027474077BC57D73DB48067A2FD3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Former";
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E04960D7F0192AE716DE9B48B1BA2 /* EZSwiftExtensions.framework */,
-				7B0CD46DDE6FB6E04F2597A3A1726B42 /* KNSemiModalViewController_hons82.framework */,
-				A6B29D1769860DE39B0AE6F3B84FA913 /* Pods.framework */,
+				8F6A1995852E2D3C164A7CB4829B14DD /* EZSwiftExtensions.framework */,
+				4234F227871A2FC4ADDBD2596E5DE979 /* Former.framework */,
+				CB0FD4A1BC46BA981DCC5056FDB5C267 /* KNSemiModalViewController_hons82.framework */,
+				586AD9D651493A691E853E9AAFE0CFC3 /* Pods.framework */,
 				1C479543CDC7836DD01DEB028F8D02D4 /* PullToMakeFlight.framework */,
 				3A730B301C32A67EED9C384A37E72433 /* PullToRefresh.framework */,
 				A173FCCEC66BB539748C00BC1AD937E6 /* THCalendarDatePicker.framework */,
@@ -607,65 +794,68 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE4921CC507A6E7A92909EC0A860B130 /* EZSwiftExtensions */ = {
+		E8C7BDAAD542F8B36B611B69F888A5B8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC711C9C3DE99B5ABE891DBC830A73E0 /* ArrayExtensions.swift */,
-				B240B5BA6803EAD1D55EB7E7B2086381 /* BlockButton.swift */,
-				460393BE6FEB06DB1680C881BCFFAE40 /* BlockLongPress.swift */,
-				B425FB0461A41A9B5F3890AF5AE73F72 /* BlockPan.swift */,
-				1F09B2361E857FBF3BC6F0BCC727B4B2 /* BlockPinch.swift */,
-				78F9183159312FF3BD7A6ADA77AB22A0 /* BlockSwipe.swift */,
-				6F0B8FE2162CF3761400D67FA6B32F21 /* BlockTap.swift */,
-				9B311A0E2D34FAAE1FB656377ED7A5EE /* BlockWebView.swift */,
-				B995819D42B21B295D1CF9EDCAA93A7B /* BoolExtentions.swift */,
-				C087144CC18B6C3107B1826A35B4C6F1 /* CGFloatExtensions.swift */,
-				C7FB099F87ED8C835273A6187932389A /* CGRectExtensions.swift */,
-				FFF683D490521DD6FB43C024B9FDD190 /* DictionaryExtensions.swift */,
-				F8DDCA5671FA7A4D896FB0BA5C93935B /* DoubleExtensions.swift */,
-				4071F1586F8419A1C0D119EB392ACFF9 /* EZSwiftExtensions.swift */,
-				C03D578C33F8A9F47431A2E4AFE9B284 /* IntExtentions.swift */,
-				14CCB8D2EA7DE91D5AFD1660C640DE4A /* NSDateExtensions.swift */,
-				DFFB1BD086B835C66D7A08BD251EFAFE /* NSObjectExtentions.swift */,
-				6C6BC5E64E9021E8269A1ABC4C39E8B0 /* NSUserDefaultsExtension.swift */,
-				262EAAE30CEC344C72BE6E954AB432D9 /* StringExtensions.swift */,
-				591E227DA27938A9852EFEC1BA6F20AE /* UIButtonExtensions.swift */,
-				86E58E59EA7304B4901DAA6DA00EA2A9 /* UIColorExtensions.swift */,
-				B38FDBB44772A4431259704332290303 /* UIColoredView.swift */,
-				386B2941D58D7AFBA9EB46A3220FAC93 /* UIDeviceExtensions.swift */,
-				2EC66B52A4CC1A3FD4240E1B368B4AF4 /* UIFontExtensions.swift */,
-				F9ADC5CF06EF1D90CE5DD308D386A67F /* UIImageExtensions.swift */,
-				35451F63BBE8C35105CEC41E3058F48F /* UIImageViewExtensions.swift */,
-				2E71D8D7B8947A5CDC0538DFCFA9D594 /* UILabelExtensions.swift */,
-				3B4BC7B6C88003F345FCC6101B9F402C /* UITextViewExtensions.swift */,
-				027C656A2405E045D202FE61B114A837 /* UIViewControllerExtensions.swift */,
-				D78EF1ECFF32CD99F186B0B6489C8E80 /* UIViewExtensions.swift */,
-				0067A5D11E4B44A361A1202D3EC8141D /* Support Files */,
+				C0FC465FE95832314DB5FD436DA77DDD /* Info.plist */,
+				81B83298DE7DA9D73E2445122B2B5F5D /* PullToRefresher.modulemap */,
+				708877D480D772CF2356B610934F18C5 /* PullToRefresher.xcconfig */,
+				D644A45C73B2F3A665A1D0B594926C28 /* PullToRefresher-Private.xcconfig */,
+				38043C463E3853B891A32CC8794CEC4B /* PullToRefresher-dummy.m */,
+				2FC61055CECD467E4A432930E820A7CB /* PullToRefresher-prefix.pch */,
+				E61E69CFE22BFF378C7704BB4922CAE9 /* PullToRefresher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PullToRefresher";
+			sourceTree = "<group>";
+		};
+		FB588375ACBB753719C2FEA5479F0D6A /* EZSwiftExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				80CDAC1F5BF2CF8E1C20BCF9E1361860 /* ArrayExtensions.swift */,
+				501C9E4435D05926163BA92D20177926 /* BlockButton.swift */,
+				F8A74307690EC7164CEC8F0AC55DA5CD /* BlockLongPress.swift */,
+				E341F94E238BEE05DCB5AD6F9E94573F /* BlockPan.swift */,
+				07C0875CAFA3EE26507EE0EEB1E83615 /* BlockPinch.swift */,
+				776BE64C4AEF7BD7E76E3BCC67B22122 /* BlockSwipe.swift */,
+				A2B78AB5E1A0D8B7EDDFEC9D8479864D /* BlockTap.swift */,
+				CD99B25FC3A173F2E08238A5C0559E35 /* BlockWebView.swift */,
+				ED9CAEC3CA0B58094A0028100C110F6A /* BoolExtentions.swift */,
+				A3D300E6DC33450A06D805E50795B738 /* CGFloatExtensions.swift */,
+				F9AC4ADA4ED515ADF95BC265ED010636 /* CGRectExtensions.swift */,
+				28D24F0F88BAE89FAC714ACCF8526CFA /* DictionaryExtensions.swift */,
+				1F371FB9A214F2C8AF4983ECAD2A07A5 /* DoubleExtensions.swift */,
+				193D2E5803DC941B810B9305C1A395AB /* EZSwiftExtensions.swift */,
+				35EAFDBBB6F3A2AE940CFE081C4179B7 /* IntExtentions.swift */,
+				7820EABBCE3F4D0AB3BA38A93EFEF130 /* NSDateExtensions.swift */,
+				E8DE8A6B8AD97E5488921318F1566483 /* NSObjectExtentions.swift */,
+				DC87F6FE37C605377761133440EBE06A /* NSUserDefaultsExtension.swift */,
+				CC1579140E771C0DA3BE32C1223A5070 /* StringExtensions.swift */,
+				D9CE8D6744BD1264B83F47B5B83CB57D /* UIButtonExtensions.swift */,
+				489D34E01199BF30AF6C4EDB370DA23D /* UIColorExtensions.swift */,
+				50A37631C3ED73FB98E9A079A4E2D9E2 /* UIColoredView.swift */,
+				754D6132E320296679A088A35FDAC7FB /* UIDeviceExtensions.swift */,
+				CEA5B749C2FF6017115118698369A9E6 /* UIFontExtensions.swift */,
+				3585B0F8ECB587528664B70E1F39A6A7 /* UIImageExtensions.swift */,
+				D10A4918AB0DC4EB04602024C9912C66 /* UIImageViewExtensions.swift */,
+				9E05A18FD7B372E963BA80519EC693EF /* UILabelExtensions.swift */,
+				F17D9C889ACD0A7D96E4A9A77D20F849 /* UITextViewExtensions.swift */,
+				FFD1D6AD4450AA2CAB0DA6E712A6C090 /* UIViewControllerExtensions.swift */,
+				BA811308C5F1FB5EDD431A5CE8846C41 /* UIViewExtensions.swift */,
+				B3576AEBB7B49C8AEC3BE5BDCE42F912 /* Support Files */,
 			);
 			path = EZSwiftExtensions;
 			sourceTree = "<group>";
 		};
-		F9454A9ED8D235A511FF6289E2D9E6A0 /* PullToMakeFlight */ = {
+		FE6A6CE82174367413D966055150157F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3B76788C9626D8AA0EFDE5BF0A3E738 /* CAKeyframeAnimation+Extensions.swift */,
-				E2014A6FCD81D345996F6FB5AF3EEB00 /* PullToMakeFlight.h */,
-				661B03816CDAFE249F2A424B39D88B23 /* PullToMakeFlight.swift */,
-				BD1D73BEC9035F2ACE8FA4BEC7032407 /* Resources */,
-				FBB31B242FE2736B7E348DC68C884D0F /* Support Files */,
-			);
-			path = PullToMakeFlight;
-			sourceTree = "<group>";
-		};
-		FBB31B242FE2736B7E348DC68C884D0F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E68858CF2F40C9DCBB14505E668CDE65 /* Info.plist */,
-				19D40E010AD856B72B56A37647CA4E08 /* PullToMakeFlight.modulemap */,
-				6D99293BF22B0E88DA2B747CA1059091 /* PullToMakeFlight.xcconfig */,
+				3EC84187B7B834D5D989FA68A6CFF1FB /* Info.plist */,
+				1C54B76BEA0FAFE2C01414085051ACEA /* PullToMakeFlight.modulemap */,
+				FEDAA7BAD0A51C0292351D6299822E2B /* PullToMakeFlight.xcconfig */,
 				E1BC5C89417395F83019FFECB5E17192 /* PullToMakeFlight-Private.xcconfig */,
 				10C505BAA15916ACC5250DAC635D9F48 /* PullToMakeFlight-dummy.m */,
-				ABB15F46025654896ED87AC7C84BF42D /* PullToMakeFlight-prefix.pch */,
+				24C6BCA088277EC76EFD4DD680F18425 /* PullToMakeFlight-prefix.pch */,
 				E156A97F423656BA16F3FD1B37682E72 /* PullToMakeFlight-umbrella.h */,
 			);
 			name = "Support Files";
@@ -692,15 +882,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B1BB690F4464CA4C8C152AC32EC65C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31C75A678176265A26BD041B5BF7A3ED /* KNSemiModalViewController_hons82-umbrella.h in Headers */,
-				DC09C725A1ED52C5A73967A73C5CA068 /* UIViewController+KNSemiModal.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B5501B313DB5C4E9487EF06BF22D2C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,19 +901,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		752F51E963A3B2270A31893D1011BBCC /* Headers */ = {
+		597ADE6390478D5D6A2C56ED37914982 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EF68DD4FB91B6E51838AED13EFE4A9 /* EZSwiftExtensions-umbrella.h in Headers */,
+				05E901F4E191E02850930B17BA17D478 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A02BC10F46E0CBB8D45157A09BEB9AB /* Headers */ = {
+		A7EB47CF8D889AC030186A6E91E64527 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60CD41D0FBEBC3EB0C53A0BAE41D3D1 /* Pods-umbrella.h in Headers */,
+				3D5FE07779308886BE226D5E2BCEE29E /* KNSemiModalViewController_hons82-umbrella.h in Headers */,
+				3179EFEACECD108AFF79DC2EF4DF990E /* UIViewController+KNSemiModal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8A19B7414FCBA61544B28ACF87599 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1B241E7E34CFAF534EDBE89BFE8E87 /* EZSwiftExtensions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA06D61922DF2C8C6F0944565039EA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A89EB2D0CE5A8D25E3C45B080B9B04 /* Former-umbrella.h in Headers */,
+				6D04C0B390F9E6F7474CF83DD6ADF83B /* Former.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,46 +953,6 @@
 			name = PullToRefresher;
 			productName = PullToRefresher;
 			productReference = 3A730B301C32A67EED9C384A37E72433 /* PullToRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		16735D61A0DD11D80DE0B8014F9D81DB /* KNSemiModalViewController_hons82 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BFFFEA841D4724AFD5EE49C79E99C84 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */;
-			buildPhases = (
-				BB35D962FEF1EE4AFC1B4A026B15A6B3 /* Sources */,
-				37581A40737B13B781531C755723C5B1 /* Frameworks */,
-				3B1BB690F4464CA4C8C152AC32EC65C0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KNSemiModalViewController_hons82;
-			productName = KNSemiModalViewController_hons82;
-			productReference = 7B0CD46DDE6FB6E04F2597A3A1726B42 /* KNSemiModalViewController_hons82.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2CD2AEA9B1A53448A87D46106AF32C22 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AADD5129CB624343931BBD4F175EE2B3 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				C15BA6E0E2E0AA5B629A06F9CFF2BBC3 /* Sources */,
-				707688555149E4C2FEB1DBD0E43184FB /* Frameworks */,
-				9A02BC10F46E0CBB8D45157A09BEB9AB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28114EFEC62273232A742C81F4BDE7A3 /* PBXTargetDependency */,
-				951AA48938E6A5F23D5E319903F16F4B /* PBXTargetDependency */,
-				DFA6B0DD2FE756A89AFBF0C3C5BBFBA8 /* PBXTargetDependency */,
-				E8EF752405B78F115ECF3104A0847D54 /* PBXTargetDependency */,
-				2B620C3097EA7EB3E1E53E70A31746E7 /* PBXTargetDependency */,
-				0708E1D5C3CAD642B48DA27767336FB4 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = A6B29D1769860DE39B0AE6F3B84FA913 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		49274ADF5CD05C4BB8897DC5049B049B /* UNAlertView */ = {
@@ -825,11 +984,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				83FE833AD872EAFD9EE1DC778B14DA3E /* PBXTargetDependency */,
+				3B836FD86A4856FC6CFCCB43C17E4FC1 /* PBXTargetDependency */,
 			);
 			name = PullToMakeFlight;
 			productName = PullToMakeFlight;
 			productReference = 1C479543CDC7836DD01DEB028F8D02D4 /* PullToMakeFlight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60DB4588E33596F8312D0E9C1046EDA5 /* EZSwiftExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B3CDEF3D9921279AE4EBBA3D4A22F9 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */;
+			buildPhases = (
+				05009AA8E891C58F4844012CFF746E27 /* Sources */,
+				0C966F91B3345055837BC8E8F9FDF67D /* Frameworks */,
+				C5F8A19B7414FCBA61544B28ACF87599 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZSwiftExtensions;
+			productName = EZSwiftExtensions;
+			productReference = 8F6A1995852E2D3C164A7CB4829B14DD /* EZSwiftExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		893D87CA67C03C866BEBA45B80E74730 /* THCalendarDatePicker */ = {
@@ -844,28 +1020,69 @@
 			buildRules = (
 			);
 			dependencies = (
-				7DA33B605540DC63D0B841E195019C9C /* PBXTargetDependency */,
+				8BE784FDE18D1FDB3A1557F8833094FE /* PBXTargetDependency */,
 			);
 			name = THCalendarDatePicker;
 			productName = THCalendarDatePicker;
 			productReference = A173FCCEC66BB539748C00BC1AD937E6 /* THCalendarDatePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FD70B7F2CACA020A57098D9BC398D3C2 /* EZSwiftExtensions */ = {
+		A06987FC2CB976EA21EF51CF7C227C56 /* KNSemiModalViewController_hons82 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB5B515E03164FDB3970D39CED252D63 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */;
+			buildConfigurationList = C3E430E627B3A6DC5424F23F0E5EB314 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */;
 			buildPhases = (
-				404831091BF90B6C8C4E7CA8658BD34E /* Sources */,
-				717FB4F6A3AA47C38DAADEDEB2EDB7B9 /* Frameworks */,
-				752F51E963A3B2270A31893D1011BBCC /* Headers */,
+				A9C258BFA6449841755F2E3923D298BB /* Sources */,
+				A845ADC581D92E7796ADF7165B8625ED /* Frameworks */,
+				A7EB47CF8D889AC030186A6E91E64527 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EZSwiftExtensions;
-			productName = EZSwiftExtensions;
-			productReference = DE2E04960D7F0192AE716DE9B48B1BA2 /* EZSwiftExtensions.framework */;
+			name = KNSemiModalViewController_hons82;
+			productName = KNSemiModalViewController_hons82;
+			productReference = CB0FD4A1BC46BA981DCC5056FDB5C267 /* KNSemiModalViewController_hons82.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0AB617D2B647CC475D3FE8FF00DD4FC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9A62C24D0EEDBDA113F97E00DC1369 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E7CC1DBC789B70D1EADDF19F494F7B27 /* Sources */,
+				AF897DD23BD75CCA75A0ADC9D25D76EF /* Frameworks */,
+				597ADE6390478D5D6A2C56ED37914982 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C25608E141EC8FFD6C6887508F5ACAF /* PBXTargetDependency */,
+				B8D674ADCAAFC2694B7F3463D5C5838B /* PBXTargetDependency */,
+				C359C1387E10E2D7DF91F7FAF3FB9CE8 /* PBXTargetDependency */,
+				9764EFEED314628D14F4589D8346A30E /* PBXTargetDependency */,
+				958DD29151FDA865CAE4BB9A4E7E8C1F /* PBXTargetDependency */,
+				ED6EAE322A5A6EE4ED0DA2C71377E2BA /* PBXTargetDependency */,
+				E7D1312227CEF0A76A3943C9A256FA39 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 586AD9D651493A691E853E9AAFE0CFC3 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBD485939BF22F318E997F4DD48D6F75 /* Former */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A759C3BE876BE4291A83FC96584B3F07 /* Build configuration list for PBXNativeTarget "Former" */;
+			buildPhases = (
+				A218BBEF3F92A737B352990C8B36E2BB /* Sources */,
+				1917C5F6C23CD14A92E0E046BD611E1E /* Frameworks */,
+				FFA06D61922DF2C8C6F0944565039EA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Former;
+			productName = Former;
+			productReference = 4234F227871A2FC4ADDBD2596E5DE979 /* Former.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -889,9 +1106,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD70B7F2CACA020A57098D9BC398D3C2 /* EZSwiftExtensions */,
-				16735D61A0DD11D80DE0B8014F9D81DB /* KNSemiModalViewController_hons82 */,
-				2CD2AEA9B1A53448A87D46106AF32C22 /* Pods */,
+				60DB4588E33596F8312D0E9C1046EDA5 /* EZSwiftExtensions */,
+				FBD485939BF22F318E997F4DD48D6F75 /* Former */,
+				A06987FC2CB976EA21EF51CF7C227C56 /* KNSemiModalViewController_hons82 */,
+				D0AB617D2B647CC475D3FE8FF00DD4FC /* Pods */,
 				55EBEA56AA4D3FF91CCFF58C1124A56E /* PullToMakeFlight */,
 				0316E8DF3A016BDD5DCCC003589F1E7A /* PullToRefresher */,
 				893D87CA67C03C866BEBA45B80E74730 /* THCalendarDatePicker */,
@@ -943,41 +1161,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		404831091BF90B6C8C4E7CA8658BD34E /* Sources */ = {
+		05009AA8E891C58F4844012CFF746E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A6AC44F1395FCEDCF08A726F69822F /* ArrayExtensions.swift in Sources */,
-				4E331A0B1608FC354689EC0F956888FB /* BlockButton.swift in Sources */,
-				3112F07C0476AA8231B878282C493A0F /* BlockLongPress.swift in Sources */,
-				750B260EF5400E337494E2982A86D920 /* BlockPan.swift in Sources */,
-				17679163AF6993F4DEB9B9282B679E0B /* BlockPinch.swift in Sources */,
-				69B779634FE7339A63D7AA3EE1EA7F82 /* BlockSwipe.swift in Sources */,
-				0E1FFD22BF03C708415CC4A8F1982C72 /* BlockTap.swift in Sources */,
-				F11BDFA3525C2F03088A9C883F842730 /* BlockWebView.swift in Sources */,
-				1EB0544948336AA0C0BB0834E3C20612 /* BoolExtentions.swift in Sources */,
-				EF7F1854AC62AADF17D33341AA6CB7B4 /* CGFloatExtensions.swift in Sources */,
-				1C9E6F69C925E2253D40D6FB0CD1B875 /* CGRectExtensions.swift in Sources */,
-				82D95EFD08A477D946FC128D7398FB0B /* DictionaryExtensions.swift in Sources */,
-				CCAED245D11BFFE6931406659D985C6F /* DoubleExtensions.swift in Sources */,
-				2917405026D9691506CA1E431BD46F39 /* EZSwiftExtensions-dummy.m in Sources */,
-				B54D511FABAD070E62AD431FE687FAC7 /* EZSwiftExtensions.swift in Sources */,
-				E2CE7ECF4C8BAAD09EBAAF44AF16417A /* IntExtentions.swift in Sources */,
-				D17913DD604AC4E92326C715DE0BE666 /* NSDateExtensions.swift in Sources */,
-				34880F7386C913CE460A3B8EDB4E30DC /* NSObjectExtentions.swift in Sources */,
-				A75CD095C7A81D9A55DC1AC0FFB4E6D9 /* NSUserDefaultsExtension.swift in Sources */,
-				EF5E5DB428A0E3670BE8EE5A5F63A5F6 /* StringExtensions.swift in Sources */,
-				C760D478EFA672C67E994D4A03A144A5 /* UIButtonExtensions.swift in Sources */,
-				10E63626340D1964BA9BC428D8DF800B /* UIColorExtensions.swift in Sources */,
-				B7FC75EE56E88A613F3340CF4DB83242 /* UIColoredView.swift in Sources */,
-				CD63447D60D670060C361745074F354C /* UIDeviceExtensions.swift in Sources */,
-				682EB938CFE9E8D32B5951B08D6BA1EA /* UIFontExtensions.swift in Sources */,
-				5949C3A08F19DD1D62CD344814E293C8 /* UIImageExtensions.swift in Sources */,
-				5C7AAAD4745A966152DEBC9806D58214 /* UIImageViewExtensions.swift in Sources */,
-				ADDB0ED3802AB9962CA4D8CAD1C907C7 /* UILabelExtensions.swift in Sources */,
-				E9EE2749A62ACBD4CCC81F8367EEC58E /* UITextViewExtensions.swift in Sources */,
-				B0E56FBEBD11615BDBC6361B7231315D /* UIViewControllerExtensions.swift in Sources */,
-				65CD5B0278580A6CD90D145AC0F0C222 /* UIViewExtensions.swift in Sources */,
+				D59EE0FBD616627C1865AD86443BC19E /* ArrayExtensions.swift in Sources */,
+				A60EAFEACC52B18B2296B2772815D642 /* BlockButton.swift in Sources */,
+				069445EC1CE1D5E6F12A6B423D298F4D /* BlockLongPress.swift in Sources */,
+				41EB3748CB939C11424DA8C817C09379 /* BlockPan.swift in Sources */,
+				F8C716ABE9A0012C594AEFA2A696A9CF /* BlockPinch.swift in Sources */,
+				6E651D6FDD1CC785671507233FF84C5B /* BlockSwipe.swift in Sources */,
+				39EFF8EFE9CEC6FB6A1F038B2C968990 /* BlockTap.swift in Sources */,
+				0EBD6CC7B8390081BF92EDE63CE674BD /* BlockWebView.swift in Sources */,
+				42026941DDE8BC197BDE33F9F34A99D5 /* BoolExtentions.swift in Sources */,
+				FBBF2A9485120F6C61083B4A1E8E55BC /* CGFloatExtensions.swift in Sources */,
+				79EAD575E9EF4CB2A1619770239BDD66 /* CGRectExtensions.swift in Sources */,
+				EBDB6F7EBCB84FF9C0A6FC3A43FE08D6 /* DictionaryExtensions.swift in Sources */,
+				B93B6F414CD86CA49F043D1322337EDF /* DoubleExtensions.swift in Sources */,
+				A0F6524B32B3D5B0D17B977A7795D13B /* EZSwiftExtensions-dummy.m in Sources */,
+				5CB3F2365A53DB68136FF78828D3908F /* EZSwiftExtensions.swift in Sources */,
+				F513F692CEF2F8E4483D0560A943A016 /* IntExtentions.swift in Sources */,
+				21E798ECD167BD99CCF0E64AB0109039 /* NSDateExtensions.swift in Sources */,
+				F4787D6561D987ABA06D87615654A90E /* NSObjectExtentions.swift in Sources */,
+				30C374B0C78E299E6C2F94B63C7C6038 /* NSUserDefaultsExtension.swift in Sources */,
+				EEF344D2BC511E8BAD6246C4A3C5495A /* StringExtensions.swift in Sources */,
+				43FBC4D7C18CF022EE7124DEF592F2F7 /* UIButtonExtensions.swift in Sources */,
+				1CC0F6695D243B68FCBE36B465E0B084 /* UIColorExtensions.swift in Sources */,
+				B829ABCD58A299FD8BCF92308DE1E77D /* UIColoredView.swift in Sources */,
+				173DE7C756291C7554D2B8CD06C96B96 /* UIDeviceExtensions.swift in Sources */,
+				3DCEB967F7D9A2E3FE0990514EFE684E /* UIFontExtensions.swift in Sources */,
+				7C6238D64EE0DDDDE4DE537049094DD1 /* UIImageExtensions.swift in Sources */,
+				BC2D2D14A571F672C4AF33AF31787780 /* UIImageViewExtensions.swift in Sources */,
+				4403277DA3B6E5CB8B401922594CBEEC /* UILabelExtensions.swift in Sources */,
+				13624792768B69D8CCF93E601FC88E98 /* UITextViewExtensions.swift in Sources */,
+				0DE986CEE18F8ED5639771E5009084A1 /* UIViewControllerExtensions.swift in Sources */,
+				6C96EAF423503FD005B3624EA6292505 /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,20 +1208,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB35D962FEF1EE4AFC1B4A026B15A6B3 /* Sources */ = {
+		A218BBEF3F92A737B352990C8B36E2BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5F52D82535D1E3776B17504361CB83 /* KNSemiModalViewController_hons82-dummy.m in Sources */,
-				104BAD2CFEEEDB618AF205D74D96479E /* UIViewController+KNSemiModal.m in Sources */,
+				5014552AAE349D6ECC209A179923AA86 /* BaseRowFormer.swift in Sources */,
+				0DA675319B6D54CCE3B8A7218D6750F7 /* BaseViewFormer.swift in Sources */,
+				CA2D7FC85D5BFCA30D3A15FF5687C2A1 /* CheckRowFormer.swift in Sources */,
+				C7DC069DECEEB21568C901F50D96A35A /* CustomRowFormer.swift in Sources */,
+				80BA581DA38AC3898329F21EF7A43275 /* CustomViewFormer.swift in Sources */,
+				253A979CFC75F916A8CCEE9B984FB8F2 /* DatePickerRowFormer.swift in Sources */,
+				B6BEEF4E2E6C58090D971C6EC95C6C72 /* FormCell.swift in Sources */,
+				8BE15E15F5225CED3846256C199F538D /* FormCheckCell.swift in Sources */,
+				A2BBFABF9231A70C75B7B59F9F726455 /* FormDatePickerCell.swift in Sources */,
+				E623F88AB279AAB4B7B75AE082269AF6 /* FormHeaderFooterView.swift in Sources */,
+				E9F6548B5849362EA0D5C8E4AD8C033F /* FormInlineDatePickerCell.swift in Sources */,
+				93535B714131ABE89EC0465DF011199B /* FormInlinePickerCell.swift in Sources */,
+				361D543927269073E7782A4C23D67D05 /* FormLabelCell.swift in Sources */,
+				99CDF1A2880D28A39C6C656EA520B892 /* FormLabelFooterView.swift in Sources */,
+				BC73FAA1AEC92939F29AEB892557E748 /* FormLabelHeaderView.swift in Sources */,
+				18176E15394055F77ADEED54FDD150F9 /* FormPickerCell.swift in Sources */,
+				0F306F153E1377BB532101611FCC0073 /* FormSegmentedCell.swift in Sources */,
+				C18DD1B9AD6DD81634896AC1EA985BA7 /* FormSelectorDatePickerCell.swift in Sources */,
+				2240BBC34DD3912C2E6121293B2062B1 /* FormSelectorPickerCell.swift in Sources */,
+				6911FF9391C68D5B72938749701E5BC0 /* FormSliderCell.swift in Sources */,
+				B8E9B132B04CC2AF0F57836E4A6FADF8 /* FormStepperCell.swift in Sources */,
+				B42D43F8F696BC1547BE8CDAFFB22CD5 /* FormSwitchCell.swift in Sources */,
+				888C27FB31B30036558F8A2F00AE5C30 /* FormTextFieldCell.swift in Sources */,
+				83CADDF7AE743451B59F296E55D2B598 /* FormTextViewCell.swift in Sources */,
+				746D3CF8B7E7CC6D20609D1BF4F27797 /* FormViewController.swift in Sources */,
+				698C036BCBED013F1E01E83060F0CD2E /* Former-dummy.m in Sources */,
+				22AD3E3F448974806DEFFFDD109662B9 /* Former.swift in Sources */,
+				4DDE4BD3B7C3A119051F7A3F5A798B1E /* FormerProtocol.swift in Sources */,
+				32ED6169C55E42D2C4E13055F2C5D652 /* InlineDatePickerRowFormer.swift in Sources */,
+				73C9E5681E50DA048E702123E4A2ABC1 /* InlinePickerRowFormer.swift in Sources */,
+				CF93CD7E5D38864951ACE384960C2A1E /* LabelRowFormer.swift in Sources */,
+				A99FA2EE30096EC2C8677E0F1E041191 /* LabelViewFormer.swift in Sources */,
+				5F631F78E9C67C450BF2FB4BF335D1B9 /* PickerRowFormer.swift in Sources */,
+				60F1A0DAA82CEF48E6AECAC6AB6B0551 /* RowFormer.swift in Sources */,
+				A9762C774F92B3DCE872976394D5D966 /* SectionFormer.swift in Sources */,
+				166BE816271A6E9E664760AEA5B992EE /* SegmentedRowFormer.swift in Sources */,
+				5703DAE40B50D540B370B2B53A7CE901 /* SelectorDatePickerRowFormer.swift in Sources */,
+				9F8133C37FAE9490425A30C8A0DBB02C /* SelectorPickerRowFormer.swift in Sources */,
+				2B3870263931202706D3C32D559C977E /* SliderRowFormer.swift in Sources */,
+				8E2366CD07942804474EE0629300D392 /* StepperRowFormer.swift in Sources */,
+				97F3F1E321104DA31B099B4284111DD0 /* SwitchRowFormer.swift in Sources */,
+				43D93152BE3F510535D8E4253FB8F401 /* TextFieldRowFormer.swift in Sources */,
+				5F9BA6FA23CC6461A1AF1B77A0475D0E /* TextViewRowFormer.swift in Sources */,
+				4520DE22C95247557171946E70A2B01E /* UITableViewCell+Former.swift in Sources */,
+				DCEC2579641C31284AD251A7F56491BA /* ViewFormer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C15BA6E0E2E0AA5B629A06F9CFF2BBC3 /* Sources */ = {
+		A9C258BFA6449841755F2E3923D298BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92BF3E6B7C349CA59F66810AAD98C02B /* Pods-dummy.m in Sources */,
+				114F144FE3D003FAFE900780D04CEA76 /* KNSemiModalViewController_hons82-dummy.m in Sources */,
+				89FE95F3FCDA65C50AE2FA3973B2C296 /* UIViewController+KNSemiModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,6 +1277,14 @@
 				B7A38A5FC41670E378E2BD56DE29D158 /* THCalendarDatePicker-dummy.m in Sources */,
 				EF244CB53A843B62B72F876602A4CE07 /* THDateDay.m in Sources */,
 				B673601EEFA517426F4BC9EDF0567C82 /* THDatePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CC1DBC789B70D1EADDF19F494F7B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063C065120DB791571D21D1EC3734F90 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1041,57 +1311,118 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0708E1D5C3CAD642B48DA27767336FB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UNAlertView;
-			target = 49274ADF5CD05C4BB8897DC5049B049B /* UNAlertView */;
-			targetProxy = C436ED23A3DC6011842048524F6BBCC0 /* PBXContainerItemProxy */;
-		};
-		28114EFEC62273232A742C81F4BDE7A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EZSwiftExtensions;
-			target = FD70B7F2CACA020A57098D9BC398D3C2 /* EZSwiftExtensions */;
-			targetProxy = C701B6963E8309FBD26BC01FA1385C0A /* PBXContainerItemProxy */;
-		};
-		2B620C3097EA7EB3E1E53E70A31746E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = THCalendarDatePicker;
-			target = 893D87CA67C03C866BEBA45B80E74730 /* THCalendarDatePicker */;
-			targetProxy = C504F45391E9ACF514592BA04B4BF9C0 /* PBXContainerItemProxy */;
-		};
-		7DA33B605540DC63D0B841E195019C9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KNSemiModalViewController_hons82;
-			target = 16735D61A0DD11D80DE0B8014F9D81DB /* KNSemiModalViewController_hons82 */;
-			targetProxy = 06870AE9606AA4976FC7BF2A0CBC0E87 /* PBXContainerItemProxy */;
-		};
-		83FE833AD872EAFD9EE1DC778B14DA3E /* PBXTargetDependency */ = {
+		3B836FD86A4856FC6CFCCB43C17E4FC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PullToRefresher;
 			target = 0316E8DF3A016BDD5DCCC003589F1E7A /* PullToRefresher */;
-			targetProxy = BCBDBE4C7779DD5C6E2D2FE942DC7424 /* PBXContainerItemProxy */;
+			targetProxy = 50A19E3DB5DE1D572E3471E1CF61964E /* PBXContainerItemProxy */;
 		};
-		951AA48938E6A5F23D5E319903F16F4B /* PBXTargetDependency */ = {
+		4C25608E141EC8FFD6C6887508F5ACAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZSwiftExtensions;
+			target = 60DB4588E33596F8312D0E9C1046EDA5 /* EZSwiftExtensions */;
+			targetProxy = A7B959F422010B6EDF684E2CB8825C5D /* PBXContainerItemProxy */;
+		};
+		8BE784FDE18D1FDB3A1557F8833094FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KNSemiModalViewController_hons82;
-			target = 16735D61A0DD11D80DE0B8014F9D81DB /* KNSemiModalViewController_hons82 */;
-			targetProxy = 0839C5F66EE49A03FCFA291316A16F7F /* PBXContainerItemProxy */;
+			target = A06987FC2CB976EA21EF51CF7C227C56 /* KNSemiModalViewController_hons82 */;
+			targetProxy = E3DF42038A1DA24436DB53527FDE2945 /* PBXContainerItemProxy */;
 		};
-		DFA6B0DD2FE756A89AFBF0C3C5BBFBA8 /* PBXTargetDependency */ = {
+		958DD29151FDA865CAE4BB9A4E7E8C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PullToRefresher;
+			target = 0316E8DF3A016BDD5DCCC003589F1E7A /* PullToRefresher */;
+			targetProxy = DE333FF7BC24A63D6C2D93318A9B9A3A /* PBXContainerItemProxy */;
+		};
+		9764EFEED314628D14F4589D8346A30E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PullToMakeFlight;
 			target = 55EBEA56AA4D3FF91CCFF58C1124A56E /* PullToMakeFlight */;
-			targetProxy = 7EA2B8D5C5D8ABB1B2B4D12A3A34FC61 /* PBXContainerItemProxy */;
+			targetProxy = 40531FB4204828CEF6FF48EB20E2E680 /* PBXContainerItemProxy */;
 		};
-		E8EF752405B78F115ECF3104A0847D54 /* PBXTargetDependency */ = {
+		B8D674ADCAAFC2694B7F3463D5C5838B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PullToRefresher;
-			target = 0316E8DF3A016BDD5DCCC003589F1E7A /* PullToRefresher */;
-			targetProxy = 633B7F29411F232F5E6D85F50A0E6A30 /* PBXContainerItemProxy */;
+			name = Former;
+			target = FBD485939BF22F318E997F4DD48D6F75 /* Former */;
+			targetProxy = ACC87657427A4C38CA7679E5DD082C09 /* PBXContainerItemProxy */;
+		};
+		C359C1387E10E2D7DF91F7FAF3FB9CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNSemiModalViewController_hons82;
+			target = A06987FC2CB976EA21EF51CF7C227C56 /* KNSemiModalViewController_hons82 */;
+			targetProxy = 47F6BDEA50640F78BC7A87F4CCE1A6D9 /* PBXContainerItemProxy */;
+		};
+		E7D1312227CEF0A76A3943C9A256FA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UNAlertView;
+			target = 49274ADF5CD05C4BB8897DC5049B049B /* UNAlertView */;
+			targetProxy = 66288047AE25F6DDB36173A6BE9BA938 /* PBXContainerItemProxy */;
+		};
+		ED6EAE322A5A6EE4ED0DA2C71377E2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = THCalendarDatePicker;
+			target = 893D87CA67C03C866BEBA45B80E74730 /* THCalendarDatePicker */;
+			targetProxy = EA722061E874419EDB9331EA63B87ED2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0547F52A797BB0777FD5432075A0C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95799F7C4FA3057B70CCCA9B5A251737 /* Former-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Former/Former-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Former/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Former/Former.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Former;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09BD7B41D9EC78F686F700F2139FC026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95799F7C4FA3057B70CCCA9B5A251737 /* Former-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Former/Former-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Former/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Former/Former.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Former;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		13B385095B46AF595DE5F6CC1BDBBDA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78DDA507AF547F57A184625D5FA33C59 /* UNAlertView-Private.xcconfig */;
@@ -1118,6 +1449,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		19F5CFFE276FC14FBDADE39685B1895A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58094551DC10059A3B9FBC74F64D373 /* KNSemiModalViewController_hons82-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.4.4;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KNSemiModalViewController_hons82/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KNSemiModalViewController_hons82;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2B12AA6476FBCEB5CE49A8C44116C7BC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1146,61 +1504,33 @@
 			};
 			name = Release;
 		};
-		30073F48E86655B15F191CC0914C9CA3 /* Release */ = {
+		30CBB51415CD3BABE43194BB737643EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC503A9FDE3175ACBE591C1DCBB673F /* KNSemiModalViewController_hons82-Private.xcconfig */;
+			baseConfigurationReference = FD4FF184F9DD5C4AE1AA1165DAD675F1 /* EZSwiftExtensions-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.4.4;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KNSemiModalViewController_hons82/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KNSemiModalViewController_hons82;
+				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EZSwiftExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		34FC1F1E75BE9752EE090B4B6BAEA36E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5199B37D6DBCE01A1415EDC805E5A12 /* Pods.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		380AFD2AAE2F83793212B81E5C6AEA09 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1258,36 +1588,9 @@
 			};
 			name = Debug;
 		};
-		5C038E30F967F7B2037879DBD3CED5CC /* Debug */ = {
+		4A6E6785AFD68159B335DE0B1F5CB7AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC503A9FDE3175ACBE591C1DCBB673F /* KNSemiModalViewController_hons82-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.4.4;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KNSemiModalViewController_hons82/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KNSemiModalViewController_hons82;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		65869BC46DE66459BD639403F3C02B49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D643F6471958B198B3167BADCEDF6545 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = FE7D67567F6CB878E7C006C34B539878 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1342,9 +1645,9 @@
 			};
 			name = Release;
 		};
-		70F8DA0EF6CF8A7EE85E2ED86D66E757 /* Debug */ = {
+		765895D2EF35D36DFE67D08305EC8984 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB7CC0764316AEC6B46CA1E9A5D50DF7 /* EZSwiftExtensions-Private.xcconfig */;
+			baseConfigurationReference = FD4FF184F9DD5C4AE1AA1165DAD675F1 /* EZSwiftExtensions-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.2;
@@ -1359,16 +1662,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = EZSwiftExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		828634DA6B59D5B5C54EA7309758286B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1397,6 +1699,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A0E6C81F3F96EE8F10D2B999AD6DA84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16D7B567023024894F63435227639AE /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1437,25 +1768,25 @@
 			};
 			name = Debug;
 		};
-		B4795B96E1CCCD73C9520CD5CD581264 /* Release */ = {
+		CC8E14BBAEA59AB1962B944ACA5B1357 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB7CC0764316AEC6B46CA1E9A5D50DF7 /* EZSwiftExtensions-Private.xcconfig */;
+			baseConfigurationReference = C58094551DC10059A3B9FBC74F64D373 /* KNSemiModalViewController_hons82-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.2;
+				CURRENT_PROJECT_VERSION = 0.4.4;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.4.4;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KNSemiModalViewController_hons82/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				MODULEMAP_FILE = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EZSwiftExtensions;
+				PRODUCT_NAME = KNSemiModalViewController_hons82;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1555,11 +1886,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BFFFEA841D4724AFD5EE49C79E99C84 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */ = {
+		13B3CDEF3D9921279AE4EBBA3D4A22F9 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C038E30F967F7B2037879DBD3CED5CC /* Debug */,
-				30073F48E86655B15F191CC0914C9CA3 /* Release */,
+				30CBB51415CD3BABE43194BB737643EC /* Debug */,
+				765895D2EF35D36DFE67D08305EC8984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1582,6 +1913,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C9A62C24D0EEDBDA113F97E00DC1369 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6E6785AFD68159B335DE0B1F5CB7AF /* Debug */,
+				A0E6C81F3F96EE8F10D2B999AD6DA84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F2D5EBECFE310EBAC965B970E299976 /* Build configuration list for PBXNativeTarget "UNAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1591,20 +1931,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AADD5129CB624343931BBD4F175EE2B3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		A759C3BE876BE4291A83FC96584B3F07 /* Build configuration list for PBXNativeTarget "Former" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65869BC46DE66459BD639403F3C02B49 /* Debug */,
-				34FC1F1E75BE9752EE090B4B6BAEA36E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB5B515E03164FDB3970D39CED252D63 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				70F8DA0EF6CF8A7EE85E2ED86D66E757 /* Debug */,
-				B4795B96E1CCCD73C9520CD5CD581264 /* Release */,
+				09BD7B41D9EC78F686F700F2139FC026 /* Debug */,
+				0547F52A797BB0777FD5432075A0C3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1614,6 +1945,15 @@
 			buildConfigurations = (
 				380AFD2AAE2F83793212B81E5C6AEA09 /* Debug */,
 				68133BDD1FE46C562F54237DD0BB43CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E430E627B3A6DC5424F23F0E5EB314 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F5CFFE276FC14FBDADE39685B1895A /* Debug */,
+				CC8E14BBAEA59AB1962B944ACA5B1357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

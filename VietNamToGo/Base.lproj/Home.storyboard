@@ -51,6 +51,46 @@
             </objects>
             <point key="canvasLocation" x="-46.5" y="542.5"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="mp2-se-GO2">
+            <objects>
+                <navigationController id="ZeH-LJ-ycn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Mrl-pe-rcS"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x5W-FE-oEE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OfL-87-89L" kind="relationship" relationship="rootViewController" id="ngE-Ld-N9s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gji-II-5Gp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.5" y="1374.5"/>
+        </scene>
+        <!--Edit Profile View Controller-->
+        <scene sceneID="GCV-7O-jTT">
+            <objects>
+                <viewController id="OfL-87-89L" customClass="ZCCEditProfileViewController" customModule="Fuot" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J4N-s7-6iR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ojt-ap-k5G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Kr-vx-jPJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KVb-nG-F43"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lFa-k3-eGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499.5" y="1374.5"/>
+        </scene>
         <!--Tạo Chuyến Đi-->
         <scene sceneID="2Av-1W-6d4">
             <objects>
@@ -252,6 +292,7 @@
                 <tabBarController storyboardIdentifier="ZCCTabbarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ah1-5n-AjH" customClass="YALFoldingTabBarController" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="UVU-w8-aZz">
@@ -262,6 +303,7 @@
                     <connections>
                         <segue destination="vYT-GP-6Nh" kind="relationship" relationship="viewControllers" id="EBe-Fv-PDp"/>
                         <segue destination="s1v-LC-KSf" kind="relationship" relationship="viewControllers" id="s5q-GI-pkN"/>
+                        <segue destination="ZeH-LJ-ycn" kind="relationship" relationship="viewControllers" id="Ruu-Es-PgI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93O-hf-cEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -271,7 +313,7 @@
     </scenes>
     <resources>
         <image name="down_arrow.png" width="12" height="17"/>
-        <image name="fuot.png" width="1325" height="1325"/>
+        <image name="fuot.png" width="250" height="250"/>
         <image name="vietnam1.png" width="574" height="1020"/>
     </resources>
 </document>
