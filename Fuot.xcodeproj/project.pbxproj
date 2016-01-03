@@ -13,12 +13,14 @@
 		5A277B5F1C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
 		5A277B601C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
 		5A277B611C397DAA009FD10A /* ParseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B5B1C397DAA009FD10A /* ParseObject.swift */; };
-		5A277B641C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
-		5A277B651C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
-		5A277B661C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */; };
 		5A277B671C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
 		5A277B681C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
 		5A277B691C397DC6009FD10A /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B631C397DC6009FD10A /* Places.swift */; };
+		5A277B6F1C399238009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B6E1C399238009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B701C399238009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B6E1C399238009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B711C399238009FD10A /* Places+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A277B6E1C399238009FD10A /* Places+CoreDataProperties.swift */; };
+		5A277B721C39941F009FD10A /* Fuot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */; };
+		5A277B731C39941F009FD10A /* Fuot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0081B1C26C7C600E20B1F /* Fuot.xcdatamodeld */; };
 		5A2F232F1C343C9600731A56 /* fuot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F232E1C343C9600731A56 /* fuot@2x.png */; };
 		5A2F23471C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
 		5A2F23481C35259A00731A56 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F23441C35259A00731A56 /* DPDConstants.swift */; };
@@ -401,8 +403,8 @@
 		43EC236F7D2FA3937000572B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5A277B5A1C397DAA009FD10A /* ParseObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ParseObject+CoreDataProperties.swift"; path = "Models/ParseObject/ParseObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5A277B5B1C397DAA009FD10A /* ParseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseObject.swift; path = Models/ParseObject/ParseObject.swift; sourceTree = "<group>"; };
-		5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Places+CoreDataProperties.swift"; path = "Models/Places/Places+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5A277B631C397DC6009FD10A /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Places.swift; path = Models/Places/Places.swift; sourceTree = "<group>"; };
+		5A277B6E1C399238009FD10A /* Places+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Places+CoreDataProperties.swift"; path = "Models/Places/Places+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5A2F232E1C343C9600731A56 /* fuot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuot@2x.png"; sourceTree = "<group>"; };
 		5A2F23441C35259A00731A56 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
 		5A2F23451C35259A00731A56 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
@@ -639,8 +641,8 @@
 		5A277B581C397BE1009FD10A /* Places */ = {
 			isa = PBXGroup;
 			children = (
-				5A277B621C397DC6009FD10A /* Places+CoreDataProperties.swift */,
 				5A277B631C397DC6009FD10A /* Places.swift */,
+				5A277B6E1C399238009FD10A /* Places+CoreDataProperties.swift */,
 			);
 			name = Places;
 			sourceTree = "<group>";
@@ -1683,7 +1685,6 @@
 				5AC1082F1C2D62BA001A5A29 /* NSData+ImageContentType.m in Sources */,
 				5A2F236E1C35397700731A56 /* City+CoreDataProperties.swift in Sources */,
 				5AC1084A1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
-				5A277B641C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 				5A92276D1C37F70000455B10 /* Profile.swift in Sources */,
 				5AC107361C2D1642001A5A29 /* ZCCCititesViewController.swift in Sources */,
 				5AC1083B1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
@@ -1702,6 +1703,7 @@
 				5A2F234A1C35259A00731A56 /* DPDKeyboardListener.swift in Sources */,
 				5AC108411C2D62BA001A5A29 /* SDWebImageManager.m in Sources */,
 				5AA008BB1C270E4300E20B1F /* ZCCOnboarding.swift in Sources */,
+				5A277B6F1C399238009FD10A /* Places+CoreDataProperties.swift in Sources */,
 				5AC1071A1C2CF4FB001A5A29 /* YALTabBarItem.m in Sources */,
 				5AC1071D1C2CF4FB001A5A29 /* YALFoldingTabBar.m in Sources */,
 				5AA0081D1C26C7C600E20B1F /* Fuot.xcdatamodeld in Sources */,
@@ -1757,6 +1759,7 @@
 				5AC1083C1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
 				5AC108361C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
 				5AC1070F1C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				5A277B701C399238009FD10A /* Places+CoreDataProperties.swift in Sources */,
 				5A83311F1C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
 				5AC107FB1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
 				5A9227721C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
@@ -1807,11 +1810,11 @@
 				5AC1082D1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
 				5AC1084B1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
 				5AC107F21C2D56D3001A5A29 /* NSFetchedResultsControllerExtension.swift in Sources */,
+				5A277B721C39941F009FD10A /* Fuot.xcdatamodeld in Sources */,
 				5A52F2511C36E94400F0C92C /* ZCCView.swift in Sources */,
 				5A8331221C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */,
 				5A52F2691C37115A00F0C92C /* NumberExtension.swift in Sources */,
 				5A3C8ECE1C3688DB009F43EB /* ZCCMakeTripStepOneViewController.swift in Sources */,
-				5A277B651C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1834,6 +1837,7 @@
 				5AC1083D1C2D62BA001A5A29 /* SDWebImageDownloader.m in Sources */,
 				5AC108371C2D62BA001A5A29 /* SDWebImageCompat.m in Sources */,
 				5AC107101C2CF4FB001A5A29 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				5A277B711C399238009FD10A /* Places+CoreDataProperties.swift in Sources */,
 				5A8331201C304A1F00C5F2C8 /* SVProgressHUD.m in Sources */,
 				5AC107FC1C2D56D3001A5A29 /* SuperCoreDataStack.swift in Sources */,
 				5A9227731C37F71600455B10 /* FormerInputAccessoryView.swift in Sources */,
@@ -1884,11 +1888,11 @@
 				5AC1082E1C2D62BA001A5A29 /* MKAnnotationView+WebCache.m in Sources */,
 				5AC1084C1C2D62BA001A5A29 /* UIImage+GIF.m in Sources */,
 				5AC107F31C2D56D3001A5A29 /* NSFetchedResultsControllerExtension.swift in Sources */,
+				5A277B731C39941F009FD10A /* Fuot.xcdatamodeld in Sources */,
 				5A52F2521C36E94400F0C92C /* ZCCView.swift in Sources */,
 				5A8331231C304A1F00C5F2C8 /* SVRadialGradientLayer.m in Sources */,
 				5A52F26A1C37115A00F0C92C /* NumberExtension.swift in Sources */,
 				5A3C8ECF1C3688DB009F43EB /* ZCCMakeTripStepOneViewController.swift in Sources */,
-				5A277B661C397DC6009FD10A /* Places+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

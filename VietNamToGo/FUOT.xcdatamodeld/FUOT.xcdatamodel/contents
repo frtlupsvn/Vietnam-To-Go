@@ -15,24 +15,21 @@
         <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
-    <entity name="ParseObject" representedClassName=".ParseObject" syncable="YES">
+    <entity name="Places" representedClassName="Places" syncable="YES">
         <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
-    </entity>
-    <entity name="Places" representedClassName=".Places" isAbstract="YES" parentEntity="ParseObject" syncable="YES">
         <attribute name="descriptionPlace" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="estimationPlace" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="imageUrlPlace" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="longtitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="namePlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="othernamePlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
     <elements>
         <element name="City" positionX="-407" positionY="-15" width="128" height="148"/>
         <element name="CityType" positionX="-99" positionY="18" width="128" height="103"/>
-        <element name="Places" positionX="-252" positionY="45" width="128" height="150"/>
-        <element name="ParseObject" positionX="-243" positionY="99" width="128" height="90"/>
+        <element name="Places" positionX="-252" positionY="45" width="128" height="195"/>
     </elements>
 </model>

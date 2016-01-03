@@ -18,6 +18,7 @@ class CityType: NSManagedObject {
     static func fetchAllCityType() -> NSArray{
         return CityType.findAll()
     }
+    
     // Sync Data
     static func syncCityTypeWithParse(completion:()->Void){
         //Get Data from Parse

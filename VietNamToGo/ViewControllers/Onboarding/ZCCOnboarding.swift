@@ -68,8 +68,11 @@ class ZCCOnboarding: ZCCViewController {
         CityType.syncCityTypeWithParse { () -> Void in
             self.showProgres(0.5,status: "Please wait...")
             City.syncCityWithParse(){
-                self.showProgres(1,status: "Finish !")
-                self.hideHUDProgressAfter(0.5)
+                self.showProgres(0.75,status: "Please wait...")
+                Places.syncPlacesWithParse { () -> Void in
+                    self.showProgres(1,status: "Finish !")
+                    self.hideHUDProgressAfter(0.5)
+                }
             }
         }
 

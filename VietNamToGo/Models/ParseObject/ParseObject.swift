@@ -8,13 +8,26 @@
 
 import Foundation
 import CoreData
+import Parse
 
-
+@objc(ParseObject)
 class ParseObject: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
-
-    /* Delete Entity */
     
+    // Update Context
+    static func saveToDefaultContext() {
+        let context =  SuperCoreDataStack.defaultStack.managedObjectContext
+        do {
+            try context!.save()
+        } catch {
+            abort()
+        }
+        
+    }
+    
+    static func getContext()-> NSManagedObjectContext{
+        return SuperCoreDataStack.defaultStack.managedObjectContext!
+    }
 
 }

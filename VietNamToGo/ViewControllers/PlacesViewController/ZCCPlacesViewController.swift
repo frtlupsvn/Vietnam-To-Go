@@ -12,6 +12,7 @@ class ZCCPlacesViewController: ZCCViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var city:City?
+    var arrayPlaces = NSMutableArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,16 @@ class ZCCPlacesViewController: ZCCViewController {
         
         /* Tableview layout */
         self.tableView.registerNib(UINib(nibName: "ZCCPlacesTableViewCell", bundle: nil), forCellReuseIdentifier: "ZCCPlacesTableViewCell")
+        
+        /* GET DATA FROM LOCAL DB */
+        self.arrayPlaces = NSMutableArray(array: Places.fetchAll())
+        
+        /* SYNC DATA WITH PARSE */
+        Places.syncPlacesWithParse { () -> Void in
+            //Do Something here
+            self.arrayPlaces = NSMutableArray(array: Places.fetchAll())
+            self.tableView.reloadData()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,7 +57,7 @@ class ZCCPlacesViewController: ZCCViewController {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return arrayPlaces.count
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
