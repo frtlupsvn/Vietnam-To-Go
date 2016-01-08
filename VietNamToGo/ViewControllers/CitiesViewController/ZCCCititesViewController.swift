@@ -8,7 +8,6 @@
 
 import UIKit
 import PullToMakeFlight
-import BTNavigationDropdownMenu
 
 protocol ZCCCititesViewControllerDelegate:class {
     func pickCity(city:City)
@@ -142,7 +141,7 @@ class ZCCCititesViewController: ZCCViewController {
         }
     }
     
-    
+    // MARK: - Tableview Delegate
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
